@@ -68,3 +68,55 @@ Networking uses different units at different layers. Bits represent physical sig
 ## Questions
 - What information is contained in an Ethernet frame?
 - How does encapsulation map to the OSI model?
+
+---
+
+# Lesson 05 - The OSI Model
+
+**Date:** 2026-07-05
+
+## What I Learned
+The OSI model divides networking into seven conceptual layers, each responsible for one aspect of communication. Layering makes networking modular, scalable and easier to debug.
+
+## Questions
+- Why was the OSI model never implemented directly?
+- Which OSI layers correspond to modern protocols?
+
+---
+
+# Lesson 06 - The TCP/IP Model
+
+**Date:** 2026-07-05
+
+## What I Learned
+The Internet is built on the TCP/IP model rather than the OSI model. The four-layer architecture maps real-world protocols such as HTTP, TCP, IP and Ethernet to different responsibilities.
+
+## Questions
+- How does encapsulation happen across TCP/IP layers?
+- How do routers process IP packets while ignoring application data?
+
+---
+
+# Lesson 07 - Encapsulation & Decapsulation
+
+**Date:** 2026-07-05
+
+## What I Learned
+I now understand how application data is progressively wrapped by TCP, IP and Ethernet before being transmitted as bits. I also learned why routers replace Ethernet frames while forwarding IP packets.
+
+## Questions
+- How are TCP headers interpreted by the receiving operating system?
+- What happens if an IP packet is larger than the network's MTU?
+
+---
+
+# Lesson 08 - IP Addressing
+
+**Date:** 2026-07-05
+
+## What I Learned
+IP addresses provide logical addressing for communication across networks, while MAC addresses are used only within a local network. I also learned why private IP addresses can be reused across millions of networks and how NAT translates them to public IP addresses for Internet communication.
+
+## Questions
+- How exactly does NAT maintain mappings for thousands of simultaneous connections?
+- How does a router determine the next hop for a given destination IP address?
