@@ -120,3 +120,21 @@ IP addresses provide logical addressing for communication across networks, while
 ## Questions
 - How exactly does NAT maintain mappings for thousands of simultaneous connections?
 - How does a router determine the next hop for a given destination IP address?
+
+---
+
+# Lesson 09
+
+**Date:** 2026-07-06
+
+## What I Learned
+Subnets, subnet masks and CIDR.
+
+---
+
+# Lesson 10
+
+**Date:** 2026-07-06
+
+## What I Learned
+ARP, ARP cache and MAC resolution.

@@ -19,3 +19,6 @@ This directory contains reusable reference diagrams used across multiple network
 | 10-encapsulation-lifecycle | Lessons 07+ |
 
 | 11-ip-addressing | Lessons 08+ |
+
+| 12-subnets-and-cidr | Lessons 09+ |
+| 13-arp-resolution | Lessons 10+ |
