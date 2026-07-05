@@ -59,6 +59,34 @@ The structure should remain consistent throughout the repository.
 
 ---
 
+# Lesson Notes Philosophy
+
+The repository is intended to be a long-term revision and reference resource rather than a complete textbook.
+
+The detailed teaching happens during the conversation.
+
+The lesson notes stored in the repository should be concise, focusing on revision.
+
+Each lesson note should typically include:
+
+- Objectives
+- Concept Summary
+- Core Ideas
+- ASCII Diagrams (when useful)
+- Practical Example
+- Production Perspective
+- Commands (if applicable)
+- Common Mistakes
+- Key Takeaways
+- Reflection Questions
+- Related Lessons
+
+Avoid storing long explanations, stories, analogies, or historical discussions inside the repository unless they are essential for revision.
+
+The goal is that a lesson can usually be revised in 5–10 minutes.
+
+---
+
 # Teaching Philosophy
 
 Each lesson should include:
