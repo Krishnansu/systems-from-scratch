@@ -138,3 +138,15 @@ Subnets, subnet masks and CIDR.
 
 ## What I Learned
 ARP, ARP cache and MAC resolution.
+
+## Lesson 11 - Routing
+Completed the study of routing fundamentals including routers, default gateways, routing tables, longest prefix match, and hop-by-hop forwarding. Understood how packets move across multiple networks and why Layer 2 headers are recreated at every hop.
+
+## Lesson 12 - Network Address Translation (NAT)
+Learned why NAT was introduced to address IPv4 exhaustion, how private and public IPs interact, the roles of SNAT, DNAT, and PAT, and how routers maintain NAT tables. Also explored port forwarding, Carrier-Grade NAT, and cloud NAT Gateways.
+
+## Lesson 13 - Domain Name System (DNS)
+Learned how DNS translates domain names into IP addresses, the complete DNS resolution process, recursive and iterative queries, the DNS hierarchy, caching using TTL, and the role of common DNS record types. Also understood that DNS resolution is the first step before establishing any TCP connection or sending an HTTP request.
+
+## Lesson 14 - Transmission Control Protocol (TCP)
+Studied how TCP provides reliable communication over IP through sequence numbers, acknowledgments, retransmissions, and the Three-Way Handshake. Learned how TCP ensures ordered delivery, manages connection establishment and termination, and uses flow control and congestion control to provide efficient and reliable data transfer.
