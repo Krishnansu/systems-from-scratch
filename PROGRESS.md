@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 01 - Networking
-- **Current Lesson:** Lesson 15 - UDP: Fast but Unreliable Communication
+- **Current Lesson:** Lesson 19 - Building a TCP/HTTP Server in Python
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -19,6 +19,11 @@
 - ✅ Lesson 12 - Network Address Translation (NAT)
 - ✅ Lesson 13 - Domain Name System (DNS)
 - ✅ Lesson 14 - Transmission Control Protocol (TCP)
+- ✅ Lesson 15 - User Datagram Protocol (UDP)
+- ✅ Lesson 16 - How the Web Works: DNS, TCP, TLS and HTTP
+- ✅ Lesson 17 - HTTP Fundamentals
+- ✅ Lesson 18 - HTTP Request Journey Across All Layers
+- ✅ Lesson 19 - Building a TCP/HTTP Server in Python
 
 ## Next Lesson
-- Lesson 15 - User Datagram Protocol (UDP)
+- Lesson 20 - HTTP Request Parsing

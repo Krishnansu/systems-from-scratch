@@ -150,3 +150,88 @@ Learned how DNS translates domain names into IP addresses, the complete DNS reso
 
 ## Lesson 14 - Transmission Control Protocol (TCP)
 Studied how TCP provides reliable communication over IP through sequence numbers, acknowledgments, retransmissions, and the Three-Way Handshake. Learned how TCP ensures ordered delivery, manages connection establishment and termination, and uses flow control and congestion control to provide efficient and reliable data transfer.
+
+---
+
+# Lesson 15 - User Datagram Protocol (UDP)
+
+**Date:** 2026-08-02
+
+## What I Learned
+UDP is a connectionless transport protocol that provides low-overhead datagram delivery without TCP's guarantees of reliability, ordering and retransmission. This makes it useful for latency-sensitive applications such as gaming, real-time media and DNS. Online multiplayer battle royale games such as BGMI can use UDP for real-time gameplay traffic where low latency is more important than perfect delivery of every packet.
+
+## Key Insight
+UDP itself is unreliable, but applications can build reliability or other control mechanisms above it when required.
+
+## Questions
+- How do applications handle packet loss over UDP?
+- How does QUIC provide reliable transport over UDP?
+
+---
+
+# Lesson 16 - How the Web Works: DNS, TCP, TLS and HTTP
+
+**Date:** 2026-08-02
+
+## What I Learned
+I traced what happens when a URL is entered into a browser. DNS resolves the domain name, TCP establishes a connection for traditional HTTP/1.1 and HTTP/2, TLS secures HTTPS, and the browser then sends HTTP bytes through the established connection. I also learned that HTTP/3 uses QUIC over UDP.
+
+## Key Insight
+HTTP is an application-layer protocol. TCP does not understand HTTP; it transports an ordered byte stream. QUIC provides transport features over UDP and is used by HTTP/3.
+
+## Questions
+- How does TLS establish trust and encryption?
+- How does QUIC handle reliability and multiplexing?
+
+---
+
+# Lesson 17 - HTTP Fundamentals
+
+**Date:** 2026-08-02
+
+## What I Learned
+HTTP uses structured requests and responses containing methods, status codes, headers and optional bodies. I learned that `Accept` expresses preferred response formats while `Content-Type` describes the actual representation. I also understood why HTTP is stateless while cookies provide a mechanism for maintaining application state across requests. PUT is generally idempotent because repeating the same operation should produce the same intended final state, while POST is generally non-idempotent because repeated requests may create multiple resources or repeat an action.
+
+## Key Insight
+HTTP statelessness does not mean applications cannot maintain state. State can be implemented using cookies, sessions, tokens and server-side storage.
+
+## Questions
+- How does content negotiation work in detail?
+- How do idempotency keys make POST retries safer?
+
+---
+
+# Lesson 18 - HTTP Request Journey Across All Layers
+
+**Date:** 2026-08-02
+
+## What I Learned
+I traced a `GET /products/123` request from browser to server and back through DNS, TCP, TLS, HTTP, IP and the network. I learned how HTTP bytes are transported by TCP, encapsulated into IP packets, forwarded by routers and then decapsulated at the destination. The server application processes the HTTP request and may consult caches or databases before generating the response.
+
+## Key Insight
+Each networking layer has a distinct responsibility. HTTP understands application semantics, TCP provides an ordered byte stream, IP handles logical addressing and routing, and link-layer technologies deliver frames across individual network links.
+
+## Questions
+- Which information changes at every router hop?
+- How do persistent HTTP connections affect the journey?
+
+---
+
+# Lesson 19 - Building a TCP/HTTP Server in Python
+
+**Date:** 2026-08-02
+
+## What I Learned
+I built a minimal TCP server in Python using the socket API and then turned it into a basic HTTP server. I observed raw HTTP requests sent by curl, manually constructed HTTP responses, parsed the request line, implemented simple path-based routing and returned `200 OK` or `404 Not Found` responses.
+
+I also learned an important limitation of the first implementation: TCP provides a byte stream, not complete HTTP messages. A single HTTP request can be split across multiple `recv()` calls, so a robust HTTP server must implement proper buffering and message parsing.
+
+## Key Insight
+The socket API is the boundary between the application and the transport layer. The operating system provides TCP bytes to the application, but the application is responsible for interpreting those bytes as HTTP.
+
+## Questions
+- How should an HTTP server buffer partial requests?
+- How do headers determine the size of a request body?
+- How does HTTP keep-alive allow multiple requests on one TCP connection?
+
+---

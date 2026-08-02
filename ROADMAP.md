@@ -33,12 +33,16 @@
 
 ## Module 02 — HTTP
 
-- [ ] Why HTTP?
-- [ ] HTTP Request Lifecycle
-- [ ] HTTP Methods
-- [ ] Headers
-- [ ] Status Codes
-- [ ] Cookies
+- [x] Why HTTP?
+- [x] HTTP Request Lifecycle
+- [x] HTTP Methods
+- [x] Headers
+- [x] Status Codes
+- [x] Cookies
+- [ ] HTTP Request Parsing
+- [ ] Build a TCP Server in Python
+- [ ] Build a Raw HTTP Server
+- [ ] HTTP/1.1 Internals
 - [ ] Sessions
 - [ ] JWT
 - [ ] Caching
