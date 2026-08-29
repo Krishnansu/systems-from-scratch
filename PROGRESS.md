@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 02 - HTTP
-- **Current Lesson:** Lesson 35 - QUIC Packets, Frames & Connection IDs
+- **Current Lesson:** Lesson 36 - QUIC Connection Establishment & TLS 1.3
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -39,6 +39,7 @@
 - ✅ Lesson 33 - HTTP/2 Stream Prioritization & Scheduling
 - ✅ Lesson 34 - QUIC Fundamentals
 - ✅ Lesson 35 - QUIC Packets, Frames & Connection IDs
+- ✅ Lesson 36 - QUIC Connection Establishment & TLS 1.3
 
 ## Next Lesson
-- Lesson 36 - QUIC Connection Establishment & TLS 1.3
+- Lesson 37 - QUIC Packet Protection & Encryption

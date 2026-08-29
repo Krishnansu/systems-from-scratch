@@ -396,3 +396,48 @@ Packets are transport containers, frames carry protocol operations, and streams 
 - How does QUIC achieve 0-RTT and 1-RTT connection establishment?
 
 ---
+
+# Lesson 36 - QUIC Connection Establishment & TLS 1.3
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned how a fresh QUIC connection is established without a TCP handshake. A client can immediately send a QUIC Initial packet over UDP containing a CRYPTO frame with the TLS 1.3 ClientHello.
+
+I learned that QUIC integrates TLS 1.3 rather than replacing it. TLS is responsible for authentication, key exchange and cryptographic secrets, while QUIC is responsible for transport reliability, acknowledgments, loss detection, streams, flow control, congestion control and connection management.
+
+I learned the progression through Initial, Handshake and 1-RTT encryption levels. Initial packets use Initial packet-protection keys, later handshake packets use Handshake keys, and normal application traffic uses 1-RTT keys derived from the TLS handshake.
+
+I also learned that TLS handshake messages are carried in QUIC CRYPTO frames rather than STREAM frames. If a packet carrying handshake data is lost, QUIC's loss-recovery machinery ensures that the required data is sent again in new packets.
+
+Finally, I learned the high-level idea behind TLS 1.3 0-RTT resumption. A returning client can potentially send application data immediately, but 0-RTT data has replay considerations and therefore cannot be treated as universally safe for state-changing operations.
+
+## Key Insight
+
+The most important mental model is that QUIC and TLS have separate responsibilities but are tightly integrated:
+
+```text
+TLS 1.3
+  -> authentication
+  -> key exchange
+  -> traffic secrets
+
+QUIC
+  -> packets
+  -> streams
+  -> reliability
+  -> congestion control
+  -> flow control
+```
+
+The TLS handshake supplies the cryptographic state that QUIC uses to protect its packets.
+
+## Questions
+
+- How exactly are TLS-derived secrets converted into QUIC packet-protection keys?
+- What is AEAD and how does it authenticate QUIC packet payloads?
+- How does QUIC header protection work?
+- Why are QUIC packet numbers themselves protected?
+
+---
