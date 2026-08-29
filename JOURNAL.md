@@ -441,3 +441,42 @@ The TLS handshake supplies the cryptographic state that QUIC uses to protect its
 - Why are QUIC packet numbers themselves protected?
 
 ---
+
+# Lesson 37 - QUIC Packet Protection & Encryption
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned how QUIC uses TLS 1.3-derived cryptographic material to protect packets. QUIC uses AEAD for payload protection and a separate header-protection mechanism for selected header bits and packet-number bytes.
+
+I learned that AEAD provides both confidentiality and integrity/authentication. The QUIC payload containing frames is encrypted and authenticated as a unit, while associated data can be authenticated without being encrypted.
+
+I learned the role of the packet-protection key, IV and header-protection key. The IV is a cryptographically derived base value that is combined with the packet number to construct the per-packet AEAD nonce. The packet number therefore makes the nonce packet-specific.
+
+I also learned that QUIC does not necessarily transmit the complete packet number. It can transmit truncated packet-number bytes, and the receiver reconstructs the full packet number using previously received packet-number state.
+
+Finally, I learned the high-level receive pipeline: remove header protection, recover the packet number, construct the AEAD nonce, authenticate/decrypt the payload and then process the resulting QUIC frames.
+
+## Key Insight
+
+The most important distinction from this lesson is:
+
+```text
+Payload protection
+    -> AEAD encryption + authentication
+
+Header protection
+    -> masks selected header bits
+```
+
+Both rely on cryptographic material derived from the TLS/QUIC key schedule, but they serve different purposes.
+
+## Questions
+
+- How exactly is the QUIC header-protection mask generated?
+- How does packet-number reconstruction choose the correct full packet number?
+- How are QUIC packet-protection keys derived from TLS secrets?
+- How does QUIC perform key updates during a long-lived connection?
+
+---
