@@ -480,3 +480,53 @@ Both rely on cryptographic material derived from the TLS/QUIC key schedule, but 
 - How does QUIC perform key updates during a long-lived connection?
 
 ---
+
+# Lesson 38 - QUIC Header Protection & Packet Numbers
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned why packet numbers are fundamental to QUIC. They are used for ACK processing, loss detection, RTT measurement and duplicate detection, and they also participate in constructing the AEAD nonce.
+
+I learned that QUIC maintains separate packet-number spaces for different encryption levels, rather than using one global packet-number counter across the entire connection.
+
+I learned that QUIC uses header protection to mask selected bits of the packet header, including the packet-number bytes. Header protection is separate from AEAD payload protection. A header-protection key and a ciphertext sample are used to generate the mask.
+
+I learned that QUIC can transmit a truncated packet number to reduce packet overhead. The receiver reconstructs the full packet number using the packet-number state it already has and the packet-number decoding rules.
+
+I also connected packet-number reconstruction back to packet protection: once the full packet number is recovered, QUIC combines it with the IV to construct the AEAD nonce and can then authenticate and decrypt the packet payload.
+
+## Key Insight
+
+The most important mental model from this lesson is:
+
+```text
+Protected packet
+      |
+      v
+Remove header protection
+      |
+      v
+Recover packet number
+      |
+      v
+IV + Packet Number
+      |
+      v
+AEAD nonce
+      |
+      v
+Authenticate + decrypt
+```
+
+Header protection and AEAD are complementary mechanisms, not interchangeable ones.
+
+## Questions
+
+- How does QUIC detect a lost packet?
+- How do ACK ranges communicate received packets efficiently?
+- When does QUIC decide that a packet is lost?
+- How does QUIC retransmit data without retransmitting the original packet itself?
+
+---

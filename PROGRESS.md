@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 02 - HTTP
-- **Current Lesson:** Lesson 37 - QUIC Packet Protection & Encryption
+- **Current Lesson:** Lesson 38 - QUIC Header Protection & Packet Numbers
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -41,6 +41,7 @@
 - ✅ Lesson 35 - QUIC Packets, Frames & Connection IDs
 - ✅ Lesson 36 - QUIC Connection Establishment & TLS 1.3
 - ✅ Lesson 37 - QUIC Packet Protection & Encryption
+- ✅ Lesson 38 - QUIC Header Protection & Packet Numbers
 
 ## Next Lesson
-- Lesson 38 - QUIC Header Protection & Packet Numbers
+- Lesson 39 - QUIC Reliability, Loss Detection & ACKs
