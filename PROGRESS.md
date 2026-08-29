@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 02 - HTTP
-- **Current Lesson:** Lesson 21 - HTTP/1.1 Persistent Connections and Buffer Management
+- **Current Lesson:** Lesson 25 - Inspecting HTTPS with Python
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -26,6 +26,9 @@
 - ✅ Lesson 19 - Building a TCP/HTTP Server in Python
 - ✅ Lesson 20 - HTTP Request Parsing
 - ✅ Lesson 21 - HTTP/1.1 Persistent Connections and Buffer Management
+- ✅ Lesson 22 - TLS Fundamentals
+- ✅ Lesson 23 - TLS Handshake
+- ✅ Lesson 25 - Inspecting HTTPS with Python
 
 ## Next Lesson
-- Lesson 22 - TLS Fundamentals
+- Lesson 26 - HTTP/1.1 Internals

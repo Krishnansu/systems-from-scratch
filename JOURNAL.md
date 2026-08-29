@@ -287,3 +287,27 @@ HTTP statelessness and TCP connection persistence are independent concepts. Pers
 - How does HTTP/2 solve limitations of HTTP/1.1 request ordering?
 
 ---
+
+## Lesson 25 - Inspecting HTTPS with Python
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I used Python's socket and SSL APIs to make the HTTPS stack concrete. I traced the sequence from DNS resolution to TCP connection establishment, TLS handshake, certificate inspection, HTTP request transmission and HTTP response reception.
+
+I learned that TLS does not replace HTTP or TCP. HTTP remains the application protocol, TLS provides encryption and authentication, and TCP provides a reliable ordered byte stream underneath TLS.
+
+I also learned how Python can expose negotiated TLS information such as the TLS version, cipher and server certificate.
+
+## Key Insight
+
+HTTPS can be understood as HTTP transported through TLS over TCP. Observing the connection with Python makes the boundaries between HTTP, TLS and TCP much clearer.
+
+## Questions
+
+- How does HTTP/1.1 actually frame requests and responses over the TCP byte stream?
+- How does HTTP/2 multiplex multiple streams over one connection?
+- How does QUIC change the transport model used by HTTP/3?
+
+---
