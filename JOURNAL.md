@@ -609,3 +609,76 @@ Each stream has its own ordering, while packets provide the transport container 
 - How does congestion control differ from flow control?
 
 ---
+
+# Lesson 41 - QUIC Flow Control & Congestion Control
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned that QUIC has two different reasons for limiting how much data can be sent. Flow control protects the receiver, while congestion control protects the network.
+
+QUIC flow control exists at two levels: stream-level flow control using `MAX_STREAM_DATA`, and connection-level flow control using `MAX_DATA`. The receiver can increase these limits as it consumes data.
+
+I also learned about the congestion window (`cwnd`), which limits how much congestion-controlled data can be outstanding in the network. This is independent of the receiver's flow-control capacity.
+
+## Key Insight
+
+The sender is constrained by multiple limits. Conceptually:
+
+```text
+Actual send capacity
+≈ min(
+    stream flow-control capacity,
+    connection flow-control capacity,
+    congestion-control capacity
+)
+```
+
+## Questions
+
+- How does QUIC choose its congestion-control algorithm?
+- How do ACKs and loss detection influence congestion-window changes?
+- How are stream and connection flow-control windows chosen in real implementations?
+
+---
+
+# Lesson 42 - QUIC Connection Migration & Final Architecture
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned why a traditional TCP connection can be disrupted when a device changes its IP address or network path. QUIC separates logical connection identity from network location using Connection IDs.
+
+I learned that QUIC can support connection migration, allowing a logical connection to continue over a new network path. I also learned about NAT rebinding, where a NAT can change the apparent external UDP port even without a deliberate network switch.
+
+New paths cannot simply be trusted. QUIC uses path validation mechanisms such as `PATH_CHALLENGE` and `PATH_RESPONSE` to establish that the new path is usable by the peer.
+
+Finally, I consolidated the QUIC architecture: streams and multiplexing, packet numbers and ACKs, reliability and loss detection, TLS and packet protection, flow control, congestion control, Connection IDs, path validation and migration all operate together underneath HTTP/3.
+
+## Key Insight
+
+The most important architectural distinction is:
+
+```text
+IP address
+    |
+    v
+Where the endpoint currently is
+
+Connection ID
+    |
+    v
+Which logical QUIC connection this belongs to
+```
+
+This separation is what enables QUIC to be resilient to supported network-path changes.
+
+## Questions
+
+- How exactly does HTTP/3 map requests and responses onto QUIC streams?
+- What HTTP/2 concepts disappear when HTTP is mapped directly onto QUIC?
+- How are HTTP/3 control and request streams structured?
+
+---

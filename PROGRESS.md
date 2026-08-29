@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 02 - HTTP
-- **Current Lesson:** Lesson 40 - QUIC Streams & Multiplexing
+- **Current Lesson:** Lesson 42 - QUIC Connection Migration & Final Architecture
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -44,6 +44,8 @@
 - ✅ Lesson 38 - QUIC Header Protection & Packet Numbers
 - ✅ Lesson 39 - QUIC Reliability, Loss Detection & ACKs
 - ✅ Lesson 40 - QUIC Streams & Multiplexing
+- ✅ Lesson 41 - QUIC Flow Control & Congestion Control
+- ✅ Lesson 42 - QUIC Connection Migration & Final Architecture
 
 ## Next Lesson
-- Lesson 41 - QUIC Flow Control & Congestion Control
+- Lesson 43 - HTTP/3 Fundamentals
