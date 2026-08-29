@@ -235,3 +235,55 @@ The socket API is the boundary between the application and the transport layer. 
 - How does HTTP keep-alive allow multiple requests on one TCP connection?
 
 ---
+
+---
+
+# Lesson 20 - HTTP Request Parsing
+
+**Date:** 2026-08-02
+
+## What I Learned
+
+I learned that TCP provides a reliable ordered byte stream rather than discrete HTTP messages. A single `recv()` call is not guaranteed to contain exactly one complete HTTP request. It may contain a partial request, one complete request, or multiple requests.
+
+I learned how an HTTP server buffers incoming TCP bytes, finds the end of the HTTP headers using `\\r\\n\\r\\n`, parses the request line and headers, and uses `Content-Length` to determine how many bytes belong to the request body.
+
+I also understood that a server must wait when a request is incomplete and preserve buffered bytes until enough data arrives to construct a complete HTTP request.
+
+## Key Insight
+
+The socket API provides TCP bytes to the application, but the HTTP server is responsible for interpreting those bytes and reconstructing HTTP message boundaries.
+
+## Questions
+
+- What happens when one TCP read contains multiple HTTP requests?
+- How should the server preserve bytes belonging to the next request?
+- How does HTTP/1.1 keep a TCP connection open for multiple requests?
+
+---
+
+# Lesson 21 - HTTP/1.1 Persistent Connections and Buffer Management
+
+**Date:** 2026-08-02
+
+## What I Learned
+
+I learned the important distinction between HTTP statelessness and persistent TCP connections. HTTP is stateless in the sense that the protocol does not inherently require the server to remember application state between requests, while HTTP/1.1 can reuse one TCP connection for multiple independent HTTP requests and responses.
+
+I learned that persistent connections are not permanent. They can close because of idle timeouts, `Connection: close`, server shutdown, resource limits, or network failures.
+
+I also learned why persistent connections make request buffering especially important. One TCP `recv()` may contain multiple HTTP requests, or a complete request followed by a partial next request. The server must parse the complete request, send its response, and preserve any remaining bytes in the buffer.
+
+The server therefore conceptually uses an outer loop to receive more TCP bytes and an inner loop to process every complete HTTP request already available in the buffer.
+
+## Key Insight
+
+HTTP statelessness and TCP connection persistence are independent concepts. Persistent connections are about reusing the underlying TCP connection, while statelessness is about application-level request state.
+
+## Questions
+
+- How does TLS fit between HTTP and TCP?
+- How does the TLS handshake establish encryption and trust?
+- How does HTTP/2 solve limitations of HTTP/1.1 request ordering?
+
+---

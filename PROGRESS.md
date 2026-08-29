@@ -1,8 +1,8 @@
 # Systems From Scratch - Progress Tracker
 
 ## Current Status
-- **Current Module:** 01 - Networking
-- **Current Lesson:** Lesson 19 - Building a TCP/HTTP Server in Python
+- **Current Module:** 02 - HTTP
+- **Current Lesson:** Lesson 21 - HTTP/1.1 Persistent Connections and Buffer Management
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -24,6 +24,8 @@
 - ✅ Lesson 17 - HTTP Fundamentals
 - ✅ Lesson 18 - HTTP Request Journey Across All Layers
 - ✅ Lesson 19 - Building a TCP/HTTP Server in Python
+- ✅ Lesson 20 - HTTP Request Parsing
+- ✅ Lesson 21 - HTTP/1.1 Persistent Connections and Buffer Management
 
 ## Next Lesson
-- Lesson 20 - HTTP Request Parsing
+- Lesson 22 - TLS Fundamentals
