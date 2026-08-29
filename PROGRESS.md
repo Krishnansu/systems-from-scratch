@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 02 - HTTP
-- **Current Lesson:** Lesson 38 - QUIC Header Protection & Packet Numbers
+- **Current Lesson:** Lesson 40 - QUIC Streams & Multiplexing
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -42,6 +42,8 @@
 - ✅ Lesson 36 - QUIC Connection Establishment & TLS 1.3
 - ✅ Lesson 37 - QUIC Packet Protection & Encryption
 - ✅ Lesson 38 - QUIC Header Protection & Packet Numbers
+- ✅ Lesson 39 - QUIC Reliability, Loss Detection & ACKs
+- ✅ Lesson 40 - QUIC Streams & Multiplexing
 
 ## Next Lesson
-- Lesson 39 - QUIC Reliability, Loss Detection & ACKs
+- Lesson 41 - QUIC Flow Control & Congestion Control

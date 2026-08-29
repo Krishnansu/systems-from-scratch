@@ -530,3 +530,82 @@ Header protection and AEAD are complementary mechanisms, not interchangeable one
 - How does QUIC retransmit data without retransmitting the original packet itself?
 
 ---
+
+# Lesson 39 - QUIC Reliability, Loss Detection & ACKs
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned how QUIC builds reliable transport behavior above UDP using packet numbers, ACK frames, ACK ranges, RTT measurements and loss detection. A missing packet is not immediately considered lost because it may simply be delayed.
+
+I learned that QUIC uses both packet-number evidence and time-based evidence to decide when a packet is likely lost. RTT estimation is therefore an important part of the transport system.
+
+I also learned an important distinction between packet retransmission and data retransmission. QUIC does not generally retransmit the original packet identity. Instead, reliable data from a lost packet is placed into a new packet with a new packet number.
+
+## Key Insight
+
+The core reliability loop is:
+
+```text
+Packet Numbers
+      |
+      v
+ACK Frames
+      |
+      v
+Loss Detection
+      |
+      v
+Lost Data
+      |
+      v
+New Packet
+      |
+      v
+Retransmitted Data
+```
+
+## Questions
+
+- How does QUIC decide exactly when a packet is lost?
+- How does congestion control react to packet loss?
+- How do QUIC streams interact with retransmitted data?
+
+---
+
+# Lesson 40 - QUIC Streams & Multiplexing
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned that a QUIC connection can contain many independent streams, each represented as an ordered byte sequence. STREAM frames identify the stream and the byte offset where their data belongs.
+
+I learned the difference between packet numbers and stream offsets. Packet numbers identify transport packets and support ACK/loss processing, while stream offsets reconstruct ordered application data within an individual stream.
+
+I learned that QUIC supports bidirectional and unidirectional streams and that multiple streams can be multiplexed over one QUIC connection.
+
+Most importantly, I understood why QUIC avoids TCP's connection-level head-of-line blocking. If data for Stream 4 is missing, Stream 4 may wait for its missing bytes, but unrelated Stream 8 data can continue when available. This does not mean streams are completely independent: they still share congestion-control capacity, connection-level flow control and the underlying connection.
+
+## Key Insight
+
+The fundamental architecture is:
+
+```text
+QUIC Connection
+      |
+      +--- Stream 4
+      +--- Stream 8
+      +--- Stream 12
+```
+
+Each stream has its own ordering, while packets provide the transport container used to carry stream data.
+
+## Questions
+
+- How does QUIC control how much data each stream can send?
+- How does connection-level flow control interact with stream-level flow control?
+- How does congestion control differ from flow control?
+
+---
