@@ -311,3 +311,49 @@ HTTPS can be understood as HTTP transported through TLS over TCP. Observing the 
 - How does QUIC change the transport model used by HTTP/3?
 
 ---
+
+# Lesson 32 - HTTP/2 Flow Control & Stream Management
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned why HTTP/2 needs its own flow-control mechanism even though it runs over TCP. HTTP/2 has both stream-level and connection-level flow-control windows, and DATA consumes credit at both levels. The receiver can grant additional credit using `WINDOW_UPDATE` frames.
+
+I also learned that flow control and stream management are separate from scheduling. Flow control determines how much DATA a sender is currently allowed to send, while HTTP/2 streams provide independent logical request/response lifecycles within one TCP connection.
+
+## Key Insight
+
+HTTP/2 flow control protects the receiver at the HTTP/2 layer, while TCP flow control and congestion control solve different problems at lower layers.
+
+## Questions
+
+- How should a server choose between multiple streams that are eligible to send?
+- How do stream priorities interact with flow-control windows?
+- Why does QUIC move stream multiplexing into the transport layer?
+
+---
+
+# Lesson 33 - HTTP/2 Stream Prioritization & Scheduling
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned that HTTP/2 multiplexing creates a scheduling problem: when multiple streams are ready and allowed to send, the server must decide which stream receives transmission opportunities. HTTP/2 originally represented priorities using dependency trees and weights.
+
+Weights provide relative scheduling preference rather than guaranteed bandwidth. Scheduling must also consider flow-control state, fairness, stream completion, TCP behavior and application goals. Pure priority scheduling can cause starvation, so production schedulers need to balance priority and fairness.
+
+I also learned that HTTP/2's original priority model had practical limitations and that modern HTTP prioritization uses a more flexible approach.
+
+## Key Insight
+
+Multiplexing creates concurrency, flow control limits what can be sent, and scheduling determines how eligible streams share limited resources.
+
+## Questions
+
+- How does QUIC represent streams at the transport layer?
+- How does QUIC avoid TCP's connection-level head-of-line blocking?
+- Which TCP responsibilities must QUIC rebuild over UDP?
+
+---

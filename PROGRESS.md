@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 02 - HTTP
-- **Current Lesson:** Lesson 25 - Inspecting HTTPS with Python
+- **Current Lesson:** Lesson 33 - HTTP/2 Stream Prioritization & Scheduling
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -29,6 +29,14 @@
 - ✅ Lesson 22 - TLS Fundamentals
 - ✅ Lesson 23 - TLS Handshake
 - ✅ Lesson 25 - Inspecting HTTPS with Python
+- ✅ Lesson 26 - HTTP/1.1 Limitations
+- ✅ Lesson 27 - HTTP/2 Fundamentals
+- ✅ Lesson 28 - HTTP/2 Frames and Streams
+- ✅ Lesson 29 - HTTP/2 Multiplexing
+- ✅ Lesson 30 - TCP Head-of-Line Blocking and the Need for QUIC
+- ✅ Lesson 31 - HTTP/2 to HTTP/3
+- ✅ Lesson 32 - HTTP/2 Flow Control & Stream Management
+- ✅ Lesson 33 - HTTP/2 Stream Prioritization & Scheduling
 
 ## Next Lesson
-- Lesson 26 - HTTP/1.1 Internals
+- Lesson 34 - QUIC Fundamentals
