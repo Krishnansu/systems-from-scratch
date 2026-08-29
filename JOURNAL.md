@@ -357,3 +357,42 @@ Multiplexing creates concurrency, flow control limits what can be sent, and sche
 - Which TCP responsibilities must QUIC rebuild over UDP?
 
 ---
+
+# Lesson 35 - QUIC Packets, Frames & Connection IDs
+
+**Date:** 2026-08-29
+
+## What I Learned
+
+I learned how QUIC organizes transport information inside UDP datagrams. A QUIC packet contains a header and one or more frames, while frames carry specific transport operations such as STREAM data, ACKs, TLS handshake data and flow-control or connection-control information.
+
+I learned the difference between QUIC packet numbers and stream offsets. Packet numbers are used for transport-level acknowledgments and loss detection, while stream offsets identify byte positions within individual QUIC streams. A single packet can carry frames for multiple streams.
+
+I also learned that QUIC Connection IDs identify logical QUIC connections independently of the current network path. This enables connection migration when a client changes networks, subject to QUIC's path-validation and security mechanisms. Connection IDs and Stream IDs are separate concepts: one identifies the connection and the other identifies streams within it.
+
+Finally, I learned the high-level distinction between QUIC's long and short packet headers and its separate packet number spaces for Initial, Handshake and Application Data traffic.
+
+## Key Insight
+
+The most important mental model is:
+
+```text
+QUIC connection
+    |
+    +-- streams
+    |
+    +-- packets
+           |
+           +-- frames
+```
+
+Packets are transport containers, frames carry protocol operations, and streams provide independent ordered byte sequences.
+
+## Questions
+
+- How does QUIC establish a connection and perform the TLS 1.3 handshake?
+- How are QUIC packet numbers and ACK ranges used for loss detection?
+- How does QUIC derive and transition between encryption keys?
+- How does QUIC achieve 0-RTT and 1-RTT connection establishment?
+
+---

@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Module:** 02 - HTTP
-- **Current Lesson:** Lesson 33 - HTTP/2 Stream Prioritization & Scheduling
+- **Current Lesson:** Lesson 35 - QUIC Packets, Frames & Connection IDs
 
 ## Completed Lessons
 - ✅ Lesson 1 - What is the Internet?
@@ -37,6 +37,8 @@
 - ✅ Lesson 31 - HTTP/2 to HTTP/3
 - ✅ Lesson 32 - HTTP/2 Flow Control & Stream Management
 - ✅ Lesson 33 - HTTP/2 Stream Prioritization & Scheduling
+- ✅ Lesson 34 - QUIC Fundamentals
+- ✅ Lesson 35 - QUIC Packets, Frames & Connection IDs
 
 ## Next Lesson
-- Lesson 34 - QUIC Fundamentals
+- Lesson 36 - QUIC Connection Establishment & TLS 1.3
