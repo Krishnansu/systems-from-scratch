@@ -19,3 +19,7 @@ Established the exact responsibility boundary between HTTP/3 and QUIC. Traced HT
 ## Lesson 50 — HTTP/3 Performance & Trade-offs
 
 Studied why HTTP/3 can outperform HTTP/2 under particular network conditions, focusing on QUIC's independent streams and elimination of TCP-level cross-stream head-of-line blocking. Reviewed QUIC/TLS handshake latency, 0-RTT and its replay caveat, connection migration, and why UDP itself is not inherently faster than TCP. Covered the additional implementation and packet-processing complexity introduced by QUIC and the practical reality that HTTP/3 is not universally faster than HTTP/2. Consolidated the HTTP/1.1 → HTTP/2 → HTTP/3 evolution as a sequence of architectural responses to specific limitations.
+
+## Lesson 51 — HTTP Evolution: The Big Consolidation
+
+Consolidated the full HTTP/1.1 → HTTP/2 → QUIC → HTTP/3 evolution. Focused on why HTTP/1.1 needed better concurrency, why HTTP/2 introduced multiplexing, and why multiplexing over TCP still leaves TCP-level cross-stream head-of-line blocking. Connected that limitation to the architectural motivation for QUIC and then to HTTP/3's adaptation of HTTP semantics to QUIC. Also consolidated QPACK, QUIC flow control, integrated TLS, 0-RTT, connection migration, and the distinction between HTTP-level errors and transport-level failures. The main mental model is that each generation addresses a specific architectural limitation rather than simply being a universally 'better' HTTP version.
