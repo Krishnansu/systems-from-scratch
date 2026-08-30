@@ -15,3 +15,7 @@ Studied HTTP/3 Server Push, `PUSH_PROMISE`, and why Server Push became uncommon 
 ## Lesson 49 — HTTP/3 ↔ QUIC Integration
 
 Established the exact responsibility boundary between HTTP/3 and QUIC. Traced HTTP/3 frames through QUIC streams, QUIC `STREAM` frames, QUIC packets, UDP, and IP. Clarified that QPACK and HTTP/3 control streams belong to HTTP/3 while QUIC provides the underlying transport streams. Consolidated the distinction between HTTP/3 `DATA` and QUIC `STREAM`, and connected QUIC-owned mechanisms such as flow control, loss recovery, congestion control, TLS integration, connection IDs, and connection migration to the HTTP/3 layer.
+
+## Lesson 50 — HTTP/3 Performance & Trade-offs
+
+Studied why HTTP/3 can outperform HTTP/2 under particular network conditions, focusing on QUIC's independent streams and elimination of TCP-level cross-stream head-of-line blocking. Reviewed QUIC/TLS handshake latency, 0-RTT and its replay caveat, connection migration, and why UDP itself is not inherently faster than TCP. Covered the additional implementation and packet-processing complexity introduced by QUIC and the practical reality that HTTP/3 is not universally faster than HTTP/2. Consolidated the HTTP/1.1 → HTTP/2 → HTTP/3 evolution as a sequence of architectural responses to specific limitations.

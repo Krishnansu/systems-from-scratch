@@ -11,13 +11,18 @@
 - Lesson 47 — HTTP/3 Error Handling & Connection Shutdown
 - Lesson 48 — HTTP/3 Push & Prioritization
 - Lesson 49 — HTTP/3 ↔ QUIC Integration
+- Lesson 50 — HTTP/3 Performance & Trade-offs
 
 ### Current Position
 
-HTTP/3 fundamentals, stream and frame architecture, QPACK, request/response lifecycle, error handling, connection shutdown, Server Push, prioritization, and the HTTP/3 ↔ QUIC layering boundary are now covered.
+HTTP/3 fundamentals, stream and frame architecture, QPACK, request/response lifecycle, error handling, connection shutdown, Server Push, prioritization, HTTP/3 ↔ QUIC layering, and HTTP/3 performance trade-offs are now covered.
 
-Lessons 48–50 are intentionally compact to maintain momentum through the HTTP/3 section. Lessons 51–52 are planned as deeper consolidation lessons covering the evolution from HTTP/1.1 through HTTP/3 and a complete systems review.
+Lessons 48–50 were intentionally kept compact to maintain momentum through the HTTP/3 section.
+
+### Next Phase
+
+Lessons 51–52 are the planned deep consolidation lessons. They will connect the complete HTTP evolution and consolidate the transport and application-layer concepts covered so far.
 
 ### Next Lesson
 
-- Lesson 50 — HTTP/3 Performance & Trade-offs
+- Lesson 51 — HTTP Evolution Consolidation
