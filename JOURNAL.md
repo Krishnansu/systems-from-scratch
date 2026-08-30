@@ -27,3 +27,7 @@ Consolidated the full HTTP/1.1 → HTTP/2 → QUIC → HTTP/3 evolution. Focused
 ## Lesson 52 — Build an HTTP/3 Request From Scratch
 
 Traced a single HTTP/3 GET request through the complete protocol stack: HTTP semantics → HTTP/3 HEADERS → QPACK → QUIC stream → QUIC STREAM frame → QUIC packet → UDP → IP → network, and then through the reverse decapsulation path at the server. Reinforced the distinction between HTTP/3 frames and QUIC transport frames, especially `DATA` versus `STREAM`, and consolidated protocol layering, encapsulation, decapsulation, and layer responsibilities. This lesson serves as the second major HTTP/3 consolidation and completes the end-to-end mental model for how an HTTP/3 request actually becomes network traffic and is reconstructed at the receiver.
+
+## Lesson 53 — Sessions
+
+Started the Higher-Level HTTP section by studying how applications maintain continuity over stateless HTTP. Learned the distinction between cookies and sessions, traced the login/session-ID flow, and covered session lifecycle, expiration, cookie security, session hijacking, and session fixation. Then moved into the systems perspective: process-local sessions do not naturally scale across horizontally scaled servers, sticky sessions provide one workaround, and shared session stores allow multiple servers to access common authentication state at the cost of introducing another distributed dependency. The key takeaway is that session management is fundamentally a state-management and scalability problem, not merely a cookie mechanism.
