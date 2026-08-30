@@ -1,9 +1,5 @@
 # Journal
 
-## Lesson 44 — HTTP/3 Streams & Frame Types
+## Lesson 46 — HTTP/3 Request/Response Lifecycle
 
-Covered the HTTP/3 stream model and how HTTP/3 maps onto QUIC. Learned the distinction between bidirectional request streams and unidirectional streams used for connection control and QPACK. Studied HTTP/3 frame types including HEADERS, DATA, SETTINGS, and GOAWAY. A key distinction was established between HTTP/3 frames and QUIC STREAM frames: HTTP/3 frames carry HTTP-level meaning, while QUIC STREAM frames carry bytes belonging to a QUIC stream.
-
-## Lesson 45 — QPACK: HTTP/3 Header Compression
-
-Covered QPACK and why HTTP/3 uses it instead of HPACK. Learned about the predefined static table, mutable connection-specific dynamic table, and dedicated QPACK encoder/decoder streams. Clarified that the static table is never dynamically updated during a connection; it is fixed by the QPACK specification. Dynamic-table entries can create dependencies that temporarily block an individual request stream, but this is distinct from TCP's transport-level head-of-line blocking.
+Completed an end-to-end walkthrough of an HTTP/3 request and response. Traced the journey from DNS and HTTP/3 discovery through QUIC connection establishment, the HTTP/3 control stream and SETTINGS, QPACK header compression, request-stream creation, HTTP/3 HEADERS/DATA frames, QUIC STREAM frames, QUIC packets, UDP, and the reverse path at the server. Consolidated the separation of responsibilities between HTTP/3, QPACK, QUIC, UDP, and IP. Also connected packet loss, flow control, congestion control, and QPACK dependencies to the complete lifecycle. This lesson establishes the complete mental model for how an HTTP/3 request actually travels through the stack.
