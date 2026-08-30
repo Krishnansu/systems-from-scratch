@@ -23,3 +23,7 @@ Studied why HTTP/3 can outperform HTTP/2 under particular network conditions, fo
 ## Lesson 51 — HTTP Evolution: The Big Consolidation
 
 Consolidated the full HTTP/1.1 → HTTP/2 → QUIC → HTTP/3 evolution. Focused on why HTTP/1.1 needed better concurrency, why HTTP/2 introduced multiplexing, and why multiplexing over TCP still leaves TCP-level cross-stream head-of-line blocking. Connected that limitation to the architectural motivation for QUIC and then to HTTP/3's adaptation of HTTP semantics to QUIC. Also consolidated QPACK, QUIC flow control, integrated TLS, 0-RTT, connection migration, and the distinction between HTTP-level errors and transport-level failures. The main mental model is that each generation addresses a specific architectural limitation rather than simply being a universally 'better' HTTP version.
+
+## Lesson 52 — Build an HTTP/3 Request From Scratch
+
+Traced a single HTTP/3 GET request through the complete protocol stack: HTTP semantics → HTTP/3 HEADERS → QPACK → QUIC stream → QUIC STREAM frame → QUIC packet → UDP → IP → network, and then through the reverse decapsulation path at the server. Reinforced the distinction between HTTP/3 frames and QUIC transport frames, especially `DATA` versus `STREAM`, and consolidated protocol layering, encapsulation, decapsulation, and layer responsibilities. This lesson serves as the second major HTTP/3 consolidation and completes the end-to-end mental model for how an HTTP/3 request actually becomes network traffic and is reconstructed at the receiver.
