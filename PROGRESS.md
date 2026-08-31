@@ -15,22 +15,22 @@
 - Lesson 51 — HTTP Evolution: The Big Consolidation
 - Lesson 52 — Build an HTTP/3 Request From Scratch
 - Lesson 53 — Sessions
+- Lesson 54 — JWT
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. Lesson 53 begins the Higher-Level HTTP section with sessions and application-level state management.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section is now complete through JWT in Lesson 54.
 
 ### Current Lesson
 
-Lesson 53 — Sessions
+Lesson 54 — JWT
 
-Covered HTTP statelessness, session IDs, cookies versus sessions, login/session lifecycle, expiration, session hijacking, session fixation, cookie security, horizontal scaling, sticky sessions, shared session stores, and the distributed-systems implications of session state.
+Covered JWT structure, claims, signing and verification, encoding versus encryption, authentication versus authorization, self-contained versus partial tokens, access and refresh tokens, revocation trade-offs, symmetric and asymmetric signing, key rotation, horizontal scaling, and secure token storage across browser and non-browser clients.
 
 ### Next Phase
 
 Higher-Level HTTP:
 
-- Lesson 54 — JWT
 - Lesson 55 — Caching
 - Lesson 56 — Compression
 - Lesson 57 — WebSockets
@@ -38,4 +38,4 @@ Higher-Level HTTP:
 
 ### Next Lesson
 
-Lesson 54 — JWT
+Lesson 55 — Caching
