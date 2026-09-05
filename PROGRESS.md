@@ -20,13 +20,13 @@
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through Caching in Lesson 55, including cache access patterns, consistency, concurrent update problems, and production caching trade-offs.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through Caching in Lesson 55, including cache access patterns, consistency, concurrent update problems, Redis architecture, persistence, replication, failure handling, coordination, and production caching trade-offs.
 
 ### Current Lesson
 
 Lesson 55 — Caching
 
-Covered why caching exists, cache hits and misses, cache hierarchy, TTL and expiration, eviction policies, cache-aside, read-through, write-through, write-back/write-behind, write-around, invalidation, consistency, stale data, database replica lag, cache stampedes, hot keys, lost updates, atomic operations, pessimistic locking, optimistic concurrency control, distributed locking considerations, Redis as an in-memory datastore, sharding and replication, and the distinction between caches and databases.
+Covered why caching exists, cache hits and misses, cache hierarchy, TTL and expiration, eviction policies, cache-aside, read-through, write-through, write-back/write-behind, write-around, invalidation, consistency, stale data, database replica lag, cache stampedes, hot keys, lost updates, atomic operations, pessimistic locking, optimistic concurrency control, distributed locking considerations, Redis as an in-memory datastore, sharding, replication, persistence, failure recovery, quorum, failover, network partitions, and split-brain scenarios.
 
 ### Next Phase
 
