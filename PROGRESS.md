@@ -17,25 +17,25 @@
 - Lesson 53 — Sessions
 - Lesson 54 — JWT
 - Lesson 55 — Caching
+- Lesson 56 — Compression
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through Caching in Lesson 55, including cache access patterns, consistency, concurrent update problems, Redis architecture, persistence, replication, failure handling, coordination, and production caching trade-offs.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through Compression in Lesson 56, following Sessions, JWT, and Caching. Lesson 56 covered HTTP body compression, request and response compression, content encoding negotiation, gzip, Brotli, compression trade-offs, caching of compressed representations, and the distinction between body compression and HPACK/QPACK header compression.
 
 ### Current Lesson
 
-Lesson 55 — Caching
+Lesson 56 — Compression
 
-Covered why caching exists, cache hits and misses, cache hierarchy, TTL and expiration, eviction policies, cache-aside, read-through, write-through, write-back/write-behind, write-around, invalidation, consistency, stale data, database replica lag, cache stampedes, hot keys, lost updates, atomic operations, pessimistic locking, optimistic concurrency control, distributed locking considerations, Redis as an in-memory datastore, sharding, replication, persistence, failure recovery, quorum, failover, network partitions, and split-brain scenarios.
+Covered why compression exists, redundancy and compressibility, CPU-versus-bandwidth trade-offs, request and response body compression, `Accept-Encoding`, `Content-Encoding`, gzip, Brotli, compression levels, static versus dynamic content, compression before encryption, caching with `Vary: Accept-Encoding`, already-compressed formats, and the distinction between HTTP body compression and HPACK/QPACK header compression.
 
 ### Next Phase
 
 Higher-Level HTTP:
 
-- Lesson 56 — Compression
 - Lesson 57 — WebSockets
 - Lesson 58 — Consolidation
 
 ### Next Lesson
 
-Lesson 56 — Compression
+Lesson 57 — WebSockets
