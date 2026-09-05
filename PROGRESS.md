@@ -18,24 +18,24 @@
 - Lesson 54 — JWT
 - Lesson 55 — Caching
 - Lesson 56 — Compression
+- Lesson 57 — WebSockets
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through Compression in Lesson 56, following Sessions, JWT, and Caching. Lesson 56 covered HTTP body compression, request and response compression, content encoding negotiation, gzip, Brotli, compression trade-offs, caching of compressed representations, and the distinction between body compression and HPACK/QPACK header compression.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through WebSockets in Lesson 57, following Sessions, JWT, Caching, and Compression. Lesson 57 covered why WebSockets exist, the HTTP Upgrade handshake, persistent bidirectional communication, WebSocket framing, text and binary messages, ping/pong, graceful closing, and production concerns around scaling, load balancing, reconnection, resynchronization, and shared messaging infrastructure.
 
 ### Current Lesson
 
-Lesson 56 — Compression
+Lesson 57 — WebSockets
 
-Covered why compression exists, redundancy and compressibility, CPU-versus-bandwidth trade-offs, request and response body compression, `Accept-Encoding`, `Content-Encoding`, gzip, Brotli, compression levels, static versus dynamic content, compression before encryption, caching with `Vary: Accept-Encoding`, already-compressed formats, and the distinction between HTTP body compression and HPACK/QPACK header compression.
+Covered the limitations of polling and long polling, the HTTP Upgrade handshake, `101 Switching Protocols`, persistent bidirectional communication, WebSocket frames, text and binary data, ping/pong heartbeats, close semantics, load balancing, connection failures, reconnection, resynchronization, and cross-server message delivery.
 
 ### Next Phase
 
 Higher-Level HTTP:
 
-- Lesson 57 — WebSockets
 - Lesson 58 — Consolidation
 
 ### Next Lesson
 
-Lesson 57 — WebSockets
+Lesson 58 — Consolidation
