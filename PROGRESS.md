@@ -16,26 +16,26 @@
 - Lesson 52 — Build an HTTP/3 Request From Scratch
 - Lesson 53 — Sessions
 - Lesson 54 — JWT
+- Lesson 55 — Caching
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section is now complete through JWT in Lesson 54.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through Caching in Lesson 55.
 
 ### Current Lesson
 
-Lesson 54 — JWT
+Lesson 55 — Caching
 
-Covered JWT structure, claims, signing and verification, encoding versus encryption, authentication versus authorization, self-contained versus partial tokens, access and refresh tokens, revocation trade-offs, symmetric and asymmetric signing, key rotation, horizontal scaling, and secure token storage across browser and non-browser clients.
+Covered why caching exists, cache hits and misses, cache hierarchy, TTL and expiration, eviction policies, cache-aside, invalidation, distributed caching, Redis as an in-memory datastore, sharding and replication, cache stampedes, hot keys, and the distinction between caches and databases.
 
 ### Next Phase
 
 Higher-Level HTTP:
 
-- Lesson 55 — Caching
 - Lesson 56 — Compression
 - Lesson 57 — WebSockets
 - Lesson 58 — Consolidation
 
 ### Next Lesson
 
-Lesson 55 — Caching
+Lesson 56 — Compression
