@@ -21,25 +21,25 @@
 - Lesson 57 — WebSockets
 - Lesson 58 — WebSocket Protocol Deep Dive
 - Lesson 59 — WebSocket Lifecycle & Reliability
+- Lesson 60 — WebSockets at Scale
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through WebSockets. Lessons 58 and 59 extended WebSockets into wire-level framing, masking, fragmentation, control frames, connection lifecycle, heartbeats, reconnection, exponential backoff, jitter, missed messages, sequence numbers, replay, and state synchronization.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through WebSockets at Scale. Lessons 58–60 covered WebSocket wire-level framing, masking, fragmentation, control frames, connection lifecycle, heartbeats, reconnection, message recovery, horizontal scaling, connection ownership, message brokers, fan-out, presence, and failure recovery.
 
 ### Current Lesson
 
-Lesson 59 — WebSocket Lifecycle & Reliability
+Lesson 60 — WebSockets at Scale
 
-Covered WebSocket connection states, heartbeats, failure detection, reconnect storms, exponential backoff, jitter, sequence numbers, message replay, and state synchronization.
+Covered horizontal scaling, load balancers, connection ownership, sticky sessions, connection registries, cross-server messaging, message brokers, fan-out, presence, and server failure recovery.
 
 ### Next Phase
 
 Higher-Level HTTP:
 
-- Lesson 60 — WebSockets at Scale
 - Lesson 61 — HTTP vs WebSocket vs WebRTC
 - Lesson 62 — HTTP Module Consolidation
 
 ### Next Lesson
 
-Lesson 60 — WebSockets at Scale
+Lesson 61 — HTTP vs WebSocket vs WebRTC

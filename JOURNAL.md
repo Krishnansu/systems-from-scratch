@@ -55,3 +55,7 @@ Studied the WebSocket wire protocol after the HTTP Upgrade handshake. Covered fr
 ## Lesson 59 — WebSocket Lifecycle & Reliability
 
 Studied the production lifecycle of WebSocket connections and the failure modes that occur after the initial connection succeeds. Covered heartbeats, liveness detection, reconnect storms, exponential backoff, jitter, sequence numbers, missed messages, event replay, and state synchronization. The central takeaway is that connection-level reliability does not automatically provide application-level message recovery after a disconnect.
+
+## Lesson 60 — WebSockets at Scale
+
+Studied how WebSockets scale horizontally when a single connection server is no longer sufficient. Covered load balancers, long-lived connection ownership, sticky sessions, distributed connection registries, cross-server messaging, message brokers, broadcasting/fan-out, presence, and backend failure. Clarified that an established WebSocket connection cannot simply be migrated between servers; clients reconnect after failure and may resume or resynchronize state. The central takeaway is that production WebSockets become a distributed-systems problem involving connection state, event routing, failure recovery, and coordination between multiple connection-owning servers.
