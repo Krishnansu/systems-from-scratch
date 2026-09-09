@@ -22,24 +22,24 @@
 - Lesson 58 — WebSocket Protocol Deep Dive
 - Lesson 59 — WebSocket Lifecycle & Reliability
 - Lesson 60 — WebSockets at Scale
+- Lesson 61 — HTTP vs WebSocket vs WebRTC
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through WebSockets at Scale. Lessons 58–60 covered WebSocket wire-level framing, masking, fragmentation, control frames, connection lifecycle, heartbeats, reconnection, message recovery, horizontal scaling, connection ownership, message brokers, fan-out, presence, and failure recovery.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through HTTP vs WebSocket vs WebRTC. Lessons 58–60 covered WebSocket wire-level framing, masking, fragmentation, control frames, connection lifecycle, heartbeats, reconnection, message recovery, horizontal scaling, connection ownership, message brokers, fan-out, presence, and failure recovery. Lesson 61 compared HTTP, WebSocket, and WebRTC and established how they can complement one another in real applications.
 
 ### Current Lesson
 
-Lesson 60 — WebSockets at Scale
+Lesson 61 — HTTP vs WebSocket vs WebRTC
 
-Covered horizontal scaling, load balancers, connection ownership, sticky sessions, connection registries, cross-server messaging, message brokers, fan-out, presence, and server failure recovery.
+Compared request/response communication, persistent bidirectional communication, and peer-to-peer real-time communication. Covered WebRTC signaling, SDP, ICE, STUN, TURN, DataChannels, and why WebSocket and WebRTC are often complementary.
 
 ### Next Phase
 
 Higher-Level HTTP:
 
-- Lesson 61 — HTTP vs WebSocket vs WebRTC
 - Lesson 62 — HTTP Module Consolidation
 
 ### Next Lesson
 
-Lesson 61 — HTTP vs WebSocket vs WebRTC
+Lesson 62 — HTTP Module Consolidation
