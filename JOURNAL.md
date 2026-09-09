@@ -47,3 +47,11 @@ Studied HTTP compression as a CPU-versus-network trade-off. Covered why redundan
 ## Lesson 57 — WebSockets
 
 Studied WebSockets as a solution for applications that require persistent, bidirectional communication rather than repeated HTTP request/response exchanges. Covered polling and long polling as earlier approaches, the HTTP Upgrade handshake and `101 Switching Protocols`, WebSocket frames, text and binary messages, ping/pong heartbeats, and the close handshake. Then examined production concerns including long-lived connections, load balancers, backend failures, reconnection, state resynchronization, and cross-server message delivery through shared messaging infrastructure. The central takeaway is that WebSockets change the communication model from request/response to a persistent bidirectional channel, but introduce their own distributed-systems challenges around connection lifecycle and scaling.
+
+## Lesson 58 — WebSocket Protocol Deep Dive
+
+Studied the WebSocket wire protocol after the HTTP Upgrade handshake. Covered frame structure, FIN, opcodes, text and binary frames, client-to-server masking, payload length encoding, fragmentation, control frames, Ping/Pong, the close handshake, and the distinction between WebSocket framing and TCP's byte stream. Clarified that masking is not encryption and that TLS provides confidentiality for `wss://` connections.
+
+## Lesson 59 — WebSocket Lifecycle & Reliability
+
+Studied the production lifecycle of WebSocket connections and the failure modes that occur after the initial connection succeeds. Covered heartbeats, liveness detection, reconnect storms, exponential backoff, jitter, sequence numbers, missed messages, event replay, and state synchronization. The central takeaway is that connection-level reliability does not automatically provide application-level message recovery after a disconnect.

@@ -19,23 +19,27 @@
 - Lesson 55 — Caching
 - Lesson 56 — Compression
 - Lesson 57 — WebSockets
+- Lesson 58 — WebSocket Protocol Deep Dive
+- Lesson 59 — WebSocket Lifecycle & Reliability
 
 ### Current Position
 
-The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through WebSockets in Lesson 57, following Sessions, JWT, Caching, and Compression. Lesson 57 covered why WebSockets exist, the HTTP Upgrade handshake, persistent bidirectional communication, WebSocket framing, text and binary messages, ping/pong, graceful closing, and production concerns around scaling, load balancing, reconnection, resynchronization, and shared messaging infrastructure.
+The HTTP/3 section is complete through Lesson 52. The Higher-Level HTTP section has progressed through WebSockets. Lessons 58 and 59 extended WebSockets into wire-level framing, masking, fragmentation, control frames, connection lifecycle, heartbeats, reconnection, exponential backoff, jitter, missed messages, sequence numbers, replay, and state synchronization.
 
 ### Current Lesson
 
-Lesson 57 — WebSockets
+Lesson 59 — WebSocket Lifecycle & Reliability
 
-Covered the limitations of polling and long polling, the HTTP Upgrade handshake, `101 Switching Protocols`, persistent bidirectional communication, WebSocket frames, text and binary data, ping/pong heartbeats, close semantics, load balancing, connection failures, reconnection, resynchronization, and cross-server message delivery.
+Covered WebSocket connection states, heartbeats, failure detection, reconnect storms, exponential backoff, jitter, sequence numbers, message replay, and state synchronization.
 
 ### Next Phase
 
 Higher-Level HTTP:
 
-- Lesson 58 — Consolidation
+- Lesson 60 — WebSockets at Scale
+- Lesson 61 — HTTP vs WebSocket vs WebRTC
+- Lesson 62 — HTTP Module Consolidation
 
 ### Next Lesson
 
-Lesson 58 — Consolidation
+Lesson 60 — WebSockets at Scale
