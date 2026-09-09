@@ -63,3 +63,7 @@ Studied how WebSockets scale horizontally when a single connection server is no 
 ## Lesson 61 — HTTP vs WebSocket vs WebRTC
 
 Compared HTTP, WebSocket, and WebRTC as different communication models. Established HTTP as request/response, WebSocket as persistent bidirectional client/server communication, and WebRTC as real-time peer-to-peer communication. Explored why WebRTC is better suited to video/audio because it is designed around real-time media, while WebSocket is often better for server-backed chat because the server can provide persistence, routing, authentication, moderation, presence, and offline delivery. Covered WebRTC signaling and the roles of SDP, ICE, STUN, TURN, and DataChannels. The central takeaway is that WebSocket and WebRTC are complementary: WebSocket can handle signaling, chat, and application coordination while WebRTC carries real-time media or peer-to-peer data.
+
+## Lesson 62 — HTTP Module Consolidation
+
+Consolidated the complete HTTP module into a single systems mental model. Reviewed the evolution from HTTP/1.1 to HTTP/2, QUIC, and HTTP/3, then connected sessions and JWT to authentication state, caching and compression to performance, WebSockets to persistent server-backed real-time communication, and WebRTC to peer-to-peer real-time media and data. Reinforced that these technologies form a toolbox rather than a simple replacement chain, and that systems design should begin with the communication problem and required properties before selecting a technology. This lesson completes the HTTP module.
