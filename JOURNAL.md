@@ -96,3 +96,8 @@ Studied virtual memory and physical RAM, process address spaces, paging, page fr
 ## 2026-10-10 — Lesson 68: File Systems
 
 Studied why file systems are needed to organize storage, and how paths, directories, inodes, hard links, symbolic links, and file descriptors relate. Traced the Linux file-open path through system calls, path lookup, VFS, filesystem implementations, and the page cache or storage I/O. Connected mount points and inode capacity to production debugging, and practiced inspecting filesystems, free space, and open descriptors. Next: Lesson 69 — Linux Permissions.
+
+
+## 2026-10-10 — Lesson 69: Linux Permissions
+
+Studied Linux users, groups, UIDs/GIDs, ownership, and the traditional owner/group/other permission model. Learned to interpret symbolic permissions and numeric modes, and clarified how read, write, and execute differ for files versus directories. Traced simplified kernel access checks, including the importance of parent-directory traversal permissions, and reviewed `chmod`, `chown`, `chgrp`, ACLs, special permission bits, and least privilege. Connected permission failures to production debugging and why backend services should not run as root by default. Next: Lesson 70 — Linux Signals.
