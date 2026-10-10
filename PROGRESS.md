@@ -40,15 +40,16 @@ Module 02 — HTTP is complete through Lesson 62.
 - Lesson 67 — Memory Management
 - Lesson 68 — File Systems
 - Lesson 69 — Linux Permissions
+- Lesson 70 — Linux Signals
 
 ### Current Position
 
-Studied Linux architecture, processes, threads, CPU scheduling, memory management, file systems, and Linux access controls including users, groups, ownership, permission bits, directory traversal, ACLs, and least privilege.
+Studied Linux architecture, processes, threads, CPU scheduling, memory management, file systems, permissions, and signals including termination requests, forced termination, pending/blocked signals, handlers, and safe process inspection.
 
 ### Current Lesson
 
-Lesson 69 — Linux Permissions
+Lesson 70 — Linux Signals
 
 ### Next Lesson
 
-Lesson 70 — Linux Signals
+Lesson 71 — Linux Services
