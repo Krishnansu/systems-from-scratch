@@ -37,15 +37,16 @@ Module 02 — HTTP is complete through Lesson 62.
 - Lesson 64 — Processes
 - Lesson 65 — Threads
 - Lesson 66 — CPU Scheduling
+- Lesson 67 — Memory Management
 
 ### Current Position
 
-Studied Linux architecture, processes, threads, concurrency and parallelism, event loops, CPU scheduling states, preemption, context switching, common scheduling algorithms, and Linux scheduling policies.
+Studied Linux architecture, processes, threads, CPU scheduling, virtual address spaces, paging, page tables, page faults, copy-on-write, memory pressure, swap, and process memory metrics.
 
 ### Current Lesson
 
-Lesson 66 — CPU Scheduling
+Lesson 67 — Memory Management
 
 ### Next Lesson
 
-Lesson 67 — Memory Management
+Lesson 68 — File Systems

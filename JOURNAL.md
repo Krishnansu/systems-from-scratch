@@ -86,3 +86,8 @@ Studied why threads provide multiple execution paths within a process, which res
 ## 2026-10-10 — Lesson 66: CPU Scheduling
 
 Studied how the OS chooses runnable threads for CPU time and balances fairness, responsiveness, throughput, and policy requirements. Distinguished running, runnable, and waiting states; covered preemption, time slices, and context-switch overhead. Compared FCFS, SJF, SRTF, Round Robin, priority scheduling, MLFQ, and EDF, including their trade-offs. Connected classic scheduling concepts to Linux's fair-scheduling class and real-time policies such as `SCHED_FIFO` and `SCHED_RR`, and reviewed how to investigate CPU contention and interpret load average in production. Next: Lesson 67 — Memory Management.
+
+
+## 2026-10-10 — Lesson 67: Memory Management
+
+Studied virtual memory and physical RAM, process address spaces, paging, page frames, page tables, the MMU and TLB, and memory protection. Distinguished normal page faults from invalid memory accesses, and covered demand paging, minor versus major faults, copy-on-write, memory reclamation, swap, and OOM behavior. Practiced inspecting Linux memory with `free` and `/proc` interfaces, and connected memory pressure and page-fault activity to production latency. Next: Lesson 68 — File Systems.
