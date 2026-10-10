@@ -106,3 +106,8 @@ Studied Linux users, groups, UIDs/GIDs, ownership, and the traditional owner/gro
 ## 2026-10-10 — Lesson 70: Linux Signals
 
 Studied Linux signals as kernel-managed notifications for processes and threads. Compared `SIGTERM`, `SIGKILL`, `SIGINT`, `SIGSTOP`, `SIGCONT`, and `SIGCHLD`; examined signal delivery, default actions, handlers, blocked and pending signals, standard-signal coalescing, and process-directed versus thread-directed signals. Connected signals to graceful backend shutdown, process supervision, and safe Linux process inspection. Next: Lesson 71 — Linux Services.
+
+
+## 2026-10-10 — Lesson 71: Linux Services
+
+Studied Linux services as managed operational units and distinguished them from individual processes. Examined `systemd` as a common Linux service manager, unit configuration, lifecycle states, dependencies, restart policies, and the difference between starting and enabling a service. Practiced inspecting service status and logs with `systemctl` and `journalctl`, and connected service shutdown to `SIGTERM`, bounded cleanup, and production reliability. Next: Lesson 72 — Linux Networking Tools.

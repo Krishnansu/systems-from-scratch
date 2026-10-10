@@ -41,15 +41,16 @@ Module 02 — HTTP is complete through Lesson 62.
 - Lesson 68 — File Systems
 - Lesson 69 — Linux Permissions
 - Lesson 70 — Linux Signals
+- Lesson 71 — Linux Services
 
 ### Current Position
 
-Studied Linux architecture, processes, threads, CPU scheduling, memory management, file systems, permissions, and signals including termination requests, forced termination, pending/blocked signals, handlers, and safe process inspection.
+Studied Linux architecture, processes, threads, CPU scheduling, memory management, file systems, permissions, signals, and service management including `systemd`, unit lifecycle, startup configuration, restart policies, logs, and graceful shutdown.
 
 ### Current Lesson
 
-Lesson 70 — Linux Signals
+Lesson 71 — Linux Services
 
 ### Next Lesson
 
-Lesson 71 — Linux Services
+Lesson 72 — Linux Networking Tools
