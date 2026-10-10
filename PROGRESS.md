@@ -42,15 +42,16 @@ Module 02 — HTTP is complete through Lesson 62.
 - Lesson 69 — Linux Permissions
 - Lesson 70 — Linux Signals
 - Lesson 71 — Linux Services
+- Lesson 72 — Linux Networking Tools
 
 ### Current Position
 
-Studied Linux architecture, processes, threads, CPU scheduling, memory management, file systems, permissions, signals, and service management including `systemd`, unit lifecycle, startup configuration, restart policies, logs, and graceful shutdown.
+Studied Linux architecture, processes, threads, scheduling, memory management, filesystems, permissions, signals, services, and networking tools for inspecting interfaces, addresses, routes, sockets, and reachability.
 
 ### Current Lesson
 
-Lesson 71 — Linux Services
+Lesson 72 — Linux Networking Tools
 
 ### Next Lesson
 
-Lesson 72 — Linux Networking Tools
+Lesson 73 — Linux Module Consolidation

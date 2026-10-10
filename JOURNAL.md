@@ -111,3 +111,7 @@ Studied Linux signals as kernel-managed notifications for processes and threads.
 ## 2026-10-10 — Lesson 71: Linux Services
 
 Studied Linux services as managed operational units and distinguished them from individual processes. Examined `systemd` as a common Linux service manager, unit configuration, lifecycle states, dependencies, restart policies, and the difference between starting and enabling a service. Practiced inspecting service status and logs with `systemctl` and `journalctl`, and connected service shutdown to `SIGTERM`, bounded cleanup, and production reliability. Next: Lesson 72 — Linux Networking Tools.
+
+## Lesson 72 — Linux Networking Tools
+
+Learned to inspect Linux network interfaces and assigned IP addresses with `ip link` and `ip addr`, examine routing tables and destination-specific route choices with `ip route`, and inspect listening sockets and established TCP connections with `ss`. Distinguished ICMP reachability checks using `ping` from actual HTTP requests using `curl`. Practiced diagnosing a service that works locally but is unreachable remotely, including checking whether it listens only on loopback, and reinforced that interface state, routing, sockets, firewalls, network namespaces, and application health are separate pieces of evidence.
