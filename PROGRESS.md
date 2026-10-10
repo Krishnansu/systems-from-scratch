@@ -38,15 +38,16 @@ Module 02 — HTTP is complete through Lesson 62.
 - Lesson 65 — Threads
 - Lesson 66 — CPU Scheduling
 - Lesson 67 — Memory Management
+- Lesson 68 — File Systems
 
 ### Current Position
 
-Studied Linux architecture, processes, threads, CPU scheduling, virtual address spaces, paging, page tables, page faults, copy-on-write, memory pressure, swap, and process memory metrics.
+Studied Linux architecture, processes, threads, CPU scheduling, memory management, virtual address spaces, paging, page faults, memory reclamation, swap, and file-system fundamentals including inodes, file descriptors, VFS, page cache, and mount points.
 
 ### Current Lesson
 
-Lesson 67 — Memory Management
+Lesson 68 — File Systems
 
 ### Next Lesson
 
-Lesson 68 — File Systems
+Lesson 69 — Linux Permissions

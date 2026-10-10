@@ -91,3 +91,8 @@ Studied how the OS chooses runnable threads for CPU time and balances fairness, 
 ## 2026-10-10 — Lesson 67: Memory Management
 
 Studied virtual memory and physical RAM, process address spaces, paging, page frames, page tables, the MMU and TLB, and memory protection. Distinguished normal page faults from invalid memory accesses, and covered demand paging, minor versus major faults, copy-on-write, memory reclamation, swap, and OOM behavior. Practiced inspecting Linux memory with `free` and `/proc` interfaces, and connected memory pressure and page-fault activity to production latency. Next: Lesson 68 — File Systems.
+
+
+## 2026-10-10 — Lesson 68: File Systems
+
+Studied why file systems are needed to organize storage, and how paths, directories, inodes, hard links, symbolic links, and file descriptors relate. Traced the Linux file-open path through system calls, path lookup, VFS, filesystem implementations, and the page cache or storage I/O. Connected mount points and inode capacity to production debugging, and practiced inspecting filesystems, free space, and open descriptors. Next: Lesson 69 — Linux Permissions.
