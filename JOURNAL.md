@@ -76,3 +76,13 @@ Started the Linux module by examining why operating systems are needed and how h
 ## 2026-10-10 — Lesson 64: Processes
 
 Studied the difference between a program and a process, process creation with `fork()` and program replacement with `execve()`, scheduling and context switching, common process states, parent-child relationships, virtual memory, file descriptors, and practical Linux process inspection for production debugging.
+
+
+## 2026-10-10 — Lesson 65: Threads
+
+Studied why threads provide multiple execution paths within a process, which resources are shared versus thread-local, how Linux represents and schedules threads, and the distinction between concurrency and parallelism. Explored race conditions, mutexes, contention, deadlocks, event-loop alternatives, and commands for inspecting Linux threads.
+
+
+## 2026-10-10 — Lesson 66: CPU Scheduling
+
+Studied how the OS chooses runnable threads for CPU time and balances fairness, responsiveness, throughput, and policy requirements. Distinguished running, runnable, and waiting states; covered preemption, time slices, and context-switch overhead. Compared FCFS, SJF, SRTF, Round Robin, priority scheduling, MLFQ, and EDF, including their trade-offs. Connected classic scheduling concepts to Linux's fair-scheduling class and real-time policies such as `SCHED_FIFO` and `SCHED_RR`, and reviewed how to investigate CPU contention and interpret load average in production. Next: Lesson 67 — Memory Management.

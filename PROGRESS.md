@@ -35,15 +35,17 @@ Module 02 — HTTP is complete through Lesson 62.
 
 - Lesson 63 — Linux Architecture
 - Lesson 64 — Processes
+- Lesson 65 — Threads
+- Lesson 66 — CPU Scheduling
 
 ### Current Position
 
-Studied process identity and resources, process creation and program replacement, scheduling, lifecycle states, and Linux process inspection for production debugging.
+Studied Linux architecture, processes, threads, concurrency and parallelism, event loops, CPU scheduling states, preemption, context switching, common scheduling algorithms, and Linux scheduling policies.
 
 ### Current Lesson
 
-Lesson 64 — Processes
+Lesson 66 — CPU Scheduling
 
 ### Next Lesson
 
-Lesson 65 — Threads
+Lesson 67 — Memory Management
