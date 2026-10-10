@@ -71,3 +71,8 @@ Consolidated the complete HTTP module into a single systems mental model. Review
 ## Lesson 63 — Linux Architecture
 
 Started the Linux module by examining why operating systems are needed and how hardware, the Linux kernel, and user space fit together. Covered kernel responsibilities, system calls, user mode versus kernel mode, the distinction between root and kernel mode, and the role of shells and distributions. Traced conceptual file-read and network-send paths and explored basic Linux inspection commands. Connected these architectural boundaries to production debugging and prepared the foundation for processes, scheduling, memory, filesystems, and networking.
+
+
+## 2026-10-10 — Lesson 64: Processes
+
+Studied the difference between a program and a process, process creation with `fork()` and program replacement with `execve()`, scheduling and context switching, common process states, parent-child relationships, virtual memory, file descriptors, and practical Linux process inspection for production debugging.

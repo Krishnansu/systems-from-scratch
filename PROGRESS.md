@@ -34,15 +34,16 @@ Module 02 — HTTP is complete through Lesson 62.
 ### Completed
 
 - Lesson 63 — Linux Architecture
+- Lesson 64 — Processes
 
 ### Current Position
 
-Started the Linux module. Established the distinction between hardware, the Linux kernel, and user space, including system calls and CPU privilege boundaries.
+Studied process identity and resources, process creation and program replacement, scheduling, lifecycle states, and Linux process inspection for production debugging.
 
 ### Current Lesson
 
-Lesson 63 — Linux Architecture
+Lesson 64 — Processes
 
 ### Next Lesson
 
-Lesson 64 — Processes
+Lesson 65 — Threads
