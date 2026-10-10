@@ -25,20 +25,24 @@
 - Lesson 61 — HTTP vs WebSocket vs WebRTC
 - Lesson 62 — HTTP Module Consolidation
 
+### Status
+
+Module 02 — HTTP is complete through Lesson 62.
+
+## Module 03 — Linux
+
+### Completed
+
+- Lesson 63 — Linux Architecture
+
 ### Current Position
 
-The HTTP module is complete through Lesson 62. The module covered HTTP/1.1 and HTTP/2 evolution, QUIC and HTTP/3, sessions, JWT, caching, compression, WebSockets, WebSocket protocol internals and reliability, WebSockets at scale, WebRTC, and the final consolidation of communication models and systems trade-offs.
+Started the Linux module. Established the distinction between hardware, the Linux kernel, and user space, including system calls and CPU privilege boundaries.
 
 ### Current Lesson
 
-Lesson 62 — HTTP Module Consolidation
-
-Consolidated the complete HTTP module and connected protocol evolution, authentication, performance mechanisms, persistent real-time communication, peer-to-peer communication, and distributed systems concerns into one systems mental model.
-
-### Next Phase
-
-The HTTP module is complete. Continue with the next module defined by the roadmap.
+Lesson 63 — Linux Architecture
 
 ### Next Lesson
 
-Continue to the next module in the roadmap.
+Lesson 64 — Processes

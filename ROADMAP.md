@@ -81,27 +81,27 @@
 
 ### HTTP Evolution
 
-- [ ] HTTP/1.1 Internals
-- [ ] HTTP/1.1 Limitations
-- [ ] HTTP/2 Fundamentals
-- [ ] HTTP/2 Frames
-- [ ] HTTP/2 Streams
-- [ ] HTTP/2 Multiplexing
-- [ ] HTTP/2 Head-of-Line Blocking
-- [ ] QUIC Fundamentals
-- [ ] QUIC Streams
-- [ ] QUIC Reliability
-- [ ] QUIC vs TCP
-- [ ] HTTP/3 Fundamentals
-- [ ] HTTP/1.1 vs HTTP/2 vs HTTP/3
+- [x] HTTP/1.1 Internals
+- [x] HTTP/1.1 Limitations
+- [x] HTTP/2 Fundamentals
+- [x] HTTP/2 Frames
+- [x] HTTP/2 Streams
+- [x] HTTP/2 Multiplexing
+- [x] HTTP/2 Head-of-Line Blocking
+- [x] QUIC Fundamentals
+- [x] QUIC Streams
+- [x] QUIC Reliability
+- [x] QUIC vs TCP
+- [x] HTTP/3 Fundamentals
+- [x] HTTP/1.1 vs HTTP/2 vs HTTP/3
 
 ### Higher-Level HTTP
 
-- [ ] Sessions
-- [ ] JWT
-- [ ] Caching
-- [ ] Compression
-- [ ] WebSockets
+- [x] Sessions
+- [x] JWT
+- [x] Caching
+- [x] Compression
+- [x] WebSockets
 
 ---
 

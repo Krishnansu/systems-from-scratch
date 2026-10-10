@@ -67,3 +67,7 @@ Compared HTTP, WebSocket, and WebRTC as different communication models. Establis
 ## Lesson 62 — HTTP Module Consolidation
 
 Consolidated the complete HTTP module into a single systems mental model. Reviewed the evolution from HTTP/1.1 to HTTP/2, QUIC, and HTTP/3, then connected sessions and JWT to authentication state, caching and compression to performance, WebSockets to persistent server-backed real-time communication, and WebRTC to peer-to-peer real-time media and data. Reinforced that these technologies form a toolbox rather than a simple replacement chain, and that systems design should begin with the communication problem and required properties before selecting a technology. This lesson completes the HTTP module.
+
+## Lesson 63 — Linux Architecture
+
+Started the Linux module by examining why operating systems are needed and how hardware, the Linux kernel, and user space fit together. Covered kernel responsibilities, system calls, user mode versus kernel mode, the distinction between root and kernel mode, and the role of shells and distributions. Traced conceptual file-read and network-send paths and explored basic Linux inspection commands. Connected these architectural boundaries to production debugging and prepared the foundation for processes, scheduling, memory, filesystems, and networking.
