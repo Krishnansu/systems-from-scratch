@@ -43,15 +43,16 @@ Module 02 — HTTP is complete through Lesson 62.
 - Lesson 70 — Linux Signals
 - Lesson 71 — Linux Services
 - Lesson 72 — Linux Networking Tools
+- Lesson 73 — Linux Module Consolidation
 
 ### Current Position
 
-Studied Linux architecture, processes, threads, scheduling, memory management, filesystems, permissions, signals, services, and networking tools for inspecting interfaces, addresses, routes, sockets, and reachability.
+Completed the Linux fundamentals sequence and consolidated how kernel and user-space mechanisms cooperate during service operation and production troubleshooting.
 
 ### Current Lesson
 
-Lesson 72 — Linux Networking Tools
+Lesson 73 — Linux Module Consolidation
 
 ### Next Lesson
 
-Lesson 73 — Linux Module Consolidation
+Lesson 74 — API Fundamentals

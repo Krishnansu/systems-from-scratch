@@ -115,3 +115,8 @@ Studied Linux services as managed operational units and distinguished them from 
 ## Lesson 72 — Linux Networking Tools
 
 Learned to inspect Linux network interfaces and assigned IP addresses with `ip link` and `ip addr`, examine routing tables and destination-specific route choices with `ip route`, and inspect listening sockets and established TCP connections with `ss`. Distinguished ICMP reachability checks using `ping` from actual HTTP requests using `curl`. Practiced diagnosing a service that works locally but is unreachable remotely, including checking whether it listens only on loopback, and reinforced that interface state, routing, sockets, firewalls, network namespaces, and application health are separate pieces of evidence.
+
+
+## 2026-10-10 — Lesson 73: Linux Module Consolidation
+
+Consolidated Linux architecture, processes, threads, scheduling, memory, filesystems, permissions, signals, services, and networking into a production troubleshooting mental model. Connected service state, process health, listening sockets, resource pressure, access control, and downstream dependencies. Practiced choosing targeted diagnostics from symptoms, separating evidence from assumptions, and verifying fixes rather than repeatedly restarting services or making broad changes. Next: Lesson 74 — API Fundamentals.
