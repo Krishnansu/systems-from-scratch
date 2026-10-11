@@ -107,16 +107,16 @@
 
 ## Module 03 — Linux
 
-- [ ] Linux Architecture
-- [ ] Processes
-- [ ] Threads
-- [ ] Scheduling
-- [ ] Memory
-- [ ] File Systems
-- [ ] Permissions
-- [ ] Signals
-- [ ] Services
-- [ ] Networking Tools
+- [x] Linux Architecture
+- [x] Processes
+- [x] Threads
+- [x] Scheduling
+- [x] Memory
+- [x] File Systems
+- [x] Permissions
+- [x] Signals
+- [x] Services
+- [x] Networking Tools
 
 ---
 
