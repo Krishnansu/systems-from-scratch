@@ -78,7 +78,7 @@ REST does not require this exact deployment architecture.
 ## Key Takeaways
 1. REST organizes interactions around resources and representations.
 2. Standard HTTP methods communicate intended behavior.
-3. Safe and idempotent are distinct properties.
+3. Safe and idempotent are distinct properties (safe describes whether a request intends to change resource state; idempotent describes whether repeating it has the same intended effect on state.)
 4. Stateless interactions support independent request handling.
 5. API contracts must explicitly define errors, validation, security, and compatibility.
 
