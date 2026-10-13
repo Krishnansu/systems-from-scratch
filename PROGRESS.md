@@ -54,15 +54,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 ### Completed
 
 - Lesson 74 — API Fundamentals
+- Lesson 75 — REST Fundamentals
 
 ### Current Position
 
-Started the APIs module by establishing the purpose of APIs, the separation between an API contract and its implementation, and the roles of clients, servers, endpoints, resources, requests, and responses.
+Studied REST as an architectural style, resource identifiers and representations, the six REST constraints, HTTP method semantics, safety, idempotency, and resource-oriented URL conventions.
 
 ### Current Lesson
 
-Lesson 74 — API Fundamentals
+Lesson 75 — REST Fundamentals
 
 ### Next Lesson
 
-Lesson 75 — REST Fundamentals
+Lesson 76 — REST API Design in Practice

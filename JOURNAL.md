@@ -125,3 +125,8 @@ Consolidated Linux architecture, processes, threads, scheduling, memory, filesys
 ## 2026-10-13 — Lesson 74: API Fundamentals
 
 Started Module 04 by defining APIs as interfaces that let software components interact through agreed contracts. Distinguished APIs from HTTP, backend services, clients, and databases. Walked through a GET request for an order and connected endpoint methods, resources, requests, responses, and JSON representations. Examined why stable contracts enable independent client and server development, how incompatible response changes can break consumers, and why API boundaries still require explicit authentication, authorization, and input validation. Next: Lesson 75 — REST Fundamentals.
+
+
+## 2026-10-13 — Lesson 75: REST Fundamentals
+
+Studied REST as an architectural style for distributed systems and distinguished it from HTTP and from the broader category of HTTP + JSON APIs. Covered resources, resource identifiers, representations, the six REST constraints, and resource-oriented endpoint design. Compared GET, POST, PUT, PATCH, and DELETE, including safe and idempotent semantics and why retries require care after timeouts. Connected these principles to filtering, pagination, gateways, backend services, and production API contracts. Next: Lesson 76 — REST API Design in Practice.
