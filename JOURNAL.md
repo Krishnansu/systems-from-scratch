@@ -120,3 +120,8 @@ Learned to inspect Linux network interfaces and assigned IP addresses with `ip l
 ## 2026-10-10 — Lesson 73: Linux Module Consolidation
 
 Consolidated Linux architecture, processes, threads, scheduling, memory, filesystems, permissions, signals, services, and networking into a production troubleshooting mental model. Connected service state, process health, listening sockets, resource pressure, access control, and downstream dependencies. Practiced choosing targeted diagnostics from symptoms, separating evidence from assumptions, and verifying fixes rather than repeatedly restarting services or making broad changes. Next: Lesson 74 — API Fundamentals.
+
+
+## 2026-10-13 — Lesson 74: API Fundamentals
+
+Started Module 04 by defining APIs as interfaces that let software components interact through agreed contracts. Distinguished APIs from HTTP, backend services, clients, and databases. Walked through a GET request for an order and connected endpoint methods, resources, requests, responses, and JSON representations. Examined why stable contracts enable independent client and server development, how incompatible response changes can break consumers, and why API boundaries still require explicit authentication, authorization, and input validation. Next: Lesson 75 — REST Fundamentals.

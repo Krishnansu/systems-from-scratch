@@ -45,14 +45,24 @@ Module 02 — HTTP is complete through Lesson 62.
 - Lesson 72 — Linux Networking Tools
 - Lesson 73 — Linux Module Consolidation
 
+### Status
+
+Module 03 — Linux fundamentals and consolidation are complete through Lesson 73.
+
+## Module 04 — APIs
+
+### Completed
+
+- Lesson 74 — API Fundamentals
+
 ### Current Position
 
-Completed the Linux fundamentals sequence and consolidated how kernel and user-space mechanisms cooperate during service operation and production troubleshooting.
+Started the APIs module by establishing the purpose of APIs, the separation between an API contract and its implementation, and the roles of clients, servers, endpoints, resources, requests, and responses.
 
 ### Current Lesson
 
-Lesson 73 — Linux Module Consolidation
+Lesson 74 — API Fundamentals
 
 ### Next Lesson
 
-Lesson 74 — API Fundamentals
+Lesson 75 — REST Fundamentals
