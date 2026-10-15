@@ -55,15 +55,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 
 - Lesson 74 — API Fundamentals
 - Lesson 75 — REST Fundamentals
+- Lesson 76 — REST API Design in Practice
 
 ### Current Position
 
-Studied REST as an architectural style, resource identifiers and representations, the six REST constraints, HTTP method semantics, safety, idempotency, and resource-oriented URL conventions.
+Completed API fundamentals and REST design, including resource modeling, HTTP status codes, error contracts, pagination, and backward compatibility. Ready to move from REST to GraphQL.
 
 ### Current Lesson
 
-Lesson 75 — REST Fundamentals
+Lesson 76 — REST API Design in Practice
 
 ### Next Lesson
 
-Lesson 76 — REST API Design in Practice
+Lesson 77 — GraphQL Fundamentals

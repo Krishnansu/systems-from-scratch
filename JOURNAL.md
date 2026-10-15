@@ -130,3 +130,8 @@ Started Module 04 by defining APIs as interfaces that let software components in
 ## 2026-10-13 — Lesson 75: REST Fundamentals
 
 Studied REST as an architectural style for distributed systems and distinguished it from HTTP and from the broader category of HTTP + JSON APIs. Covered resources, resource identifiers, representations, the six REST constraints, and resource-oriented endpoint design. Compared GET, POST, PUT, PATCH, and DELETE, including safe and idempotent semantics and why retries require care after timeouts. Connected these principles to filtering, pagination, gateways, backend services, and production API contracts. Next: Lesson 76 — REST API Design in Practice.
+
+
+## 2026-10-15 — Lesson 76: REST API Design in Practice
+
+Applied REST principles to production API contracts. Covered resource-oriented URLs, relationship modeling and nested-route trade-offs, HTTP status codes, consistent error responses using Problem Details, filtering and pagination with offset and cursor approaches, deterministic ordering, and API versioning and backward compatibility. Connected endpoint design to authorization, validation, database performance, observability, and safe error handling. Next: Lesson 77 — GraphQL Fundamentals.
