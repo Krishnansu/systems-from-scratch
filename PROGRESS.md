@@ -56,15 +56,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 - Lesson 74 — API Fundamentals
 - Lesson 75 — REST Fundamentals
 - Lesson 76 — REST API Design in Practice
+- Lesson 77 — GraphQL Fundamentals
 
 ### Current Position
 
-Completed API fundamentals and REST design, including resource modeling, HTTP status codes, error contracts, pagination, and backward compatibility. Ready to move from REST to GraphQL.
+Studied REST API design and GraphQL fundamentals, including schema types, queries, mutations, resolvers, the N+1 problem, and production trade-offs.
 
 ### Current Lesson
 
-Lesson 76 — REST API Design in Practice
+Lesson 77 — GraphQL Fundamentals
 
 ### Next Lesson
 
-Lesson 77 — GraphQL Fundamentals
+Lesson 78 — GraphQL Execution, Resolvers & DataLoader

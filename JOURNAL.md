@@ -135,3 +135,8 @@ Studied REST as an architectural style for distributed systems and distinguished
 ## 2026-10-15 — Lesson 76: REST API Design in Practice
 
 Applied REST principles to production API contracts. Covered resource-oriented URLs, relationship modeling and nested-route trade-offs, HTTP status codes, consistent error responses using Problem Details, filtering and pagination with offset and cursor approaches, deterministic ordering, and API versioning and backward compatibility. Connected endpoint design to authorization, validation, database performance, observability, and safe error handling. Next: Lesson 77 — GraphQL Fundamentals.
+
+
+## 2026-10-15 — Lesson 77: GraphQL Fundamentals
+
+Introduced GraphQL as a typed API query language and execution runtime. Covered why client-selected fields can reduce over-fetching and under-fetching, schema types and nullability, queries, mutations, variables, and resolver execution. Examined the N+1 problem and batching, and connected GraphQL to production concerns including authorization, query complexity, caching, and observability. Compared GraphQL and REST as complementary API design choices with different operational trade-offs. Next: Lesson 78 — GraphQL Execution, Resolvers & DataLoader.
