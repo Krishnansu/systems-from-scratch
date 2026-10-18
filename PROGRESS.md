@@ -58,15 +58,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 - Lesson 76 — REST API Design in Practice
 - Lesson 77 — GraphQL Fundamentals
 - Lesson 78 — GraphQL Execution, Resolvers & DataLoader
+- Lesson 79 — GraphQL Performance, Security & Production Design
 
 ### Current Position
 
-Studied REST API design, GraphQL schemas and queries, resolver execution, the N+1 problem, DataLoader batching and caching, and null propagation.
+Studied REST API design, GraphQL schemas and execution, resolver performance, query-cost controls, pagination, authorization, caching safety, and production observability.
 
 ### Current Lesson
 
-Lesson 78 — GraphQL Execution, Resolvers & DataLoader
+Lesson 79 — GraphQL Performance, Security & Production Design
 
 ### Next Lesson
 
-Lesson 79 — GraphQL Performance, Security & Production Design
+Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention

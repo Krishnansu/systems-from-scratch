@@ -145,3 +145,8 @@ Introduced GraphQL as a typed API query language and execution runtime. Covered 
 ## 2026-10-17 — Lesson 78: GraphQL Execution, Resolvers & DataLoader
 
 Traced GraphQL operations from parsing and validation through field execution and response assembly. Examined resolver arguments, parent values, context, and data-source boundaries. Explained the N+1 query problem and how DataLoader batches keys and caches repeated loads within a request, including the requirement to preserve key order. Covered query versus mutation execution ordering, null propagation for non-null fields, request-scoped cache safety, and production concerns around authorization and observability. Next: Lesson 79 — GraphQL Performance, Security & Production Design.
+
+
+## 2026-10-18 — Lesson 79: GraphQL Performance, Security & Production Design
+
+Studied production GraphQL guardrails, including query depth and complexity, pagination caps, aliases and fan-out, authorization boundaries, cache scope and invalidation, persisted queries, introspection policy, timeout and cancellation limitations, and observability across resolvers, databases, DataLoader, and downstream dependencies. Reinforced that schema validation does not authorize access and that reducing HTTP request count does not necessarily reduce backend work. Next: Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention.
