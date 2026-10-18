@@ -15,15 +15,16 @@
 - Lesson 82 — gRPC Fundamentals
 - Lesson 83 — Authentication Fundamentals
 - Lesson 84 — Authorization Fundamentals
+- Lesson 85 — OAuth Fundamentals
 
 ### Current Position
 
-Completed API authorization fundamentals, authorization models, resource-level access checks, and IDOR/BOLA prevention.
+Completed OAuth fundamentals, including OAuth roles, Authorization Code with PKCE, token types, scopes, OpenID Connect distinctions, and Client Credentials flow.
 
 ### Current Lesson
 
-Lesson 84 — Authorization Fundamentals
+Lesson 85 — OAuth Fundamentals
 
 ### Next Lesson
 
-Lesson 85 — OAuth Fundamentals.
+Lesson 86 — API Gateway Fundamentals.

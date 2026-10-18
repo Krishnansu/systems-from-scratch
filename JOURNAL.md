@@ -175,3 +175,8 @@ Studied authentication as the process of establishing a user's, service's, or wo
 ## 2026-10-18 — Lesson 84: Authorization Fundamentals
 
 Studied authorization as the decision about which actions an authenticated identity may perform on specific resources. Compared RBAC, ABAC, and ReBAC; examined gateway versus backend authorization boundaries; and covered object-level access checks, IDOR/BOLA vulnerabilities, least privilege, and deny-by-default policies. Reinforced that valid authentication does not imply permission to access every resource, and that hiding frontend controls or using unpredictable identifiers cannot replace server-side authorization. Next: Lesson 85 — OAuth Fundamentals.
+
+
+## 2026-10-18 — Lesson 85: OAuth Fundamentals
+
+Studied OAuth as a delegated-authorization framework and distinguished it from authentication and OpenID Connect. Covered the resource owner, client, authorization server, and resource server; traced Authorization Code with PKCE; and differentiated authorization codes, access tokens, refresh tokens, and OIDC ID tokens. Examined scopes, audience validation, token protection, redirect URI validation, and Client Credentials for application-level access without user delegation. Reinforced that token validity does not replace resource-level authorization. Next: Lesson 86 — API Gateway Fundamentals.
