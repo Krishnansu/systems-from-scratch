@@ -60,15 +60,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 - Lesson 78 — GraphQL Execution, Resolvers & DataLoader
 - Lesson 79 — GraphQL Performance, Security & Production Design
 - Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention
+- Lesson 81 — Circuit Breakers & Resilience
 
 ### Current Position
 
-Completed API rate limiting, quotas, common algorithms, tenant-aware enforcement, distributed limiter state, retry behavior, and abuse-prevention trade-offs.
+Completed circuit breaker states, local versus shared breaker behavior, timeouts, retries, bulkheads, and safe fallback strategies.
 
 ### Current Lesson
 
-Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention
+Lesson 81 — Circuit Breakers & Resilience
 
 ### Next Lesson
 
-Lesson 81 — Circuit Breakers & Resilience (proposed continuation).
+Lesson 82 — gRPC Fundamentals (proposed continuation).

@@ -155,3 +155,8 @@ Studied production GraphQL guardrails, including query depth and complexity, pag
 ## 2026-10-18 — Lesson 80: API Rate Limiting, Quotas & Abuse Prevention
 
 Studied why APIs need rate limits and how they differ from quotas, concurrency limits, and query-cost limits. Compared fixed windows, sliding windows, token buckets, and leaky buckets, including their burst and resource trade-offs. Covered tenant-aware limit keys, shared enforcement across multiple API servers, atomic limiter state, Redis failure policies, HTTP 429 and Retry-After, exponential backoff with jitter, and production observability. The exercise reinforced that a shared limiter prevents per-server limits from multiplying, burst acceptance depends on the algorithm and policy, and concurrency limits protect expensive long-running work. Next: Lesson 81 — Circuit Breakers & Resilience (proposed continuation).
+
+
+## 2026-10-18 — Lesson 81: Circuit Breakers & Resilience
+
+Studied circuit breakers as a defense against cascading failures in distributed services. Covered Closed, Open, and Half-Open states; thresholds and recovery probes; and how breakers complement timeouts, bounded retries, rate limits, bulkheads, and fallbacks. Examined per-pod breaker state versus shared coordination, failure classification, synchronized recovery traffic, and safe degraded responses. The exercise reinforced that local breakers can react independently and that fallbacks must preserve product correctness. Next: Lesson 82 — gRPC Fundamentals (proposed continuation).
