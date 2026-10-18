@@ -170,3 +170,8 @@ Studied RPC and gRPC as a service-to-service communication model. Covered Protob
 ## 2026-10-18 — Lesson 83: Authentication Fundamentals
 
 Studied authentication as the process of establishing a user's, service's, or workload's identity, and distinguished it from authorization. Covered identities, credentials, principals, server-side sessions, access tokens, JWT validation, and opaque-token introspection. Examined production trust boundaries across identity providers, API gateways, and backend services, including the risks of spoofable identity headers and gateway bypasses. Distinguished user identity from workload identity and discussed how service-to-service authentication can use mechanisms such as mTLS. Next: Lesson 84 — Authorization Fundamentals.
+
+
+## 2026-10-18 — Lesson 84: Authorization Fundamentals
+
+Studied authorization as the decision about which actions an authenticated identity may perform on specific resources. Compared RBAC, ABAC, and ReBAC; examined gateway versus backend authorization boundaries; and covered object-level access checks, IDOR/BOLA vulnerabilities, least privilege, and deny-by-default policies. Reinforced that valid authentication does not imply permission to access every resource, and that hiding frontend controls or using unpredictable identifiers cannot replace server-side authorization. Next: Lesson 85 — OAuth Fundamentals.
