@@ -59,15 +59,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 - Lesson 77 — GraphQL Fundamentals
 - Lesson 78 — GraphQL Execution, Resolvers & DataLoader
 - Lesson 79 — GraphQL Performance, Security & Production Design
+- Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention
 
 ### Current Position
 
-Studied REST API design, GraphQL schemas and execution, resolver performance, query-cost controls, pagination, authorization, caching safety, and production observability.
+Completed API rate limiting, quotas, common algorithms, tenant-aware enforcement, distributed limiter state, retry behavior, and abuse-prevention trade-offs.
 
 ### Current Lesson
 
-Lesson 79 — GraphQL Performance, Security & Production Design
+Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention
 
 ### Next Lesson
 
-Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention
+Lesson 81 — Circuit Breakers & Resilience (proposed continuation).

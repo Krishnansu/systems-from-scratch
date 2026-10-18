@@ -150,3 +150,8 @@ Traced GraphQL operations from parsing and validation through field execution an
 ## 2026-10-18 — Lesson 79: GraphQL Performance, Security & Production Design
 
 Studied production GraphQL guardrails, including query depth and complexity, pagination caps, aliases and fan-out, authorization boundaries, cache scope and invalidation, persisted queries, introspection policy, timeout and cancellation limitations, and observability across resolvers, databases, DataLoader, and downstream dependencies. Reinforced that schema validation does not authorize access and that reducing HTTP request count does not necessarily reduce backend work. Next: Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention.
+
+
+## 2026-10-18 — Lesson 80: API Rate Limiting, Quotas & Abuse Prevention
+
+Studied why APIs need rate limits and how they differ from quotas, concurrency limits, and query-cost limits. Compared fixed windows, sliding windows, token buckets, and leaky buckets, including their burst and resource trade-offs. Covered tenant-aware limit keys, shared enforcement across multiple API servers, atomic limiter state, Redis failure policies, HTTP 429 and Retry-After, exponential backoff with jitter, and production observability. The exercise reinforced that a shared limiter prevents per-server limits from multiplying, burst acceptance depends on the algorithm and policy, and concurrency limits protect expensive long-running work. Next: Lesson 81 — Circuit Breakers & Resilience (proposed continuation).
