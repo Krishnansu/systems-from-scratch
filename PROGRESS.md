@@ -61,15 +61,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 - Lesson 79 — GraphQL Performance, Security & Production Design
 - Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention
 - Lesson 81 — Circuit Breakers & Resilience
+- Lesson 82 — gRPC Fundamentals
 
 ### Current Position
 
-Completed circuit breaker states, local versus shared breaker behavior, timeouts, retries, bulkheads, and safe fallback strategies.
+Completed gRPC service contracts, Protobuf serialization and compatibility, generated stubs, HTTP/2 transport, RPC streaming patterns, and production reliability concerns.
 
 ### Current Lesson
 
-Lesson 81 — Circuit Breakers & Resilience
+Lesson 82 — gRPC Fundamentals
 
 ### Next Lesson
 
-Lesson 82 — gRPC Fundamentals (proposed continuation).
+Lesson 83 — Authentication Fundamentals (proposed continuation).

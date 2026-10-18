@@ -160,3 +160,8 @@ Studied why APIs need rate limits and how they differ from quotas, concurrency l
 ## 2026-10-18 — Lesson 81: Circuit Breakers & Resilience
 
 Studied circuit breakers as a defense against cascading failures in distributed services. Covered Closed, Open, and Half-Open states; thresholds and recovery probes; and how breakers complement timeouts, bounded retries, rate limits, bulkheads, and fallbacks. Examined per-pod breaker state versus shared coordination, failure classification, synchronized recovery traffic, and safe degraded responses. The exercise reinforced that local breakers can react independently and that fallbacks must preserve product correctness. Next: Lesson 82 — gRPC Fundamentals (proposed continuation).
+
+
+## 2026-10-18 — Lesson 82: gRPC Fundamentals
+
+Studied RPC and gRPC as a service-to-service communication model. Covered Protobuf service/message contracts, generated client stubs, field-number compatibility, and the request lifecycle over HTTP/2 streams and DATA frames. Compared unary, server-streaming, client-streaming, and bidirectional-streaming RPCs, and contrasted gRPC with REST. Reinforced that deadlines do not prove a remote side effect failed, so retries require care and idempotency for operations such as payments. Next: Lesson 83 — Authentication Fundamentals (proposed continuation).
