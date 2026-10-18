@@ -140,3 +140,8 @@ Applied REST principles to production API contracts. Covered resource-oriented U
 ## 2026-10-15 — Lesson 77: GraphQL Fundamentals
 
 Introduced GraphQL as a typed API query language and execution runtime. Covered why client-selected fields can reduce over-fetching and under-fetching, schema types and nullability, queries, mutations, variables, and resolver execution. Examined the N+1 problem and batching, and connected GraphQL to production concerns including authorization, query complexity, caching, and observability. Compared GraphQL and REST as complementary API design choices with different operational trade-offs. Next: Lesson 78 — GraphQL Execution, Resolvers & DataLoader.
+
+
+## 2026-10-17 — Lesson 78: GraphQL Execution, Resolvers & DataLoader
+
+Traced GraphQL operations from parsing and validation through field execution and response assembly. Examined resolver arguments, parent values, context, and data-source boundaries. Explained the N+1 query problem and how DataLoader batches keys and caches repeated loads within a request, including the requirement to preserve key order. Covered query versus mutation execution ordering, null propagation for non-null fields, request-scoped cache safety, and production concerns around authorization and observability. Next: Lesson 79 — GraphQL Performance, Security & Production Design.
