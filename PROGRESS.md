@@ -62,15 +62,16 @@ Module 03 — Linux fundamentals and consolidation are complete through Lesson 7
 - Lesson 80 — API Rate Limiting, Quotas & Abuse Prevention
 - Lesson 81 — Circuit Breakers & Resilience
 - Lesson 82 — gRPC Fundamentals
+- Lesson 83 — Authentication Fundamentals
 
 ### Current Position
 
-Completed gRPC service contracts, Protobuf serialization and compatibility, generated stubs, HTTP/2 transport, RPC streaming patterns, and production reliability concerns.
+Completed authentication fundamentals, identity and credentials, sessions and access tokens, gateway and backend authentication boundaries, and workload identity in distributed systems.
 
 ### Current Lesson
 
-Lesson 82 — gRPC Fundamentals
+Lesson 83 — Authentication Fundamentals
 
 ### Next Lesson
 
-Lesson 83 — Authentication Fundamentals (proposed continuation).
+Lesson 84 — Authorization Fundamentals.

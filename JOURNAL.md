@@ -165,3 +165,8 @@ Studied circuit breakers as a defense against cascading failures in distributed 
 ## 2026-10-18 — Lesson 82: gRPC Fundamentals
 
 Studied RPC and gRPC as a service-to-service communication model. Covered Protobuf service/message contracts, generated client stubs, field-number compatibility, and the request lifecycle over HTTP/2 streams and DATA frames. Compared unary, server-streaming, client-streaming, and bidirectional-streaming RPCs, and contrasted gRPC with REST. Reinforced that deadlines do not prove a remote side effect failed, so retries require care and idempotency for operations such as payments. Next: Lesson 83 — Authentication Fundamentals (proposed continuation).
+
+
+## 2026-10-18 — Lesson 83: Authentication Fundamentals
+
+Studied authentication as the process of establishing a user's, service's, or workload's identity, and distinguished it from authorization. Covered identities, credentials, principals, server-side sessions, access tokens, JWT validation, and opaque-token introspection. Examined production trust boundaries across identity providers, API gateways, and backend services, including the risks of spoofable identity headers and gateway bypasses. Distinguished user identity from workload identity and discussed how service-to-service authentication can use mechanisms such as mTLS. Next: Lesson 84 — Authorization Fundamentals.
