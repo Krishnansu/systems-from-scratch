@@ -144,7 +144,7 @@
 - [x] Routing
 - [x] Health 
 - [x] Firewall 
-- [ ] VPN
+- [x] VPN
 
 ---
 
