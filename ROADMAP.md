@@ -122,15 +122,15 @@
 
 ## Module 04 — APIs
 
-- [ ] REST
-- [ ] GraphQL
-- [ ] gRPC
-- [ ] Authentication
-- [ ] Authorization
-- [ ] OAuth
-- [ ] API Gateway
-- [ ] Rate Limiting
-- [ ] Circuit Breakers
+- [x] REST
+- [x] GraphQL
+- [x] gRPC
+- [x] Authentication
+- [x] Authorization
+- [x] OAuth
+- [x] API Gateway
+- [x] Rate Limiting
+- [x] Circuit Breakers
 
 ---
 
