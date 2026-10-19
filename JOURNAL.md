@@ -185,3 +185,8 @@ Studied OAuth as a delegated-authorization framework and distinguished it from a
 ## 2026-10-19 — Lesson 86: API Gateway Fundamentals
 
 Studied the API Gateway as an API-facing entry point for routing and cross-cutting policies such as TLS termination, authentication integration, rate limiting, and observability. Distinguished gateway routing to a logical service from load balancing across service instances and application routing to controllers. Examined common Kubernetes deployment patterns with gateway replicas, external entry points, Services, and backend pods. Reinforced that backend services retain resource-level authorization responsibilities and that timeouts do not prove a write operation failed, making safe retry and idempotency design essential. Next: Lesson 87 — Forward Proxy Fundamentals.
+
+
+## 2026-10-19 — Lesson 87: Forward Proxy Fundamentals
+
+Studied forward proxies as client-side intermediaries for outbound access policy, authentication, auditing, and caching. Traced HTTP forwarding and HTTPS CONNECT tunneling, distinguishing ordinary tunneling from TLS interception. Compared forward proxies with reverse proxies, NAT, and VPNs, and examined proxy bypass, open-proxy risks, and fail-open versus fail-closed behavior. Next: Lesson 88 — Reverse Proxy Fundamentals.
