@@ -205,3 +205,8 @@ Studied NGINX as a web server, reverse proxy, and load balancer. Read a basic co
 ## 2026-10-19 — Lesson 90: Load Balancing Fundamentals
 
 Studied why load balancing distributes work across backend instances and compared round robin, weighted round robin, least connections, latency-aware selection, and sticky sessions. Covered active and passive health checks, backend removal and recovery, retry safety and idempotency, shared-dependency bottlenecks, and load-balancer redundancy. The exercises reinforced that connection counts approximate rather than measure workload, and that scaling application instances can increase pressure on shared dependencies. Next: Lesson 91 — SSL/TLS Termination.
+
+
+## 2026-10-19 — Lesson 91: SSL/TLS Termination
+
+Studied TLS termination at a reverse proxy and compared plaintext upstream forwarding, TLS re-encryption, and TLS passthrough. Covered certificate and private-key roles, SNI versus HTTP Host, trusted forwarding headers, upstream certificate verification, mTLS, and certificate lifecycle management. The exercises reinforced that HTTPS at the edge does not automatically encrypt internal hops and that upstream TLS requires identity verification. Next: Lesson 92 — Routing Fundamentals.
