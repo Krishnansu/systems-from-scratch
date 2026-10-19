@@ -180,3 +180,8 @@ Studied authorization as the decision about which actions an authenticated ident
 ## 2026-10-18 — Lesson 85: OAuth Fundamentals
 
 Studied OAuth as a delegated-authorization framework and distinguished it from authentication and OpenID Connect. Covered the resource owner, client, authorization server, and resource server; traced Authorization Code with PKCE; and differentiated authorization codes, access tokens, refresh tokens, and OIDC ID tokens. Examined scopes, audience validation, token protection, redirect URI validation, and Client Credentials for application-level access without user delegation. Reinforced that token validity does not replace resource-level authorization. Next: Lesson 86 — API Gateway Fundamentals.
+
+
+## 2026-10-19 — Lesson 86: API Gateway Fundamentals
+
+Studied the API Gateway as an API-facing entry point for routing and cross-cutting policies such as TLS termination, authentication integration, rate limiting, and observability. Distinguished gateway routing to a logical service from load balancing across service instances and application routing to controllers. Examined common Kubernetes deployment patterns with gateway replicas, external entry points, Services, and backend pods. Reinforced that backend services retain resource-level authorization responsibilities and that timeouts do not prove a write operation failed, making safe retry and idempotency design essential. Next: Lesson 87 — Forward Proxy Fundamentals.

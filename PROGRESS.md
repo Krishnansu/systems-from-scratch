@@ -16,15 +16,16 @@
 - Lesson 83 — Authentication Fundamentals
 - Lesson 84 — Authorization Fundamentals
 - Lesson 85 — OAuth Fundamentals
+- Lesson 86 — API Gateway Fundamentals
 
 ### Current Position
 
-Completed OAuth fundamentals, including OAuth roles, Authorization Code with PKCE, token types, scopes, OpenID Connect distinctions, and Client Credentials flow.
+Completed the API module's planned lessons, including API design, protocols, authentication, authorization, resilience, and gateway fundamentals. Understand the distinction between gateway routing, load balancing, and application-level routing.
 
 ### Current Lesson
 
-Lesson 85 — OAuth Fundamentals
+Lesson 86 — API Gateway Fundamentals
 
 ### Next Lesson
 
-Lesson 86 — API Gateway Fundamentals.
+Lesson 87 — Forward Proxy Fundamentals (Module 05 — Reverse Proxy).
