@@ -6,15 +6,16 @@
 
 - Lesson 87 — Forward Proxy Fundamentals
 - Lesson 88 — Reverse Proxy Fundamentals
+- Lesson 89 — NGINX Fundamentals
 
 ### Current Position
 
-Completed forward and reverse proxy fundamentals, including outbound versus inbound proxying, request routing, TLS termination, load balancing roles, and backend protection.
+Completed forward and reverse proxy fundamentals and learned the NGINX configuration model for listening endpoints, virtual servers, URI routing, upstream proxying, and common failures.
 
 ### Current Lesson
 
-Lesson 88 — Reverse Proxy Fundamentals
+Lesson 89 — NGINX Fundamentals
 
 ### Next Lesson
 
-Lesson 89 — NGINX Fundamentals.
+Lesson 90 — Load Balancing Fundamentals.

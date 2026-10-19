@@ -195,3 +195,8 @@ Studied forward proxies as client-side intermediaries for outbound access policy
 ## 2026-10-19 — Lesson 88: Reverse Proxy Fundamentals
 
 Studied reverse proxies as controlled entry points for incoming requests. Traced request forwarding, host/path routing, TLS termination, and backend responses. Distinguished reverse proxies from forward proxies, load balancers, and API gateways, and covered trusted forwarding headers, backend authorization, and production failure concerns. Next: Lesson 89 — NGINX Fundamentals.
+
+
+## 2026-10-19 — Lesson 89: NGINX Fundamentals
+
+Studied NGINX as a web server, reverse proxy, and load balancer. Read a basic configuration using `listen`, `server_name`, `location`, and `proxy_pass`; traced request routing; compared upstream groups; and covered URI rewriting, forwarding headers, and 502/504 troubleshooting. Next: Lesson 90 — Load Balancing Fundamentals.
