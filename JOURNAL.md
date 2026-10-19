@@ -190,3 +190,8 @@ Studied the API Gateway as an API-facing entry point for routing and cross-cutti
 ## 2026-10-19 — Lesson 87: Forward Proxy Fundamentals
 
 Studied forward proxies as client-side intermediaries for outbound access policy, authentication, auditing, and caching. Traced HTTP forwarding and HTTPS CONNECT tunneling, distinguishing ordinary tunneling from TLS interception. Compared forward proxies with reverse proxies, NAT, and VPNs, and examined proxy bypass, open-proxy risks, and fail-open versus fail-closed behavior. Next: Lesson 88 — Reverse Proxy Fundamentals.
+
+
+## 2026-10-19 — Lesson 88: Reverse Proxy Fundamentals
+
+Studied reverse proxies as controlled entry points for incoming requests. Traced request forwarding, host/path routing, TLS termination, and backend responses. Distinguished reverse proxies from forward proxies, load balancers, and API gateways, and covered trusted forwarding headers, backend authorization, and production failure concerns. Next: Lesson 89 — NGINX Fundamentals.

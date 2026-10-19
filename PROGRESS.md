@@ -5,15 +5,16 @@
 ### Completed
 
 - Lesson 87 — Forward Proxy Fundamentals
+- Lesson 88 — Reverse Proxy Fundamentals
 
 ### Current Position
 
-Completed the forward proxy fundamentals: outbound client-side proxying, HTTP forwarding, HTTPS CONNECT tunneling, and the distinctions between proxies, NAT, and VPNs.
+Completed forward and reverse proxy fundamentals, including outbound versus inbound proxying, request routing, TLS termination, load balancing roles, and backend protection.
 
 ### Current Lesson
 
-Lesson 87 — Forward Proxy Fundamentals
+Lesson 88 — Reverse Proxy Fundamentals
 
 ### Next Lesson
 
-Lesson 88 — Reverse Proxy Fundamentals.
+Lesson 89 — NGINX Fundamentals.

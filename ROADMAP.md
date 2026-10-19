@@ -142,7 +142,9 @@
 - [ ] Load Balancing
 - [ ] SSL Termination
 - [ ] Routing
-- [ ] Health Checks
+- [ ] Health 
+- [ ] Firewall 
+- [ ] VPN
 
 ---
 
