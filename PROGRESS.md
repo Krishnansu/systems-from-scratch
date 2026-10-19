@@ -17,12 +17,13 @@
 
 ### Completed
 - Lesson 96 — Why Containers?
+- Lesson 97 — Images
 
 ### Current Position
-Started Module 06 by learning why containers exist, how they isolate processes while sharing the host kernel, and how they improve deployment consistency.
+Completed the introduction to containers and images. Understands why images package application files and dependencies, how containers are created from images, and why tags, digests, registries, runtime configuration, and secrets management matter for reliable deployments.
 
 ### Current Lesson
-Lesson 96 — Why Containers?
+Lesson 97 — Images
 
 ### Next Lesson
-Lesson 97 — Images
+Lesson 98 — Layers

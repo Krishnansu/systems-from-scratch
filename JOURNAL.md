@@ -235,3 +235,8 @@ Studied VPNs as protected logical connections over existing networks. Covered tu
 ## 2026-10-19 — Lesson 96: Why Containers?
 
 Started Module 06 — Docker. Learned how application environments cause deployment drift, why containers package application files and user-space dependencies, and how Linux namespaces, cgroups, filesystem isolation, and security controls support container execution. Compared containers with virtual machines and covered limits around security, configuration, networking, and persistent data. Next: Lesson 97 — Images.
+
+
+## 2026-10-19 — Lesson 97: Images
+
+Studied container images as packaged filesystem layers and metadata, and containers as runtime instances with configuration and a writable layer. Covered registries and the build → push → pull → run lifecycle; distinguished mutable tags such as `latest` from content-based digests; and connected artifact identity to reproducible production deployments. Reinforced that runtime configuration and secrets should generally remain outside the image, and that successful image retrieval does not prove successful application startup. Next: Lesson 98 — Layers.

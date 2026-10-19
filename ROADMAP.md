@@ -150,8 +150,8 @@
 
 ## Module 06 — Docker
 
-- [ ] Why Containers?
-- [ ] Images
+- [x] Why Containers?
+- [x] Images
 - [ ] Layers
 - [ ] Dockerfile
 - [ ] Namespaces
