@@ -200,3 +200,8 @@ Studied reverse proxies as controlled entry points for incoming requests. Traced
 ## 2026-10-19 — Lesson 89: NGINX Fundamentals
 
 Studied NGINX as a web server, reverse proxy, and load balancer. Read a basic configuration using `listen`, `server_name`, `location`, and `proxy_pass`; traced request routing; compared upstream groups; and covered URI rewriting, forwarding headers, and 502/504 troubleshooting. Next: Lesson 90 — Load Balancing Fundamentals.
+
+
+## 2026-10-19 — Lesson 90: Load Balancing Fundamentals
+
+Studied why load balancing distributes work across backend instances and compared round robin, weighted round robin, least connections, latency-aware selection, and sticky sessions. Covered active and passive health checks, backend removal and recovery, retry safety and idempotency, shared-dependency bottlenecks, and load-balancer redundancy. The exercises reinforced that connection counts approximate rather than measure workload, and that scaling application instances can increase pressure on shared dependencies. Next: Lesson 91 — SSL/TLS Termination.
