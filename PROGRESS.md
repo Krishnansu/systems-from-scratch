@@ -8,15 +8,16 @@
 - Lesson 89 — NGINX Fundamentals
 - Lesson 90 — Load Balancing Fundamentals
 - Lesson 91 — SSL/TLS Termination
+- Lesson 92 — Routing Fundamentals
 
 ### Current Position
 
-Completed forward and reverse proxy fundamentals, NGINX configuration, load balancing, and TLS termination. Understand the encryption boundary between client, proxy, and backend, including upstream verification and certificate lifecycle concerns.
+Completed forward and reverse proxy fundamentals, NGINX configuration, load balancing, TLS termination, and request routing. Understand host-based and path-based routing, NGINX location precedence, upstream selection, and URI forwarding behavior.
 
 ### Current Lesson
 
-Lesson 91 — SSL/TLS Termination
+Lesson 92 — Routing Fundamentals
 
 ### Next Lesson
 
-Lesson 92 — Routing Fundamentals.
+Lesson 93 — Health Checks and Backend Availability.

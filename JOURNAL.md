@@ -210,3 +210,8 @@ Studied why load balancing distributes work across backend instances and compare
 ## 2026-10-19 — Lesson 91: SSL/TLS Termination
 
 Studied TLS termination at a reverse proxy and compared plaintext upstream forwarding, TLS re-encryption, and TLS passthrough. Covered certificate and private-key roles, SNI versus HTTP Host, trusted forwarding headers, upstream certificate verification, mTLS, and certificate lifecycle management. The exercises reinforced that HTTPS at the edge does not automatically encrypt internal hops and that upstream TLS requires identity verification. Next: Lesson 92 — Routing Fundamentals.
+
+
+## 2026-10-19 — Lesson 92: Routing Fundamentals
+
+Studied host-based and path-based routing, NGINX virtual server selection, location matching precedence, the meaning of `^~`, upstream selection, and `proxy_pass` URI rewriting. Reinforced that routing and load balancing are separate decisions and that a correct backend selection does not guarantee a successful response. Next: Lesson 93 — Health Checks and Backend Availability.
