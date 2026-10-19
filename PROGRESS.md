@@ -13,11 +13,16 @@
 - Lesson 94 — Firewall Fundamentals
 - Lesson 95 — VPN Fundamentals
 
+## Module 06 — Docker
+
+### Completed
+- Lesson 96 — Why Containers?
+
 ### Current Position
-Completed the reverse proxy module, including proxies, NGINX, load balancing, TLS termination, routing, health checks, firewalls, and VPN fundamentals. Understand how protected tunnels, routing, and network policy contribute to secure connectivity.
+Started Module 06 by learning why containers exist, how they isolate processes while sharing the host kernel, and how they improve deployment consistency.
 
 ### Current Lesson
-Lesson 95 — VPN Fundamentals
+Lesson 96 — Why Containers?
 
 ### Next Lesson
-Lesson 96 — Why Containers?
+Lesson 97 — Images

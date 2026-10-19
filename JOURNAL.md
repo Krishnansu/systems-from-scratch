@@ -230,3 +230,8 @@ Studied firewalls as network access controls and compared stateful connection tr
 ## 2026-10-19 — Lesson 95: VPN Fundamentals
 
 Studied VPNs as protected logical connections over existing networks. Covered tunneling and encapsulation, endpoint authentication, remote-access versus site-to-site VPNs, and full-tunnel versus split-tunnel routing. Distinguished VPNs from proxies and firewalls, examined where tunnel encryption ends, and connected routing, DNS, return paths, firewall rules, and application health to VPN troubleshooting. Next: Lesson 96 — Why Containers?
+
+
+## 2026-10-19 — Lesson 96: Why Containers?
+
+Started Module 06 — Docker. Learned how application environments cause deployment drift, why containers package application files and user-space dependencies, and how Linux namespaces, cgroups, filesystem isolation, and security controls support container execution. Compared containers with virtual machines and covered limits around security, configuration, networking, and persistent data. Next: Lesson 97 — Images.
