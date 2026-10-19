@@ -215,3 +215,8 @@ Studied TLS termination at a reverse proxy and compared plaintext upstream forwa
 ## 2026-10-19 — Lesson 92: Routing Fundamentals
 
 Studied host-based and path-based routing, NGINX virtual server selection, location matching precedence, the meaning of `^~`, upstream selection, and `proxy_pass` URI rewriting. Reinforced that routing and load balancing are separate decisions and that a correct backend selection does not guarantee a successful response. Next: Lesson 93 — Health Checks and Backend Availability.
+
+
+## 2026-10-19 — Lesson 93: Health Checks and Backend Availability
+
+Studied how reverse proxies and load balancers assess backend availability. Distinguished liveness from readiness and active probes from passive failure observation. Examined health-check intervals, thresholds, timeouts, recovery safeguards, and flapping. Discussed why overly broad dependency checks can remove otherwise useful instances during a shared database incident, and why health checks must be complemented by metrics, logs, traces, and latency investigation. Next: Lesson 94 — Firewall Fundamentals.
