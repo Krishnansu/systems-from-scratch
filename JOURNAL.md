@@ -225,3 +225,8 @@ Studied how reverse proxies and load balancers assess backend availability. Dist
 ## 2026-10-19 — Lesson 94: Firewall Fundamentals
 
 Studied firewalls as network access controls and compared stateful connection tracking with stateless packet filtering. Covered inbound and outbound rules, default-deny policies, network segmentation, and least-privilege access between reverse proxies, application servers, and databases. Distinguished firewall filtering from reverse-proxy routing, WAF inspection, and application authorization. Practiced a layer-by-layer approach to diagnosing connectivity timeouts without assuming the firewall is always responsible. Next: Lesson 95 — VPN Fundamentals.
+
+
+## 2026-10-19 — Lesson 95: VPN Fundamentals
+
+Studied VPNs as protected logical connections over existing networks. Covered tunneling and encapsulation, endpoint authentication, remote-access versus site-to-site VPNs, and full-tunnel versus split-tunnel routing. Distinguished VPNs from proxies and firewalls, examined where tunnel encryption ends, and connected routing, DNS, return paths, firewall rules, and application health to VPN troubleshooting. Next: Lesson 96 — Why Containers?

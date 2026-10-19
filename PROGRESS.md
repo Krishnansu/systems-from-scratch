@@ -11,12 +11,13 @@
 - Lesson 92 — Routing Fundamentals
 - Lesson 93 — Health Checks and Backend Availability
 - Lesson 94 — Firewall Fundamentals
+- Lesson 95 — VPN Fundamentals
 
 ### Current Position
-Completed forward and reverse proxy fundamentals, NGINX configuration, load balancing, TLS termination, routing, backend health checks, and firewall fundamentals. Understand how firewalls restrict network reachability, how stateful and stateless filtering differ, and why network controls complement application-level security.
+Completed the reverse proxy module, including proxies, NGINX, load balancing, TLS termination, routing, health checks, firewalls, and VPN fundamentals. Understand how protected tunnels, routing, and network policy contribute to secure connectivity.
 
 ### Current Lesson
-Lesson 94 — Firewall Fundamentals
+Lesson 95 — VPN Fundamentals
 
 ### Next Lesson
-Lesson 95 — VPN Fundamentals.
+Lesson 96 — Why Containers?
