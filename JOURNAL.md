@@ -220,3 +220,8 @@ Studied host-based and path-based routing, NGINX virtual server selection, locat
 ## 2026-10-19 — Lesson 93: Health Checks and Backend Availability
 
 Studied how reverse proxies and load balancers assess backend availability. Distinguished liveness from readiness and active probes from passive failure observation. Examined health-check intervals, thresholds, timeouts, recovery safeguards, and flapping. Discussed why overly broad dependency checks can remove otherwise useful instances during a shared database incident, and why health checks must be complemented by metrics, logs, traces, and latency investigation. Next: Lesson 94 — Firewall Fundamentals.
+
+
+## 2026-10-19 — Lesson 94: Firewall Fundamentals
+
+Studied firewalls as network access controls and compared stateful connection tracking with stateless packet filtering. Covered inbound and outbound rules, default-deny policies, network segmentation, and least-privilege access between reverse proxies, application servers, and databases. Distinguished firewall filtering from reverse-proxy routing, WAF inspection, and application authorization. Practiced a layer-by-layer approach to diagnosing connectivity timeouts without assuming the firewall is always responsible. Next: Lesson 95 — VPN Fundamentals.

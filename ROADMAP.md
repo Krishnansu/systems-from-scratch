@@ -136,14 +136,14 @@
 
 ## Module 05 — Reverse Proxy
 
-- [ ] Forward Proxy
-- [ ] Reverse Proxy
-- [ ] NGINX
-- [ ] Load Balancing
-- [ ] SSL Termination
-- [ ] Routing
-- [ ] Health 
-- [ ] Firewall 
+- [x] Forward Proxy
+- [x] Reverse Proxy
+- [x] NGINX
+- [x] Load Balancing
+- [x] SSL Termination
+- [x] Routing
+- [x] Health 
+- [x] Firewall 
 - [ ] VPN
 
 ---

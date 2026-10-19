@@ -10,12 +10,13 @@
 - Lesson 91 — SSL/TLS Termination
 - Lesson 92 — Routing Fundamentals
 - Lesson 93 — Health Checks and Backend Availability
+- Lesson 94 — Firewall Fundamentals
 
 ### Current Position
-Completed forward and reverse proxy fundamentals, NGINX configuration, load balancing, TLS termination, request routing, and backend health checks. Understand active versus passive checks, liveness versus readiness, failure thresholds, recovery behavior, and flapping.
+Completed forward and reverse proxy fundamentals, NGINX configuration, load balancing, TLS termination, routing, backend health checks, and firewall fundamentals. Understand how firewalls restrict network reachability, how stateful and stateless filtering differ, and why network controls complement application-level security.
 
 ### Current Lesson
-Lesson 93 — Health Checks and Backend Availability
+Lesson 94 — Firewall Fundamentals
 
 ### Next Lesson
-Lesson 94 — Firewall Fundamentals.
+Lesson 95 — VPN Fundamentals.
