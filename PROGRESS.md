@@ -9,12 +9,13 @@
 - Lesson 99 — Dockerfile
 - Lesson 100 — Namespaces
 - Lesson 101 — cgroups
+- Lesson 102 — Volumes
 
 ### Current Position
-Completed the Docker resource-control foundations: cgroups, CPU quota versus weight, memory accounting and limits, and the distinction between namespace isolation and resource control.
+Completed Docker storage fundamentals: container writable-layer lifecycle, named volumes, bind mounts, mount-point behavior, and production data durability considerations.
 
 ### Current Lesson
-Lesson 101 — cgroups
+Lesson 102 — Volumes
 
 ### Next Lesson
-Lesson 102 — Volumes
+Lesson 103 — Docker Networks
