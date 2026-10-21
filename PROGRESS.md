@@ -1,18 +1,5 @@
 # Progress
 
-## Module 05 — Reverse Proxy
-
-### Completed
-- Lesson 87 — Forward Proxy Fundamentals
-- Lesson 88 — Reverse Proxy Fundamentals
-- Lesson 89 — NGINX Fundamentals
-- Lesson 90 — Load Balancing Fundamentals
-- Lesson 91 — SSL/TLS Termination
-- Lesson 92 — Routing Fundamentals
-- Lesson 93 — Health Checks and Backend Availability
-- Lesson 94 — Firewall Fundamentals
-- Lesson 95 — VPN Fundamentals
-
 ## Module 06 — Docker
 
 ### Completed
@@ -20,12 +7,14 @@
 - Lesson 97 — Images
 - Lesson 98 — Layers
 - Lesson 99 — Dockerfile
+- Lesson 100 — Namespaces
+- Lesson 101 — cgroups
 
 ### Current Position
-Completed the Dockerfile fundamentals: build instructions, build context, build-time versus runtime behavior, `CMD` versus `ENTRYPOINT`, build-cache ordering, `.dockerignore`, multi-stage builds, and the separation of image contents from runtime configuration and secrets.
+Completed the Docker resource-control foundations: cgroups, CPU quota versus weight, memory accounting and limits, and the distinction between namespace isolation and resource control.
 
 ### Current Lesson
-Lesson 99 — Dockerfile
+Lesson 101 — cgroups
 
 ### Next Lesson
-Lesson 100 — Namespaces
+Lesson 102 — Volumes

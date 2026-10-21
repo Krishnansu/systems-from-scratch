@@ -155,7 +155,7 @@
 - [x] Layers
 - [x] Dockerfile
 - [x] Namespaces
-- [ ] cgroups
+- [x] cgroups
 - [ ] Volumes
 - [ ] Networks
 - [ ] Docker Compose

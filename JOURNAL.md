@@ -250,3 +250,8 @@ Studied how container images combine filesystem layers and how build caching reu
 ## 2026-10-21 — Lesson 99: Dockerfile
 
 Studied Dockerfiles as image-build recipes and distinguished the build context, resulting image, and runtime container. Covered `FROM`, `WORKDIR`, `COPY`, `RUN`, `CMD`, `ENTRYPOINT`, and `ENV`; clarified build-time execution versus container startup and how `CMD` supplies defaults or a complete command. Examined build-context boundaries, `.dockerignore`, cache-friendly instruction ordering, and multi-stage builds. Reinforced that environment-specific configuration and secrets should be supplied separately from image contents, and that production images should be minimal, maintained, and run with least privilege where practical. Next: Lesson 100 — Namespaces.
+
+
+## 2026-10-21 — Lesson 101: cgroups
+
+Studied Linux control groups as the mechanism for accounting for and controlling process resource consumption. Distinguished cgroups from namespaces, explored CPU quota versus CPU weight, and reviewed cgroup v2 memory controls including `memory.current`, `memory.max`, and `memory.events`. Clarified why a container can hit its memory limit while the host still has free RAM, and why reaching the limit does not necessarily terminate every process immediately. Next: Lesson 102 — Volumes.
