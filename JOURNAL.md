@@ -245,3 +245,8 @@ Studied container images as packaged filesystem layers and metadata, and contain
 ## 2026-10-21 — Lesson 98: Layers
 
 Studied how container images combine filesystem layers and how build caching reuses prior results when relevant instructions and inputs remain unchanged. Examined cache invalidation, why copying stable dependency manifests before frequently changing source improves build efficiency, and the distinction between read-only image layers and a container's writable layer. Connected layer design to build performance, storage reuse, persistent volumes, and the security risk of secrets remaining in earlier layers. Next: Lesson 99 — Dockerfile.
+
+
+## 2026-10-21 — Lesson 99: Dockerfile
+
+Studied Dockerfiles as image-build recipes and distinguished the build context, resulting image, and runtime container. Covered `FROM`, `WORKDIR`, `COPY`, `RUN`, `CMD`, `ENTRYPOINT`, and `ENV`; clarified build-time execution versus container startup and how `CMD` supplies defaults or a complete command. Examined build-context boundaries, `.dockerignore`, cache-friendly instruction ordering, and multi-stage builds. Reinforced that environment-specific configuration and secrets should be supplied separately from image contents, and that production images should be minimal, maintained, and run with least privilege where practical. Next: Lesson 100 — Namespaces.

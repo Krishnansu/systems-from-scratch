@@ -19,12 +19,13 @@
 - Lesson 96 — Why Containers?
 - Lesson 97 — Images
 - Lesson 98 — Layers
+- Lesson 99 — Dockerfile
 
 ### Current Position
-Completed the foundations of containers, images, and image layers. Understands image-layer reuse, build-cache invalidation, Dockerfile instruction ordering, the container writable layer, persistent storage, and security risks from secrets in image layers.
+Completed the Dockerfile fundamentals: build instructions, build context, build-time versus runtime behavior, `CMD` versus `ENTRYPOINT`, build-cache ordering, `.dockerignore`, multi-stage builds, and the separation of image contents from runtime configuration and secrets.
 
 ### Current Lesson
-Lesson 98 — Layers
+Lesson 99 — Dockerfile
 
 ### Next Lesson
-Lesson 99 — Dockerfile
+Lesson 100 — Namespaces
