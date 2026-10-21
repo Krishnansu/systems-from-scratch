@@ -260,3 +260,8 @@ Studied Linux control groups as the mechanism for accounting for and controlling
 ## 2026-10-21 — Lesson 102: Volumes
 
 Studied the difference between a container's writable layer and persistent storage. Compared Docker-managed named volumes with host-path bind mounts and introduced tmpfs. Practiced creating, inspecting, mounting, reusing, and removing a named volume, and examined how mounts can obscure files already present in an image. Connected storage persistence to production requirements for backups, restore testing, permissions, capacity monitoring, replication, and recovery. Next: Lesson 103 — Docker Networks.
+
+
+## 2026-10-21 — Lesson 103: Docker Networks
+
+Studied how Docker connects isolated container network namespaces using network drivers and, on typical Linux bridge networks, veth pairs and a Linux bridge. Compared the default bridge with user-defined bridges and practiced container-name resolution, container-to-container HTTP connectivity, and host port publishing. Distinguished container ports from published host ports and reinforced that `localhost` inside a container refers to that container itself. Covered bridge, host, none, and overlay networking at a high level, plus a layered troubleshooting process for DNS, reachability, listening ports, and application health. Reinforced least-exposure principles by keeping internal service ports unpublished when host access is unnecessary. Next: Lesson 104 — Docker Compose.
