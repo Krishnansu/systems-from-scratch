@@ -152,9 +152,9 @@
 
 - [x] Why Containers?
 - [x] Images
-- [ ] Layers
-- [ ] Dockerfile
-- [ ] Namespaces
+- [x] Layers
+- [x] Dockerfile
+- [x] Namespaces
 - [ ] cgroups
 - [ ] Volumes
 - [ ] Networks
