@@ -265,3 +265,8 @@ Studied the difference between a container's writable layer and persistent stora
 ## 2026-10-21 — Lesson 103: Docker Networks
 
 Studied how Docker connects isolated container network namespaces using network drivers and, on typical Linux bridge networks, veth pairs and a Linux bridge. Compared the default bridge with user-defined bridges and practiced container-name resolution, container-to-container HTTP connectivity, and host port publishing. Distinguished container ports from published host ports and reinforced that `localhost` inside a container refers to that container itself. Covered bridge, host, none, and overlay networking at a high level, plus a layered troubleshooting process for DNS, reachability, listening ports, and application health. Reinforced least-exposure principles by keeping internal service ports unpublished when host access is unnecessary. Next: Lesson 104 — Docker Compose.
+
+
+## 2026-10-22 — Lesson 104: Docker Compose
+
+Completed Module 06 by learning how Docker Compose declaratively defines and manages related services in a YAML file. Connected Compose to Docker's underlying containers, networks, and volumes; practiced service-name communication, host port publishing, environment configuration, health checks, dependency startup conditions, logs, inspection, and safe cleanup. Reinforced that startup order is not the same as readiness, that named volumes normally survive `docker compose down`, and that `down -v` can delete persisted data. Reviewed troubleshooting from service status and logs through network, health, and configuration checks. Next: Lesson 105 — Kubernetes Architecture.

@@ -11,12 +11,13 @@
 - Lesson 101 — cgroups
 - Lesson 102 — Volumes
 - Lesson 103 — Docker Networks
+- Lesson 104 — Docker Compose
 
 ### Current Position
-Completed Docker networking fundamentals: network namespaces, veth pairs and Linux bridges, user-defined bridge networking and DNS, container-to-container connectivity, port publishing, network drivers, and connectivity troubleshooting.
+Completed the planned Docker module: container fundamentals, images and layers, Dockerfiles, namespaces, cgroups, persistent volumes, networking, and Compose-based multi-container application configuration and lifecycle management.
 
 ### Current Lesson
-Lesson 103 — Docker Networks
+Lesson 104 — Docker Compose
 
 ### Next Lesson
-Lesson 104 — Docker Compose
+Lesson 105 — Kubernetes Architecture

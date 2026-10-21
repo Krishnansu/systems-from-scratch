@@ -1,23 +1,25 @@
-# Docker Commands Reference
+# Docker Command References
 
-A lesson-wise reference for important commands from Module 06 — Docker. Use these alongside the lesson notes for quick revision and hands-on practice.
+This directory contains practical command references that accompany the Docker lessons. Use these as quick references; consult the lesson notes for the concepts and trade-offs behind each command.
 
 ## Lessons
 
-- [96 — Why Containers?](96-why-containers.md)
-- [97 — Images](97-images.md)
-- [98 — Layers](98-layers.md)
-- [99 — Dockerfile](99-dockerfile.md)
+- [96 — Why Containers?](096-why-containers.md)
+- [97 — Images](097-images.md)
+- [98 — Layers](098-layers.md)
+- [99 — Dockerfile](099-dockerfile.md)
 - [100 — Namespaces](100-namespaces.md)
 - [101 — cgroups](101-cgroups.md)
 - [102 — Volumes](102-volumes.md)
 - [103 — Docker Networks](103-docker-networks.md)
+- [104 — Docker Compose](104-docker-compose.md)
 
-## General notes
+## General Safety Notes
 
-- Commands assume Docker is installed and the Docker daemon is running.
-- Some commands create containers, networks, volumes, or images; clean up only resources created for the exercise.
-- Linux host-level inspection commands may behave differently on Docker Desktop because Docker Desktop runs containers inside a Linux VM.
-- Bind-mount examples using `$(pwd)` work in common Linux/macOS shells and Git Bash. PowerShell uses different syntax.
-- Be careful with cleanup commands. Removing a container is not the same as removing a volume, and deleting a volume can permanently delete its data.
-- Port publishing can expose a service beyond the intended audience. Use an explicit loopback binding when access should be limited to the Docker host, and avoid publishing internal service ports unnecessarily.
+- Commands that remove containers, images, networks, or volumes can cause data loss or disrupt running workloads. Check the target before cleaning up.
+- Docker daemon access is powerful; treat access to it as a privileged capability.
+- Docker Desktop and Linux Docker Engine can differ in networking, filesystem mounts, and environment-specific behavior.
+- Bind mounts expose paths from the host, while named volumes are managed by Docker. Choose deliberately based on the data and workflow.
+- Publishing a port makes a container service reachable through the host's network interfaces according to the binding. Use a loopback binding such as `127.0.0.1:8080:80` for host-only development access when appropriate.
+- `docker compose down` normally retains named volumes, while `docker compose down -v` can remove Compose-managed named volumes and persisted data.
+- Keep `.env` files containing credentials out of version control. Configuration output may include interpolated sensitive values, so inspect it before sharing.
