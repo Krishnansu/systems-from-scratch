@@ -188,6 +188,34 @@ Specifically:
 
 ---
 
+Sample update.json:
+
+```json
+
+{
+  "updates": [
+    {
+      "op": "write",
+      "path": "modules/06-docker/notes/100-namespaces.md",
+      "content": "# Lesson 100 — Namespaces\n\n..."
+    },
+    {
+      "op": "write",
+      "path": "PROGRESS.md",
+      "content": "# Progress\n\n## Module 06 — Docker\n\n### Completed\n- Lesson 96 — Why Containers?\n- Lesson 97 — Images\n- Lesson 98 — Layers\n- Lesson 99 — Dockerfile\n- Lesson 100 — Namespaces\n\n### Current Lesson\nLesson 100 — Namespaces\n\n### Next Lesson\nLesson 101 — cgroups\n"
+    },
+    {
+      "op": "append",
+      "path": "JOURNAL.md",
+      "content": "\n\n## 2026-10-22 — Lesson 100: Namespaces\n\nBrief lesson summary. Next: Lesson 101 — cgroups.\n"
+    }
+  ]
+}
+
+```
+
+---
+
 # Repository Responsibilities
 
 ## PROGRESS.md
