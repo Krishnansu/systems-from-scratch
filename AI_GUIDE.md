@@ -87,6 +87,35 @@ The goal is that a lesson can usually be revised in 5–10 minutes.
 
 ---
 
+# Supporting Learning Resources
+
+In addition to the required lesson note, create supporting files whenever they provide meaningful value for learning, hands-on practice, or future revision. This rule applies across all modules and lessons, not only Docker.
+
+## Diagrams
+
+- Add diagrams when they help explain architecture, component relationships, request/data flows, internal mechanisms, or other concepts that are difficult to understand from prose alone.
+- Store lesson-related diagrams in the module's `diagrams/` directory, following existing repository naming and organization conventions.
+- Prefer clear, focused, revision-friendly diagrams over decorative visuals.
+- Link relevant diagrams from the lesson note so they are easy to discover.
+
+## Commands References
+
+- Create a lesson-specific commands reference in the module's `commands/` directory when the lesson includes useful CLI commands, configuration examples, repeatable experiments, or troubleshooting procedures.
+- Use a consistent lesson-number-based filename, following the module's existing conventions.
+- Include concise explanations, expected observations where useful, and safe cleanup instructions for commands that create resources or change system state.
+- Update the commands directory's index or README when one exists.
+- Do not create a commands file merely to satisfy a quota when the lesson has no meaningful commands to preserve.
+
+## Update Workflow for Supporting Files
+
+- Include every new or changed supporting file in the lesson's `.sfs/update.json` alongside the lesson note and other required progress updates.
+- Create only resources that add practical value; diagrams and commands files are conditional on the lesson's needs.
+- Follow the existing repository structure and naming conventions instead of inventing a new layout for each lesson.
+- Do not modify previous lesson notes unless correcting a mistake or explicitly requested. Adding a link to a new supporting resource in an existing note is allowed only when necessary and consistent with repository conventions.
+- Do not assume that generated updates have been applied. The learner applies and reviews them locally.
+
+---
+
 # Teaching Philosophy
 
 Each lesson should include:
@@ -143,6 +172,7 @@ Only two operations are allowed.
 Use for:
 
 - New lesson notes
+- Supporting diagrams and commands-reference files
 - PROGRESS.md
 - README.md (if needed)
 - ROADMAP.md (only when roadmap changes)
@@ -229,23 +259,17 @@ Contains:
 - Completed Lessons
 - Next Lesson
 
----
-
 ## ROADMAP.md
 
 Update only when roadmap changes.
 
-Not every lesson.
-
----
+Not every lesson. Do not modify it as part of routine lesson updates.
 
 ## JOURNAL.md
 
 Append exactly one entry per lesson.
 
 Never overwrite.
-
----
 
 ## Lesson Notes
 
