@@ -240,3 +240,8 @@ Started Module 06 — Docker. Learned how application environments cause deploym
 ## 2026-10-19 — Lesson 97: Images
 
 Studied container images as packaged filesystem layers and metadata, and containers as runtime instances with configuration and a writable layer. Covered registries and the build → push → pull → run lifecycle; distinguished mutable tags such as `latest` from content-based digests; and connected artifact identity to reproducible production deployments. Reinforced that runtime configuration and secrets should generally remain outside the image, and that successful image retrieval does not prove successful application startup. Next: Lesson 98 — Layers.
+
+
+## 2026-10-21 — Lesson 98: Layers
+
+Studied how container images combine filesystem layers and how build caching reuses prior results when relevant instructions and inputs remain unchanged. Examined cache invalidation, why copying stable dependency manifests before frequently changing source improves build efficiency, and the distinction between read-only image layers and a container's writable layer. Connected layer design to build performance, storage reuse, persistent volumes, and the security risk of secrets remaining in earlier layers. Next: Lesson 99 — Dockerfile.

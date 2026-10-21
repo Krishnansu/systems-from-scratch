@@ -18,12 +18,13 @@
 ### Completed
 - Lesson 96 — Why Containers?
 - Lesson 97 — Images
+- Lesson 98 — Layers
 
 ### Current Position
-Completed the introduction to containers and images. Understands why images package application files and dependencies, how containers are created from images, and why tags, digests, registries, runtime configuration, and secrets management matter for reliable deployments.
+Completed the foundations of containers, images, and image layers. Understands image-layer reuse, build-cache invalidation, Dockerfile instruction ordering, the container writable layer, persistent storage, and security risks from secrets in image layers.
 
 ### Current Lesson
-Lesson 97 — Images
+Lesson 98 — Layers
 
 ### Next Lesson
-Lesson 98 — Layers
+Lesson 99 — Dockerfile
