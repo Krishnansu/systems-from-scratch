@@ -270,3 +270,8 @@ Studied how Docker connects isolated container network namespaces using network 
 ## 2026-10-22 — Lesson 104: Docker Compose
 
 Completed Module 06 by learning how Docker Compose declaratively defines and manages related services in a YAML file. Connected Compose to Docker's underlying containers, networks, and volumes; practiced service-name communication, host port publishing, environment configuration, health checks, dependency startup conditions, logs, inspection, and safe cleanup. Reinforced that startup order is not the same as readiness, that named volumes normally survive `docker compose down`, and that `down -v` can delete persisted data. Reviewed troubleshooting from service status and logs through network, health, and configuration checks. Next: Lesson 105 — Kubernetes Architecture.
+
+
+## 2026-10-22 — Lesson 105: Kubernetes Architecture
+
+Started Module 07 by examining Kubernetes as a cluster orchestrator beyond single-host container management. Distinguished the control plane from worker nodes and covered the responsibilities of kube-apiserver, etcd, kube-scheduler, kube-controller-manager, kubelet, the container runtime through CRI, and cluster networking components. Traced a simplified workload flow from desired configuration through controller reconciliation, node assignment, and runtime execution. Reinforced that controllers work toward desired state rather than guaranteeing immediate convergence, that etcd stores Kubernetes cluster state rather than application business data, and that insufficient scheduling capacity can leave a Pod Pending. Distinguished scheduling constraints from runtime memory-limit failures. Next: Lesson 106 — Pods.

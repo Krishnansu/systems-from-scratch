@@ -1,23 +1,15 @@
 # Progress
 
-## Module 06 — Docker
+## Module 07 — Kubernetes
 
 ### Completed
-- Lesson 96 — Why Containers?
-- Lesson 97 — Images
-- Lesson 98 — Layers
-- Lesson 99 — Dockerfile
-- Lesson 100 — Namespaces
-- Lesson 101 — cgroups
-- Lesson 102 — Volumes
-- Lesson 103 — Docker Networks
-- Lesson 104 — Docker Compose
+- Lesson 105 — Kubernetes Architecture
 
 ### Current Position
-Completed the planned Docker module: container fundamentals, images and layers, Dockerfiles, namespaces, cgroups, persistent volumes, networking, and Compose-based multi-container application configuration and lifecycle management.
+Started the Kubernetes module. Covered the control plane and worker-node responsibilities, cluster-state persistence in etcd, Pod scheduling, kubelet/runtime execution, desired versus actual state, reconciliation, and capacity constraints.
 
 ### Current Lesson
-Lesson 104 — Docker Compose
+Lesson 105 — Kubernetes Architecture
 
 ### Next Lesson
-Lesson 105 — Kubernetes Architecture
+Lesson 106 — Pods

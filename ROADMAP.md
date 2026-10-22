@@ -164,7 +164,7 @@
 
 ## Module 07 — Kubernetes
 
-- [ ] Kubernetes Architecture
+- [x] Kubernetes Architecture
 - [ ] Pods
 - [ ] ReplicaSets
 - [ ] Deployments
