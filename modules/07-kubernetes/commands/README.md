@@ -8,6 +8,7 @@ This directory contains practical command references that accompany the Kubernet
 - [107 — ReplicaSets](107-replicasets.md)
 - [108 — Deployments](108-deployments.md)
 - [109 — Services](109-services.md)
+- [110 — Ingress](110-ingress.md)
 
 ## General Safety Notes
 

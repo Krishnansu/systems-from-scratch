@@ -295,3 +295,8 @@ Studied why Deployments manage ReplicaSets to coordinate versioned application r
 ## 2026-10-24 — Lesson 109: Kubernetes Services
 
 Studied why Services provide stable network access to replaceable Pods. Covered selectors, Pod labels, EndpointSlices, readiness and endpoint eligibility, `port` versus `targetPort` and `nodePort`, and the ClusterIP, NodePort, LoadBalancer, and headless Service models. Clarified cross-namespace Service access, DNS resolution versus data-plane traffic forwarding, and why backend selection usually follows connection or flow behavior rather than choosing a different Pod for each HTTP request. Practiced a read-only troubleshooting sequence covering Service configuration, selectors, Pod labels and readiness, EndpointSlices, application ports, DNS, and networking restrictions. Next: Lesson 110 — Kubernetes Ingress.
+
+
+## 2026-10-24 — Lesson 110: Kubernetes Ingress
+
+Studied Ingress as declarative HTTP/HTTPS routing into a Kubernetes cluster. Distinguished Ingress resources from controllers, traced traffic from DNS and an external entry point through host/path matching to backend Services and eligible Pods, and reviewed path types, IngressClass, TLS Secrets, and TLS termination. Compared Ingress with LoadBalancer Services and covered controller-dependent behavior, common failure symptoms, and read-only inspection commands. Next: Lesson 111 — Kubernetes ConfigMaps.
