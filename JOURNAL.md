@@ -335,3 +335,8 @@ Consolidated startup, liveness, and readiness probes and their distinct effects.
 ## Lesson 117 — Kubernetes Workload Types
 
 Compared Deployments, StatefulSets, DaemonSets, Jobs, and CronJobs by workload lifecycle and guarantees. Distinguished interchangeable replicas from stable identity and storage association, node-level agents, finite tasks, and scheduled tasks. Noted that StatefulSets do not automatically provide data replication or high availability and that Job/CronJob execution is not an exactly-once guarantee. Next: Lesson 118 — Resource Management, QoS, and Eviction.
+
+
+## Lesson 118 — Resource Management, QoS, and Eviction
+
+Covered requests versus limits, CPU throttling versus memory OOM kills, Kubernetes Guaranteed/Burstable/BestEffort QoS classes, and node-pressure eviction. Reviewed how requests affect scheduling and how usage relative to requests and Pod priority can influence eviction decisions. Practiced read-only diagnostics for resource usage, node pressure, events, and Pending Pods. Next: Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies.

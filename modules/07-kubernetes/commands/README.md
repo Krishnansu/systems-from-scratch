@@ -16,6 +16,7 @@ This directory contains practical command references that accompany the Kubernet
 - [115 — Scheduling](115-scheduling.md)
 - [116 — Health Checks and Probes](116-health-checks-and-probes.md)
 - [117 — Kubernetes Workload Types](117-workload-types.md)
+- [118 — Resource Management, QoS, and Eviction](118-resource-management-qos-and-eviction.md)
 
 ## General Safety Notes
 
