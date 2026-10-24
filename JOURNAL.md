@@ -315,3 +315,8 @@ Studied Kubernetes Secrets as namespaced objects for sensitive configuration and
 ## 2026-10-24 — Lesson 113: Kubernetes Persistent Volumes
 
 Studied how Kubernetes separates replaceable Pods from durable storage. Distinguished PersistentVolumes, PersistentVolumeClaims, and StorageClasses; traced claim binding and Pod volume mounting; and compared static with dynamic provisioning. Reviewed access modes, reclaim policies, and the difference between persistence and backup. Practiced a read-only storage inspection and troubleshooting sequence, emphasizing that a Pending claim and a Bound claim with a mount failure represent different stages. Next: Lesson 114 — Kubernetes Autoscaling.
+
+
+## 2026-10-24 — Lesson 114: Kubernetes Autoscaling
+
+Studied Kubernetes autoscaling as three related but distinct concerns: HPA changes workload replica counts based on metrics, VPA recommends or adjusts per-Pod resource sizing, and Cluster Autoscaler adjusts node capacity when supported and configured. Covered CPU utilization targets relative to resource requests, the role of the metrics pipeline, the simplified HPA replica formula, scaling limits and delays, and the chain from metric observation to scheduling and Pod readiness. Emphasized that HPA does not add worker nodes, desired Pods may remain Pending without capacity, and extra replicas may not help when a shared dependency is saturated. Next: Lesson 115 — Kubernetes Scheduling.

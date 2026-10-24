@@ -12,6 +12,7 @@ This directory contains practical command references that accompany the Kubernet
 - [111 — ConfigMaps](111-configmaps.md)
 - [112 — Secrets](112-secrets.md)
 - [113 — Persistent Volumes](113-persistent-volumes.md)
+- [114 — Autoscaling](114-autoscaling.md)
 
 ## General Safety Notes
 
@@ -22,3 +23,4 @@ This directory contains practical command references that accompany the Kubernet
 - Avoid printing or sharing Secret data, even when it appears Base64-encoded.
 - Inspect reclaim policies and confirm ownership before deleting storage resources.
 - Avoid changing resources in shared or production clusters unless explicitly authorized.
+- Use read-only autoscaling inspection first; do not alter scaling policies in shared or production clusters without authorization.
