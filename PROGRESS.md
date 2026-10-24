@@ -15,12 +15,13 @@
 - Lesson 114 — Autoscaling
 - Lesson 115 — Scheduling
 - Lesson 116 — Health Checks and Probes
+- Lesson 117 — Kubernetes Workload Types
 
 ### Current Position
-Covered Kubernetes architecture, Pod lifecycle, controllers, Services and Ingress, configuration, persistent storage, autoscaling, and scheduling. Lesson 116 added startup, liveness, and readiness probes, their effects on container restarts and traffic eligibility, probe mechanisms, and basic probe troubleshooting.
+Covered Kubernetes architecture, Pods and controllers, Services and Ingress, configuration, persistent storage, autoscaling, scheduling, health probes, and workload controller choices. Lesson 117 distinguished Deployments, StatefulSets, DaemonSets, Jobs, and CronJobs, including their identity, lifecycle, and retry/scheduling behavior.
 
 ### Current Lesson
-Lesson 116 — Health Checks and Probes
+Lesson 117 — Kubernetes Workload Types
 
 ### Next Lesson
-Lesson 117 — Kubernetes Workload Types
+Lesson 118 — Resource Management, QoS, and Eviction

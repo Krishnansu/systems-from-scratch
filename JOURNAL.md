@@ -330,3 +330,8 @@ Studied how kube-scheduler selects a node for a Pod through filtering and scorin
 ## Lesson 116 — Kubernetes Health Checks and Probes
 
 Consolidated startup, liveness, and readiness probes and their distinct effects. A configured startup probe gates the other probes until startup succeeds; liveness failures can restart containers, while readiness failures remove Pods from normal ready Service traffic without restarting them. Reviewed HTTP, TCP, exec, and gRPC probe mechanisms, plus practical inspection using Pod events, logs, and EndpointSlices. Next: Lesson 117 — Kubernetes Workload Types.
+
+
+## Lesson 117 — Kubernetes Workload Types
+
+Compared Deployments, StatefulSets, DaemonSets, Jobs, and CronJobs by workload lifecycle and guarantees. Distinguished interchangeable replicas from stable identity and storage association, node-level agents, finite tasks, and scheduled tasks. Noted that StatefulSets do not automatically provide data replication or high availability and that Job/CronJob execution is not an exactly-once guarantee. Next: Lesson 118 — Resource Management, QoS, and Eviction.

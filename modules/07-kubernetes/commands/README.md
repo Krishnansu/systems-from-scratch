@@ -15,6 +15,7 @@ This directory contains practical command references that accompany the Kubernet
 - [114 — Autoscaling](114-autoscaling.md)
 - [115 — Scheduling](115-scheduling.md)
 - [116 — Health Checks and Probes](116-health-checks-and-probes.md)
+- [117 — Kubernetes Workload Types](117-workload-types.md)
 
 ## General Safety Notes
 
