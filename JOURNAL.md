@@ -325,3 +325,8 @@ Studied Kubernetes autoscaling as three related but distinct concerns: HPA chang
 ## 2026-10-24 — Lesson 115: Kubernetes Scheduling
 
 Studied how kube-scheduler selects a node for a Pod through filtering and scoring. Covered resource requests and node allocatable capacity, node selectors, node and Pod affinity, taints and tolerations, topology spread, and storage constraints. Connected autoscaling to scheduling by tracing how HPA-created replicas can remain Pending when no eligible node has capacity, and clarified that Cluster Autoscaler can help with supported capacity shortages but cannot resolve arbitrary placement constraints. Practiced a read-only troubleshooting sequence that distinguishes unscheduled Pods from Pods assigned to a node but still waiting for setup. Next: Lesson 116 — Kubernetes Health Checks and Probes.
+
+
+## Lesson 116 — Kubernetes Health Checks and Probes
+
+Consolidated startup, liveness, and readiness probes and their distinct effects. A configured startup probe gates the other probes until startup succeeds; liveness failures can restart containers, while readiness failures remove Pods from normal ready Service traffic without restarting them. Reviewed HTTP, TCP, exec, and gRPC probe mechanisms, plus practical inspection using Pod events, logs, and EndpointSlices. Next: Lesson 117 — Kubernetes Workload Types.

@@ -14,6 +14,7 @@ This directory contains practical command references that accompany the Kubernet
 - [113 — Persistent Volumes](113-persistent-volumes.md)
 - [114 — Autoscaling](114-autoscaling.md)
 - [115 — Scheduling](115-scheduling.md)
+- [116 — Health Checks and Probes](116-health-checks-and-probes.md)
 
 ## General Safety Notes
 
