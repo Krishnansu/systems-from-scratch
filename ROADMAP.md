@@ -168,7 +168,7 @@
 - [x] Pods
 - [x] ReplicaSets
 - [x] Deployments
-- [ ] Services
+- [x] Services
 - [ ] Ingress
 - [ ] ConfigMaps
 - [ ] Secrets

@@ -7,12 +7,13 @@
 - Lesson 106 — Pods
 - Lesson 107 — ReplicaSets
 - Lesson 108 — Deployments
+- Lesson 109 — Services
 
 ### Current Position
-Covered Kubernetes control-plane and worker-node responsibilities, Pod structure and lifecycle, ephemeral Pod identity, stable Service access, ReplicaSet reconciliation, and Deployment-managed versioned rollouts. Understood rolling-update controls, rollout inspection, revision history, and the limits of rollback when external state changes.
+Covered Kubernetes control-plane and worker-node responsibilities, Pod structure and lifecycle, ephemeral Pod identity, ReplicaSet reconciliation, Deployment-managed versioned rollouts, and stable Service networking. Understands Service selectors, EndpointSlices, Service types and ports, DNS resolution versus backend forwarding, and the role of readiness and cluster networking in endpoint availability.
 
 ### Current Lesson
-Lesson 108 — Deployments
+Lesson 109 — Services
 
 ### Next Lesson
-Lesson 109 — Services
+Lesson 110 — Ingress
