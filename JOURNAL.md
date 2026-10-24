@@ -320,3 +320,8 @@ Studied how Kubernetes separates replaceable Pods from durable storage. Distingu
 ## 2026-10-24 — Lesson 114: Kubernetes Autoscaling
 
 Studied Kubernetes autoscaling as three related but distinct concerns: HPA changes workload replica counts based on metrics, VPA recommends or adjusts per-Pod resource sizing, and Cluster Autoscaler adjusts node capacity when supported and configured. Covered CPU utilization targets relative to resource requests, the role of the metrics pipeline, the simplified HPA replica formula, scaling limits and delays, and the chain from metric observation to scheduling and Pod readiness. Emphasized that HPA does not add worker nodes, desired Pods may remain Pending without capacity, and extra replicas may not help when a shared dependency is saturated. Next: Lesson 115 — Kubernetes Scheduling.
+
+
+## 2026-10-24 — Lesson 115: Kubernetes Scheduling
+
+Studied how kube-scheduler selects a node for a Pod through filtering and scoring. Covered resource requests and node allocatable capacity, node selectors, node and Pod affinity, taints and tolerations, topology spread, and storage constraints. Connected autoscaling to scheduling by tracing how HPA-created replicas can remain Pending when no eligible node has capacity, and clarified that Cluster Autoscaler can help with supported capacity shortages but cannot resolve arbitrary placement constraints. Practiced a read-only troubleshooting sequence that distinguishes unscheduled Pods from Pods assigned to a node but still waiting for setup. Next: Lesson 116 — Kubernetes Health Checks and Probes.

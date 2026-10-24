@@ -13,6 +13,7 @@ This directory contains practical command references that accompany the Kubernet
 - [112 — Secrets](112-secrets.md)
 - [113 — Persistent Volumes](113-persistent-volumes.md)
 - [114 — Autoscaling](114-autoscaling.md)
+- [115 — Scheduling](115-scheduling.md)
 
 ## General Safety Notes
 
@@ -20,7 +21,6 @@ This directory contains practical command references that accompany the Kubernet
 - Use read-only inspection commands for introductory exercises.
 - Treat rollout undo, apply, delete, scale, and exposure commands as state-changing operations requiring authorization.
 - Treat Secret values, logs, YAML output, events, and configuration details as potentially sensitive.
-- Avoid printing or sharing Secret data, even when it appears Base64-encoded.
 - Inspect reclaim policies and confirm ownership before deleting storage resources.
-- Avoid changing resources in shared or production clusters unless explicitly authorized.
-- Use read-only autoscaling inspection first; do not alter scaling policies in shared or production clusters without authorization.
+- Avoid changing shared or production resources unless explicitly authorized.
+- Begin autoscaling and scheduling troubleshooting with read-only inspection; do not change shared workload policies, labels, taints, or placement rules without authorization.

@@ -173,8 +173,8 @@
 - [x] ConfigMaps
 - [x] Secrets
 - [x] Persistent Volumes
-- [ ] Autoscaling
-- [ ] Scheduling
+- [x] Autoscaling
+- [x] Scheduling
 
 ---
 

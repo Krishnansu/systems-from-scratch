@@ -13,12 +13,13 @@
 - Lesson 112 — Secrets
 - Lesson 113 — Persistent Volumes
 - Lesson 114 — Autoscaling
+- Lesson 115 — Scheduling
 
 ### Current Position
-Covered Kubernetes control-plane and worker-node responsibilities, Pod structure and lifecycle, ephemeral Pod identity, ReplicaSet reconciliation, Deployment-managed versioned rollouts, stable Service networking, Service selectors and EndpointSlices, Service types and ports, DNS resolution versus backend forwarding, external HTTP/HTTPS routing with Ingress, non-confidential configuration management with ConfigMaps, sensitive configuration with Secrets, persistent storage using PersistentVolumes, PersistentVolumeClaims, and StorageClasses, and autoscaling across workload replicas, per-Pod resource sizing, and cluster node capacity. Understands HPA metrics and resource requests, the distinction between HPA/VPA/Cluster Autoscaler, and why desired replicas may remain Pending when cluster capacity is insufficient.
+Covered Kubernetes control-plane and worker-node responsibilities, Pod structure and lifecycle, ephemeral Pod identity, ReplicaSet reconciliation, Deployment-managed versioned rollouts, stable Service networking, Service selectors and EndpointSlices, Service types and ports, DNS resolution versus backend forwarding, external HTTP/HTTPS routing with Ingress, ConfigMaps and Secrets, persistent storage using PVs, PVCs and StorageClasses, autoscaling across workload replicas, per-Pod resource sizing and cluster node capacity, and scheduling through node filtering and scoring. Understands how resource requests, allocatable capacity, node labels, affinity, taints and tolerations, topology and storage constraints affect placement, and how to distinguish an unscheduled Pod from one assigned to a node but still waiting for setup.
 
 ### Current Lesson
-Lesson 114 — Autoscaling
+Lesson 115 — Scheduling
 
 ### Next Lesson
-Lesson 115 — Scheduling
+Lesson 116 — Health Checks and Probes
