@@ -11,6 +11,7 @@ This directory contains practical command references that accompany the Kubernet
 - [110 — Ingress](110-ingress.md)
 - [111 — ConfigMaps](111-configmaps.md)
 - [112 — Secrets](112-secrets.md)
+- [113 — Persistent Volumes](113-persistent-volumes.md)
 
 ## General Safety Notes
 
@@ -19,4 +20,5 @@ This directory contains practical command references that accompany the Kubernet
 - Treat rollout undo, apply, delete, scale, and exposure commands as state-changing operations requiring authorization.
 - Treat Secret values, logs, YAML output, events, and configuration details as potentially sensitive.
 - Avoid printing or sharing Secret data, even when it appears Base64-encoded.
+- Inspect reclaim policies and confirm ownership before deleting storage resources.
 - Avoid changing resources in shared or production clusters unless explicitly authorized.

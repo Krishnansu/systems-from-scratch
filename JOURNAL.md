@@ -310,3 +310,8 @@ Studied ConfigMaps as namespaced Kubernetes objects for non-confidential configu
 ## 2026-10-24 — Lesson 112: Kubernetes Secrets
 
 Studied Kubernetes Secrets as namespaced objects for sensitive configuration and compared them with ConfigMaps. Covered `stringData`, Base64-encoded `data`, environment-variable references, mounted Secret files, and update behavior. Clarified that Base64 is not encryption, RBAC and encryption at rest serve different purposes, and runtime access still needs careful control. Reviewed safe inspection and troubleshooting practices, plus credential rotation across application reloads and database connections. Next: Lesson 113 — Kubernetes Persistent Volumes.
+
+
+## 2026-10-24 — Lesson 113: Kubernetes Persistent Volumes
+
+Studied how Kubernetes separates replaceable Pods from durable storage. Distinguished PersistentVolumes, PersistentVolumeClaims, and StorageClasses; traced claim binding and Pod volume mounting; and compared static with dynamic provisioning. Reviewed access modes, reclaim policies, and the difference between persistence and backup. Practiced a read-only storage inspection and troubleshooting sequence, emphasizing that a Pending claim and a Bound claim with a mount failure represent different stages. Next: Lesson 114 — Kubernetes Autoscaling.

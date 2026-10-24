@@ -169,10 +169,10 @@
 - [x] ReplicaSets
 - [x] Deployments
 - [x] Services
-- [ ] Ingress
-- [ ] ConfigMaps
-- [ ] Secrets
-- [ ] Persistent Volumes
+- [x] Ingress
+- [x] ConfigMaps
+- [x] Secrets
+- [x] Persistent Volumes
 - [ ] Autoscaling
 - [ ] Scheduling
 
