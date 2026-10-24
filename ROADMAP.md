@@ -235,6 +235,7 @@
 - [ ] Canary Deployment
 - [ ] Feature Flags
 - [ ] CDN
+- [ ] Production DNS and Global Traffic Management (CNAMEs, Endpoint management, GSLB, Regional Failover)
 - [ ] Infrastructure as Code
 - [ ] Cloud Architecture
 - [ ] Disaster Recovery
