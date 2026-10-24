@@ -175,11 +175,11 @@
 - [x] Persistent Volumes
 - [x] Autoscaling
 - [x] Scheduling
-- [ ] Health Checks and Probes
-- [ ] Kubernetes Workload Types
-- [ ] Resource Management, QoS, and Eviction
-- [ ] Kubernetes Security: RBAC, Workload Identity, and Network Policies
-- [ ] End-to-End Kubernetes Troubleshooting Lab
+- [x] Health Checks and Probes
+- [x] Kubernetes Workload Types
+- [x] Resource Management, QoS, and Eviction
+- [x] Kubernetes Security: RBAC, Workload Identity, and Network Policies
+- [x] End-to-End Kubernetes Troubleshooting Lab
 
 ---
 

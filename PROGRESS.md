@@ -18,12 +18,16 @@
 - Lesson 117 — Kubernetes Workload Types
 - Lesson 118 — Resource Management, QoS, and Eviction
 - Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
+- Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
 
 ### Current Position
-Covered Kubernetes architecture, workloads, networking, configuration, storage, autoscaling, scheduling, health probes, resource management, and core security boundaries. Lesson 119 covered RBAC authorization, ServiceAccount/workload identity, and NetworkPolicy enforcement.
+Module 07 complete. Consolidated Kubernetes architecture, workloads, networking, configuration, storage, autoscaling, scheduling, health checks, resource management, security, and evidence-driven troubleshooting.
 
 ### Current Lesson
-Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
+Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
+
+### Next Module
+Module 08 — Service Communication
 
 ### Next Lesson
-Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
+Lesson 121 — Service Discovery

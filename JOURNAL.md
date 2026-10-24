@@ -345,3 +345,8 @@ Covered requests versus limits, CPU throttling versus memory OOM kills, Kubernet
 ## Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
 
 Studied three complementary Kubernetes security boundaries: RBAC authorization for Kubernetes API actions, ServiceAccounts and workload identity for identifying workloads, and NetworkPolicies for restricting Pod traffic. Distinguished identities from permissions, Roles from bindings, and API authorization from network access control. Reviewed least privilege, provider-specific external workload identity, CNI-dependent NetworkPolicy enforcement, and read-only diagnostics for permissions and connectivity. Next: Lesson 120 — End-to-End Kubernetes Troubleshooting Lab.
+
+
+## Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
+
+Completed the Kubernetes consolidation sprint with an evidence-driven troubleshooting workflow. Connected Pending Pods, container restarts, readiness failures, empty Service endpoints, resource pressure, RBAC errors, and network-policy failures to the relevant inspection steps. Practiced tracing symptoms across layers, testing hypotheses before changing state, preserving incident evidence, and verifying recovery through workload and service-level signals. Module 07 is complete. Next: Lesson 121 — Service Discovery.

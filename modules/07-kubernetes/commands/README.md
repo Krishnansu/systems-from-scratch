@@ -18,6 +18,7 @@ This directory contains practical command references that accompany the Kubernet
 - [117 — Kubernetes Workload Types](117-workload-types.md)
 - [118 — Resource Management, QoS, and Eviction](118-resource-management-qos-and-eviction.md)
 - [119 — Kubernetes Security](119-kubernetes-security.md)
+- [120 — End-to-End Kubernetes Troubleshooting Lab](120-kubernetes-troubleshooting-lab.md)
 
 ## General Safety Notes
 
@@ -29,3 +30,4 @@ This directory contains practical command references that accompany the Kubernet
 - Avoid changing shared or production resources unless explicitly authorized.
 - Begin autoscaling and scheduling troubleshooting with read-only inspection; do not change shared workload policies, labels, taints, or placement rules without authorization.
 - Do not grant broad RBAC permissions or change NetworkPolicies merely to bypass a failing access check.
+- Preserve incident evidence before mitigation when practical and verify recovery using service-level signals.
