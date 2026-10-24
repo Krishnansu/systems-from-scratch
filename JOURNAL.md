@@ -285,3 +285,8 @@ Studied Pods as Kubernetes' smallest deployable and schedulable unit. Distinguis
 ## 2026-10-24 — Lesson 107: Kubernetes ReplicaSets
 
 Studied ReplicaSets as controllers that reconcile the desired number of matching Pods with the observed count. Covered selectors, Pod templates, replacement Pod objects, and the distinction between current and ready replicas. Connected ReplicaSets to the scheduler, kubelet, container runtime, and Services, and clarified why Deployments manage ReplicaSets for versioned rollouts and rollback. Also covered capacity constraints and why replica management cannot guarantee that Pods become healthy or Ready. Next: Lesson 108 — Deployments.
+
+
+## 2026-10-24 — Lesson 108: Kubernetes Deployments
+
+Studied why Deployments manage ReplicaSets to coordinate versioned application rollouts. Covered Pod-template changes and revision history, rolling updates, `maxSurge` and `maxUnavailable`, readiness failures and stalled rollouts, rollout status/history inspection, and rollback. Reinforced that rollback restores an earlier Pod template but does not reverse database migrations or external side effects. Next: Lesson 109 — Kubernetes Services.

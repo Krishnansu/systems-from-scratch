@@ -167,7 +167,7 @@
 - [x] Kubernetes Architecture
 - [x] Pods
 - [x] ReplicaSets
-- [ ] Deployments
+- [x] Deployments
 - [ ] Services
 - [ ] Ingress
 - [ ] ConfigMaps
