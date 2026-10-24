@@ -340,3 +340,8 @@ Compared Deployments, StatefulSets, DaemonSets, Jobs, and CronJobs by workload l
 ## Lesson 118 — Resource Management, QoS, and Eviction
 
 Covered requests versus limits, CPU throttling versus memory OOM kills, Kubernetes Guaranteed/Burstable/BestEffort QoS classes, and node-pressure eviction. Reviewed how requests affect scheduling and how usage relative to requests and Pod priority can influence eviction decisions. Practiced read-only diagnostics for resource usage, node pressure, events, and Pending Pods. Next: Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies.
+
+
+## Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
+
+Studied three complementary Kubernetes security boundaries: RBAC authorization for Kubernetes API actions, ServiceAccounts and workload identity for identifying workloads, and NetworkPolicies for restricting Pod traffic. Distinguished identities from permissions, Roles from bindings, and API authorization from network access control. Reviewed least privilege, provider-specific external workload identity, CNI-dependent NetworkPolicy enforcement, and read-only diagnostics for permissions and connectivity. Next: Lesson 120 — End-to-End Kubernetes Troubleshooting Lab.

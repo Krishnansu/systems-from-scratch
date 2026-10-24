@@ -17,6 +17,7 @@ This directory contains practical command references that accompany the Kubernet
 - [116 — Health Checks and Probes](116-health-checks-and-probes.md)
 - [117 — Kubernetes Workload Types](117-workload-types.md)
 - [118 — Resource Management, QoS, and Eviction](118-resource-management-qos-and-eviction.md)
+- [119 — Kubernetes Security](119-kubernetes-security.md)
 
 ## General Safety Notes
 
@@ -27,3 +28,4 @@ This directory contains practical command references that accompany the Kubernet
 - Inspect reclaim policies and confirm ownership before deleting storage resources.
 - Avoid changing shared or production resources unless explicitly authorized.
 - Begin autoscaling and scheduling troubleshooting with read-only inspection; do not change shared workload policies, labels, taints, or placement rules without authorization.
+- Do not grant broad RBAC permissions or change NetworkPolicies merely to bypass a failing access check.

@@ -17,12 +17,13 @@
 - Lesson 116 — Health Checks and Probes
 - Lesson 117 — Kubernetes Workload Types
 - Lesson 118 — Resource Management, QoS, and Eviction
+- Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
 
 ### Current Position
-Covered Kubernetes architecture, workload controllers, networking, configuration, storage, autoscaling, scheduling, health probes, and workload types. Lesson 118 distinguished resource requests and limits, QoS classes, CPU throttling, container OOM kills, and node-pressure eviction, with read-only troubleshooting commands.
+Covered Kubernetes architecture, workloads, networking, configuration, storage, autoscaling, scheduling, health probes, resource management, and core security boundaries. Lesson 119 covered RBAC authorization, ServiceAccount/workload identity, and NetworkPolicy enforcement.
 
 ### Current Lesson
-Lesson 118 — Resource Management, QoS, and Eviction
+Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
 
 ### Next Lesson
-Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
+Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
