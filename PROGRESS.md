@@ -4,12 +4,13 @@
 
 ### Completed
 - Lesson 105 — Kubernetes Architecture
+- Lesson 106 — Pods
 
 ### Current Position
-Started the Kubernetes module. Covered the control plane and worker-node responsibilities, cluster-state persistence in etcd, Pod scheduling, kubelet/runtime execution, desired versus actual state, reconciliation, and capacity constraints.
+Covered Kubernetes control-plane and worker-node responsibilities, desired-state reconciliation, scheduling constraints, Pod structure, shared networking and configured volumes, Pod phases, ephemeral Pod identity, and the relationship between Pods, Services, and workload controllers.
 
 ### Current Lesson
-Lesson 105 — Kubernetes Architecture
+Lesson 106 — Pods
 
 ### Next Lesson
-Lesson 106 — Pods
+Lesson 107 — ReplicaSets

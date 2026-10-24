@@ -275,3 +275,8 @@ Completed Module 06 by learning how Docker Compose declaratively defines and man
 ## 2026-10-22 — Lesson 105: Kubernetes Architecture
 
 Started Module 07 by examining Kubernetes as a cluster orchestrator beyond single-host container management. Distinguished the control plane from worker nodes and covered the responsibilities of kube-apiserver, etcd, kube-scheduler, kube-controller-manager, kubelet, the container runtime through CRI, and cluster networking components. Traced a simplified workload flow from desired configuration through controller reconciliation, node assignment, and runtime execution. Reinforced that controllers work toward desired state rather than guaranteeing immediate convergence, that etcd stores Kubernetes cluster state rather than application business data, and that insufficient scheduling capacity can leave a Pod Pending. Distinguished scheduling constraints from runtime memory-limit failures. Next: Lesson 106 — Pods.
+
+
+## 2026-10-24 — Lesson 106: Kubernetes Pods
+
+Studied Pods as Kubernetes' smallest deployable and schedulable unit. Distinguished Nodes, Pods, and containers; covered shared Pod networking, localhost communication, port conflicts, and explicitly configured shared volumes. Reviewed single-container and sidecar patterns, Pod phases, readiness versus Running status, and the ephemeral nature of Pod IPs. Connected Services to stable access across Pod replacement and controllers to maintaining desired replica counts. Practiced the purpose of read-only `kubectl` inspection and log commands, with attention to cluster permissions and sensitive output. Next: Lesson 107 — ReplicaSets.
