@@ -9,6 +9,7 @@ This directory contains practical command references that accompany the Kubernet
 - [108 — Deployments](108-deployments.md)
 - [109 — Services](109-services.md)
 - [110 — Ingress](110-ingress.md)
+- [111 — ConfigMaps](111-configmaps.md)
 
 ## General Safety Notes
 

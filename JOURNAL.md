@@ -300,3 +300,8 @@ Studied why Services provide stable network access to replaceable Pods. Covered 
 ## 2026-10-24 — Lesson 110: Kubernetes Ingress
 
 Studied Ingress as declarative HTTP/HTTPS routing into a Kubernetes cluster. Distinguished Ingress resources from controllers, traced traffic from DNS and an external entry point through host/path matching to backend Services and eligible Pods, and reviewed path types, IngressClass, TLS Secrets, and TLS termination. Compared Ingress with LoadBalancer Services and covered controller-dependent behavior, common failure symptoms, and read-only inspection commands. Next: Lesson 111 — Kubernetes ConfigMaps.
+
+
+## 2026-10-24 — Lesson 111: Kubernetes ConfigMaps
+
+Studied ConfigMaps as namespaced Kubernetes objects for non-confidential configuration, separating environment-specific settings from application images. Covered key-value and file-like data, environment-variable references, `envFrom`, and mounted configuration files. Clarified that environment variables in existing containers do not change after a ConfigMap update, projected files update eventually, `subPath` mounts do not receive automatic updates, and applications may need a reload or rollout. Distinguished ConfigMaps from Secrets and reviewed safe inspection and troubleshooting. Next: Lesson 112 — Kubernetes Secrets.
