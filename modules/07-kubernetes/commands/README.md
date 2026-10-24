@@ -5,6 +5,7 @@ This directory contains practical command references that accompany the Kubernet
 ## Lessons
 
 - [106 — Pods](106-pods.md)
+- [107 — ReplicaSets](107-replicasets.md)
 
 ## General Safety Notes
 

@@ -280,3 +280,8 @@ Started Module 07 by examining Kubernetes as a cluster orchestrator beyond singl
 ## 2026-10-24 — Lesson 106: Kubernetes Pods
 
 Studied Pods as Kubernetes' smallest deployable and schedulable unit. Distinguished Nodes, Pods, and containers; covered shared Pod networking, localhost communication, port conflicts, and explicitly configured shared volumes. Reviewed single-container and sidecar patterns, Pod phases, readiness versus Running status, and the ephemeral nature of Pod IPs. Connected Services to stable access across Pod replacement and controllers to maintaining desired replica counts. Practiced the purpose of read-only `kubectl` inspection and log commands, with attention to cluster permissions and sensitive output. Next: Lesson 107 — ReplicaSets.
+
+
+## 2026-10-24 — Lesson 107: Kubernetes ReplicaSets
+
+Studied ReplicaSets as controllers that reconcile the desired number of matching Pods with the observed count. Covered selectors, Pod templates, replacement Pod objects, and the distinction between current and ready replicas. Connected ReplicaSets to the scheduler, kubelet, container runtime, and Services, and clarified why Deployments manage ReplicaSets for versioned rollouts and rollback. Also covered capacity constraints and why replica management cannot guarantee that Pods become healthy or Ready. Next: Lesson 108 — Deployments.
