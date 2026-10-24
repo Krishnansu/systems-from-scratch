@@ -305,3 +305,8 @@ Studied Ingress as declarative HTTP/HTTPS routing into a Kubernetes cluster. Dis
 ## 2026-10-24 — Lesson 111: Kubernetes ConfigMaps
 
 Studied ConfigMaps as namespaced Kubernetes objects for non-confidential configuration, separating environment-specific settings from application images. Covered key-value and file-like data, environment-variable references, `envFrom`, and mounted configuration files. Clarified that environment variables in existing containers do not change after a ConfigMap update, projected files update eventually, `subPath` mounts do not receive automatic updates, and applications may need a reload or rollout. Distinguished ConfigMaps from Secrets and reviewed safe inspection and troubleshooting. Next: Lesson 112 — Kubernetes Secrets.
+
+
+## 2026-10-24 — Lesson 112: Kubernetes Secrets
+
+Studied Kubernetes Secrets as namespaced objects for sensitive configuration and compared them with ConfigMaps. Covered `stringData`, Base64-encoded `data`, environment-variable references, mounted Secret files, and update behavior. Clarified that Base64 is not encryption, RBAC and encryption at rest serve different purposes, and runtime access still needs careful control. Reviewed safe inspection and troubleshooting practices, plus credential rotation across application reloads and database connections. Next: Lesson 113 — Kubernetes Persistent Volumes.

@@ -10,11 +10,13 @@ This directory contains practical command references that accompany the Kubernet
 - [109 — Services](109-services.md)
 - [110 — Ingress](110-ingress.md)
 - [111 — ConfigMaps](111-configmaps.md)
+- [112 — Secrets](112-secrets.md)
 
 ## General Safety Notes
 
 - Check your current context and namespace before running commands against a cluster.
 - Use read-only inspection commands for introductory exercises.
 - Treat rollout undo, apply, delete, scale, and exposure commands as state-changing operations requiring authorization.
+- Treat Secret values, logs, YAML output, events, and configuration details as potentially sensitive.
+- Avoid printing or sharing Secret data, even when it appears Base64-encoded.
 - Avoid changing resources in shared or production clusters unless explicitly authorized.
-- Treat logs, YAML output, events, and configuration details as potentially sensitive.
