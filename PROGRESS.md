@@ -11,12 +11,13 @@
 - Lesson 126 — Service Mesh
 - Lesson 127 — Istio
 - Lesson 128 — mTLS
+- Lesson 129 — Public/Private Keys, Certificates, Trust & Validation
 
 ### Current Position
-Completed the service-communication sequence through mTLS. Covered mutual peer authentication, certificates and trust, the separation of encryption/authentication/authorization, Istio PeerAuthentication modes, destination TLS configuration, and evidence-based troubleshooting.
+Completed the service-communication sequence through Lesson 129. Covered service discovery, internal DNS, gateways, proxies, service meshes, Istio, mTLS, and the underlying cryptographic concepts of key pairs, certificate issuance, trust chains, peer validation, and authorization.
 
 ### Current Lesson
-Lesson 128 — mTLS
+Lesson 129 — Public/Private Keys, Certificates, Trust & Validation
 
 ### Next Lesson
 Module 09 — Database Fundamentals

@@ -390,3 +390,8 @@ Connected service-mesh concepts to Istio's implementation. Studied Istiod as the
 ## 2026-10-25 — Lesson 128: mTLS
 
 Studied mutual TLS, certificate-based workload identity, trust, and the distinction between encryption, authentication, and authorization. Covered Istio PeerAuthentication modes, DestinationRule TLS behavior, and safe, evidence-based troubleshooting of handshake failures. Next: Module 09 — Database Fundamentals.
+
+
+## 2026-10-25 — Lesson 129: Public/Private Keys, Certificates, Trust & Validation
+
+Built a first-principles mental model for public/private key pairs, digital signatures, certificates, certificate authorities, trust anchors, and certificate chains. Traced certificate issuance from key generation and CSR through CA identity/authorization checks and signing. Distinguished CA signature validation from TLS proof of private-key possession, and connected certificate validation to session-key establishment, mTLS peer authentication, and authorization. Applied the model to Istio by separating credential issuance/distribution, Envoy's live connection validation, Istiod's control-plane responsibilities, and authorization policy decisions. Next: Module 09 — Database Fundamentals.

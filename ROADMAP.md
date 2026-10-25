@@ -193,6 +193,7 @@
 - [x] Service Mesh
 - [x] Istio
 - [x] mTLS
+- [x] Public/Private Keys, Certificates, Trust & Validation
 
 ---
 
