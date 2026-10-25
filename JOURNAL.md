@@ -360,3 +360,8 @@ Started Module 08 by studying how service discovery decouples callers from repla
 ## 2026-10-25 — Lesson 122: Internal DNS
 
 Studied internal DNS as the name-resolution layer behind service communication. Covered Kubernetes Service DNS names, namespace-qualified names and resolver search domains, CoreDNS, common DNS record types, and the distinction between ClusterIP and headless Service answers. Examined resolver behavior, caching and stale answers, then practiced separating DNS failures from connection, endpoint, and application failures. Next: Lesson 123 — API Gateway.
+
+
+## 2026-10-25 — Lesson 123: API Gateway
+
+Studied the API Gateway as a client-facing boundary for backend APIs. Covered request routing, authentication and authorization boundaries, rate limiting, TLS termination, transformations, optional response aggregation, and the trade-offs of gateway timeouts and retries. Compared gateways with load balancers, reverse proxies, Kubernetes Ingress, and service meshes. Emphasized that gateway timeouts can leave state-changing outcomes ambiguous and that gateways themselves require resilience, security, capacity planning, and observability. Next: Lesson 124 — Sidecars.

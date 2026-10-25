@@ -1,11 +1,12 @@
 # Service Communication Command References
 
-This directory contains practical command references for Module 08. Use them as quick references; consult lesson notes for the concepts and trade-offs behind each command.
+This directory contains practical command references for Module 08. Use them as quick references; consult lesson notes for concepts and trade-offs.
 
 ## Lessons
 
 - [121 — Service Discovery](121-service-discovery.md)
 - [122 — Internal DNS](122-internal-dns.md)
+- [123 — API Gateway](123-api-gateway.md)
 
 ## General Safety Notes
 

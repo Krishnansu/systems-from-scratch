@@ -5,12 +5,13 @@
 ### Completed
 - Lesson 121 — Service Discovery
 - Lesson 122 — Internal DNS
+- Lesson 123 — API Gateway
 
 ### Current Position
-Studied internal DNS resolution, Kubernetes Service DNS names, search domains and resolver configuration, CoreDNS, ClusterIP versus headless Service answers, DNS caching, and troubleshooting the boundary between name resolution and application connectivity.
+Studied the API Gateway as a client-facing API boundary, including routing, configured security and traffic policies, optional transformations and aggregation, upstream failures, timeout/retry trade-offs, and its relationship to load balancers, reverse proxies, Kubernetes Ingress, and service meshes.
 
 ### Current Lesson
-Lesson 122 — Internal DNS
+Lesson 123 — API Gateway
 
 ### Next Lesson
-Lesson 123 — API Gateway
+Lesson 124 — Sidecars
