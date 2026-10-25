@@ -375,3 +375,8 @@ Studied sidecars as companion processes that provide selected infrastructure cap
 ## 2026-10-25 — Lesson 125: Envoy
 
 Studied Envoy as a configurable L4/L7 proxy and traced HTTP traffic through listeners, filter chains, filters, routes, clusters, and concrete endpoints. Distinguished static configuration from dynamic xDS updates and the data plane from a control plane. Reviewed how load balancing, health checks, timeouts, and retries depend on configuration, including the risks of retrying state-changing operations. Clarified that Envoy can serve as a sidecar or mesh data-plane proxy but is not itself a complete service mesh. Next: Lesson 126 — Service Mesh.
+
+
+## 2026-10-25 — Lesson 126: Service Mesh
+
+Studied the service mesh as an infrastructure layer for coordinating service-to-service communication across a fleet. Distinguished the data plane from the control plane and traced traffic through outbound and inbound proxies. Compared a mesh with service discovery, internal DNS, API gateways, sidecars, and Envoy; covered traffic management, workload identity, encryption and authorization boundaries, telemetry, and sidecar versus alternative proxy-placement models. Emphasized that a mesh still depends on correct networking, endpoint discovery, proxy configuration, and application health, and introduces operational costs and failure modes of its own. Next: Lesson 127 — Istio.

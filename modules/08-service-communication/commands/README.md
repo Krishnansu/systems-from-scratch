@@ -9,6 +9,7 @@ This directory contains practical command references for Module 08. Use them as 
 - [123 — API Gateway](123-api-gateway.md)
 - [124 — Sidecars](124-sidecars.md)
 - [125 — Envoy](125-envoy.md)
+- [126 — Service Mesh](126-service-mesh.md)
 
 ## General Safety Notes
 

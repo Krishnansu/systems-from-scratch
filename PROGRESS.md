@@ -8,12 +8,13 @@
 - Lesson 123 — API Gateway
 - Lesson 124 — Sidecars
 - Lesson 125 — Envoy
+- Lesson 126 — Service Mesh
 
 ### Current Position
-Studied Envoy as a configurable Layer 4/Layer 7 proxy. Covered listeners, filter chains, filters, HTTP routes, upstream clusters and endpoints, static versus dynamic configuration, the data-plane/control-plane boundary, and the configuration-dependent behavior of load balancing, health checks, timeouts, and retries.
+Studied the service mesh as an infrastructure layer coordinating service-to-service communication across workloads. Distinguished data-plane proxies from the control plane, compared meshes with service discovery, API gateways, sidecars, and Envoy, and covered traffic management, workload identity, security policy, telemetry, proxy-placement alternatives, and operational trade-offs.
 
 ### Current Lesson
-Lesson 125 — Envoy
+Lesson 126 — Service Mesh
 
 ### Next Lesson
-Lesson 126 — Service Mesh
+Lesson 127 — Istio

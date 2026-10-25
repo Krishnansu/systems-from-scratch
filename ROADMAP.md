@@ -185,12 +185,12 @@
 
 ## Module 08 — Service Communication
 
-- [ ] Service Discovery
-- [ ] Internal DNS
-- [ ] API Gateway
-- [ ] Sidecars
-- [ ] Envoy
-- [ ] Service Mesh
+- [x] Service Discovery
+- [x] Internal DNS
+- [x] API Gateway
+- [x] Sidecars
+- [x] Envoy
+- [x] Service Mesh
 - [ ] Istio
 - [ ] mTLS
 
