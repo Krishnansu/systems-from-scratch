@@ -1,33 +1,15 @@
 # Progress
 
-## Module 07 — Kubernetes
+## Module 08 — Service Communication
 
 ### Completed
-- Lesson 105 — Kubernetes Architecture
-- Lesson 106 — Pods
-- Lesson 107 — ReplicaSets
-- Lesson 108 — Deployments
-- Lesson 109 — Services
-- Lesson 110 — Ingress
-- Lesson 111 — ConfigMaps
-- Lesson 112 — Secrets
-- Lesson 113 — Persistent Volumes
-- Lesson 114 — Autoscaling
-- Lesson 115 — Scheduling
-- Lesson 116 — Health Checks and Probes
-- Lesson 117 — Kubernetes Workload Types
-- Lesson 118 — Resource Management, QoS, and Eviction
-- Lesson 119 — Kubernetes Security: RBAC, Workload Identity, and Network Policies
-- Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
+- Lesson 121 — Service Discovery
 
 ### Current Position
-Module 07 complete. Consolidated Kubernetes architecture, workloads, networking, configuration, storage, autoscaling, scheduling, health checks, resource management, security, and evidence-driven troubleshooting.
+Started Module 08 by learning why distributed systems need service discovery, comparing client-side and server-side discovery, separating discovery from registration, health assessment, and load balancing, and tracing Kubernetes Service DNS resolution to backend forwarding.
 
 ### Current Lesson
-Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
-
-### Next Module
-Module 08 — Service Communication
+Lesson 121 — Service Discovery
 
 ### Next Lesson
-Lesson 121 — Service Discovery
+Lesson 122 — Internal DNS

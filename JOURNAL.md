@@ -350,3 +350,8 @@ Studied three complementary Kubernetes security boundaries: RBAC authorization f
 ## Lesson 120 — End-to-End Kubernetes Troubleshooting Lab
 
 Completed the Kubernetes consolidation sprint with an evidence-driven troubleshooting workflow. Connected Pending Pods, container restarts, readiness failures, empty Service endpoints, resource pressure, RBAC errors, and network-policy failures to the relevant inspection steps. Practiced tracing symptoms across layers, testing hypotheses before changing state, preserving incident evidence, and verifying recovery through workload and service-level signals. Module 07 is complete. Next: Lesson 121 — Service Discovery.
+
+
+## 2026-10-25 — Lesson 121: Service Discovery
+
+Started Module 08 by studying how service discovery decouples callers from replaceable instance addresses. Compared client-side and server-side discovery, separated registration, discovery, health assessment, and load balancing, and examined stale registry information. Traced Kubernetes Service-name resolution through DNS and then through cluster networking to eligible endpoints, emphasizing that successful resolution does not guarantee reachability. Next: Lesson 122 — Internal DNS.
