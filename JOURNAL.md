@@ -355,3 +355,8 @@ Completed the Kubernetes consolidation sprint with an evidence-driven troublesho
 ## 2026-10-25 — Lesson 121: Service Discovery
 
 Started Module 08 by studying how service discovery decouples callers from replaceable instance addresses. Compared client-side and server-side discovery, separated registration, discovery, health assessment, and load balancing, and examined stale registry information. Traced Kubernetes Service-name resolution through DNS and then through cluster networking to eligible endpoints, emphasizing that successful resolution does not guarantee reachability. Next: Lesson 122 — Internal DNS.
+
+
+## 2026-10-25 — Lesson 122: Internal DNS
+
+Studied internal DNS as the name-resolution layer behind service communication. Covered Kubernetes Service DNS names, namespace-qualified names and resolver search domains, CoreDNS, common DNS record types, and the distinction between ClusterIP and headless Service answers. Examined resolver behavior, caching and stale answers, then practiced separating DNS failures from connection, endpoint, and application failures. Next: Lesson 123 — API Gateway.

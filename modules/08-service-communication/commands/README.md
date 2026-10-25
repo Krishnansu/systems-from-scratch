@@ -5,6 +5,7 @@ This directory contains practical command references for Module 08. Use them as 
 ## Lessons
 
 - [121 — Service Discovery](121-service-discovery.md)
+- [122 — Internal DNS](122-internal-dns.md)
 
 ## General Safety Notes
 

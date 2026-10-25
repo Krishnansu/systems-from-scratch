@@ -4,12 +4,13 @@
 
 ### Completed
 - Lesson 121 — Service Discovery
+- Lesson 122 — Internal DNS
 
 ### Current Position
-Started Module 08 by learning why distributed systems need service discovery, comparing client-side and server-side discovery, separating discovery from registration, health assessment, and load balancing, and tracing Kubernetes Service DNS resolution to backend forwarding.
+Studied internal DNS resolution, Kubernetes Service DNS names, search domains and resolver configuration, CoreDNS, ClusterIP versus headless Service answers, DNS caching, and troubleshooting the boundary between name resolution and application connectivity.
 
 ### Current Lesson
-Lesson 121 — Service Discovery
+Lesson 122 — Internal DNS
 
 ### Next Lesson
-Lesson 122 — Internal DNS
+Lesson 123 — API Gateway
