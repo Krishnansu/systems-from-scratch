@@ -385,3 +385,8 @@ Studied the service mesh as an infrastructure layer for coordinating service-to-
 ## 2026-10-25 — Lesson 127: Istio
 
 Connected service-mesh concepts to Istio's implementation. Studied Istiod as the control plane, Envoy as a common data-plane proxy, and xDS as the mechanism for dynamic proxy configuration delivery. Distinguished Kubernetes Services from Istio Gateway, VirtualService, and DestinationRule resources, and covered PeerAuthentication, AuthorizationPolicy, and ServiceEntry. Traced sidecar-based request flow and reviewed read-only commands for inspecting Istio resources and proxy synchronization. Reinforced that accepted configuration and proxy synchronization do not guarantee endpoint reachability or application health. Next: Lesson 128 — mTLS.
+
+
+## 2026-10-25 — Lesson 128: mTLS
+
+Studied mutual TLS, certificate-based workload identity, trust, and the distinction between encryption, authentication, and authorization. Covered Istio PeerAuthentication modes, DestinationRule TLS behavior, and safe, evidence-based troubleshooting of handshake failures. Next: Module 09 — Database Fundamentals.

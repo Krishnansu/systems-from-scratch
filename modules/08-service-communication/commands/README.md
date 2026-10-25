@@ -11,6 +11,7 @@ This directory contains practical command references for Module 08. Use them as 
 - [125 — Envoy](125-envoy.md)
 - [126 — Service Mesh](126-service-mesh.md)
 - [127 — Istio](127-istio.md)
+- [128 — mTLS](128-mtls.md)
 
 ## General Safety Notes
 

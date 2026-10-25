@@ -191,8 +191,8 @@
 - [x] Sidecars
 - [x] Envoy
 - [x] Service Mesh
-- [ ] Istio
-- [ ] mTLS
+- [x] Istio
+- [x] mTLS
 
 ---
 

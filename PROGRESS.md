@@ -10,12 +10,13 @@
 - Lesson 125 — Envoy
 - Lesson 126 — Service Mesh
 - Lesson 127 — Istio
+- Lesson 128 — mTLS
 
 ### Current Position
-Studied Istio's control-plane/data-plane architecture, Istiod, Envoy, xDS configuration delivery, sidecar traffic flow, and key routing and security resources. Covered read-only configuration and proxy-synchronization diagnostics, while distinguishing configuration correctness from reachability and application health.
+Completed the service-communication sequence through mTLS. Covered mutual peer authentication, certificates and trust, the separation of encryption/authentication/authorization, Istio PeerAuthentication modes, destination TLS configuration, and evidence-based troubleshooting.
 
 ### Current Lesson
-Lesson 127 — Istio
+Lesson 128 — mTLS
 
 ### Next Lesson
-Lesson 128 — mTLS
+Module 09 — Database Fundamentals
