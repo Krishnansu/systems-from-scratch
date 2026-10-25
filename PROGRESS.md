@@ -9,12 +9,13 @@
 - Lesson 124 — Sidecars
 - Lesson 125 — Envoy
 - Lesson 126 — Service Mesh
+- Lesson 127 — Istio
 
 ### Current Position
-Studied the service mesh as an infrastructure layer coordinating service-to-service communication across workloads. Distinguished data-plane proxies from the control plane, compared meshes with service discovery, API gateways, sidecars, and Envoy, and covered traffic management, workload identity, security policy, telemetry, proxy-placement alternatives, and operational trade-offs.
+Studied Istio's control-plane/data-plane architecture, Istiod, Envoy, xDS configuration delivery, sidecar traffic flow, and key routing and security resources. Covered read-only configuration and proxy-synchronization diagnostics, while distinguishing configuration correctness from reachability and application health.
 
 ### Current Lesson
-Lesson 126 — Service Mesh
+Lesson 127 — Istio
 
 ### Next Lesson
-Lesson 127 — Istio
+Lesson 128 — mTLS

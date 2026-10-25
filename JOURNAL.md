@@ -380,3 +380,8 @@ Studied Envoy as a configurable L4/L7 proxy and traced HTTP traffic through list
 ## 2026-10-25 — Lesson 126: Service Mesh
 
 Studied the service mesh as an infrastructure layer for coordinating service-to-service communication across a fleet. Distinguished the data plane from the control plane and traced traffic through outbound and inbound proxies. Compared a mesh with service discovery, internal DNS, API gateways, sidecars, and Envoy; covered traffic management, workload identity, encryption and authorization boundaries, telemetry, and sidecar versus alternative proxy-placement models. Emphasized that a mesh still depends on correct networking, endpoint discovery, proxy configuration, and application health, and introduces operational costs and failure modes of its own. Next: Lesson 127 — Istio.
+
+
+## 2026-10-25 — Lesson 127: Istio
+
+Connected service-mesh concepts to Istio's implementation. Studied Istiod as the control plane, Envoy as a common data-plane proxy, and xDS as the mechanism for dynamic proxy configuration delivery. Distinguished Kubernetes Services from Istio Gateway, VirtualService, and DestinationRule resources, and covered PeerAuthentication, AuthorizationPolicy, and ServiceEntry. Traced sidecar-based request flow and reviewed read-only commands for inspecting Istio resources and proxy synchronization. Reinforced that accepted configuration and proxy synchronization do not guarantee endpoint reachability or application health. Next: Lesson 128 — mTLS.

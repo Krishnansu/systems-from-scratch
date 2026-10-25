@@ -10,6 +10,7 @@ This directory contains practical command references for Module 08. Use them as 
 - [124 — Sidecars](124-sidecars.md)
 - [125 — Envoy](125-envoy.md)
 - [126 — Service Mesh](126-service-mesh.md)
+- [127 — Istio](127-istio.md)
 
 ## General Safety Notes
 
