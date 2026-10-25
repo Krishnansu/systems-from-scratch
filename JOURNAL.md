@@ -370,3 +370,8 @@ Studied the API Gateway as a client-facing boundary for backend APIs. Covered re
 ## 2026-10-25 — Lesson 124: Sidecars
 
 Studied sidecars as companion processes that provide selected infrastructure capabilities alongside application workloads. Compared sidecars with libraries, node agents, and init containers; examined Kubernetes Pod networking, localhost communication, explicitly shared volumes, and native sidecar lifecycle. Discussed the resource, latency, configuration, and reliability costs of sidecars and how they can serve as building blocks for a service mesh. Next: Lesson 125 — Envoy.
+
+
+## 2026-10-25 — Lesson 125: Envoy
+
+Studied Envoy as a configurable L4/L7 proxy and traced HTTP traffic through listeners, filter chains, filters, routes, clusters, and concrete endpoints. Distinguished static configuration from dynamic xDS updates and the data plane from a control plane. Reviewed how load balancing, health checks, timeouts, and retries depend on configuration, including the risks of retrying state-changing operations. Clarified that Envoy can serve as a sidecar or mesh data-plane proxy but is not itself a complete service mesh. Next: Lesson 126 — Service Mesh.
