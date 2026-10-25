@@ -7,6 +7,7 @@ This directory contains practical command references for Module 08. Use them as 
 - [121 — Service Discovery](121-service-discovery.md)
 - [122 — Internal DNS](122-internal-dns.md)
 - [123 — API Gateway](123-api-gateway.md)
+- [124 — Sidecars](124-sidecars.md)
 
 ## General Safety Notes
 

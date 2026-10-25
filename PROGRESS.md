@@ -6,12 +6,13 @@
 - Lesson 121 — Service Discovery
 - Lesson 122 — Internal DNS
 - Lesson 123 — API Gateway
+- Lesson 124 — Sidecars
 
 ### Current Position
-Studied the API Gateway as a client-facing API boundary, including routing, configured security and traffic policies, optional transformations and aggregation, upstream failures, timeout/retry trade-offs, and its relationship to load balancers, reverse proxies, Kubernetes Ingress, and service meshes.
+Studied the sidecar pattern as a helper process deployed alongside an application workload. Covered communication patterns, Kubernetes Pod networking and volume sharing, sidecar versus library/node agent/init container, native sidecar lifecycle, operational trade-offs, and the relationship between sidecars and service meshes.
 
 ### Current Lesson
-Lesson 123 — API Gateway
+Lesson 124 — Sidecars
 
 ### Next Lesson
-Lesson 124 — Sidecars
+Lesson 125 — Envoy

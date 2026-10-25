@@ -365,3 +365,8 @@ Studied internal DNS as the name-resolution layer behind service communication. 
 ## 2026-10-25 — Lesson 123: API Gateway
 
 Studied the API Gateway as a client-facing boundary for backend APIs. Covered request routing, authentication and authorization boundaries, rate limiting, TLS termination, transformations, optional response aggregation, and the trade-offs of gateway timeouts and retries. Compared gateways with load balancers, reverse proxies, Kubernetes Ingress, and service meshes. Emphasized that gateway timeouts can leave state-changing outcomes ambiguous and that gateways themselves require resilience, security, capacity planning, and observability. Next: Lesson 124 — Sidecars.
+
+
+## 2026-10-25 — Lesson 124: Sidecars
+
+Studied sidecars as companion processes that provide selected infrastructure capabilities alongside application workloads. Compared sidecars with libraries, node agents, and init containers; examined Kubernetes Pod networking, localhost communication, explicitly shared volumes, and native sidecar lifecycle. Discussed the resource, latency, configuration, and reliability costs of sidecars and how they can serve as building blocks for a service mesh. Next: Lesson 125 — Envoy.
