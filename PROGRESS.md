@@ -20,12 +20,13 @@ Module 08 completed through Lesson 129.
 
 ### Completed
 - Lesson 130 — Database Fundamentals
+- Lesson 131 — Indexing
 
 ### Current Position
-Introduced databases and DBMSs, relational tables and keys, SQL, query execution, persistence, durability, constraints, concurrency, and common production failure modes.
+Covered database fundamentals and how indexes can improve selected queries while adding storage and write-maintenance costs. Practiced reasoning about B-tree indexes, selectivity, composite-index order, and query plans.
 
 ### Current Lesson
-Lesson 130 — Database Fundamentals
+Lesson 131 — Indexing
 
 ### Next Lesson
-Lesson 131 — Indexing
+Lesson 132 — Transactions

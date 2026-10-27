@@ -400,3 +400,8 @@ Built a first-principles mental model for public/private key pairs, digital sign
 ## 2026-10-25 — Lesson 130: Database Fundamentals
 
 Started Module 09 by exploring why applications need a shared database rather than process-local memory or ad hoc files. Distinguished databases, DBMSs, servers, and clients; covered relational tables, primary and foreign keys, constraints, SQL, joins, and the application-to-database query lifecycle. Introduced persistence, durability, transactions, concurrency, relational versus NoSQL data models, and common production failure modes. Added a PostgreSQL-compatible SQL practice reference. Next: Lesson 131 — Indexing.
+
+
+## 2026-10-27 — Lesson 131: Indexing
+
+Studied how database indexes help locate rows without scanning an entire table. Covered sequential scans versus index scans, B-tree navigation, selectivity, composite indexes and leading-column order, and the storage/write-maintenance trade-offs of indexing. Practiced comparing PostgreSQL query plans with `EXPLAIN`, distinguishing it from `EXPLAIN ANALYZE`, and using planner statistics to investigate index choices. Reflection review: 29/30, with strong understanding of optimizer decisions and composite-index ordering; reinforced checking actual execution details and possible bottlenecks before adding indexes. Emphasized that indexes are workload optimizations, not automatic guarantees of faster queries. Next: Lesson 132 — Transactions.
