@@ -13,11 +13,19 @@
 - Lesson 128 — mTLS
 - Lesson 129 — Public/Private Keys, Certificates, Trust & Validation
 
+### Status
+Module 08 completed through Lesson 129.
+
+## Module 09 — Databases
+
+### Completed
+- Lesson 130 — Database Fundamentals
+
 ### Current Position
-Completed the service-communication sequence through Lesson 129. Covered service discovery, internal DNS, gateways, proxies, service meshes, Istio, mTLS, and the underlying cryptographic concepts of key pairs, certificate issuance, trust chains, peer validation, and authorization.
+Introduced databases and DBMSs, relational tables and keys, SQL, query execution, persistence, durability, constraints, concurrency, and common production failure modes.
 
 ### Current Lesson
-Lesson 129 — Public/Private Keys, Certificates, Trust & Validation
+Lesson 130 — Database Fundamentals
 
 ### Next Lesson
-Module 09 — Database Fundamentals
+Lesson 131 — Indexing
