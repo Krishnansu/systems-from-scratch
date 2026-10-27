@@ -6,6 +6,7 @@ This directory contains practical command and SQL references for Module 09. Use 
 - [130 — Database Fundamentals](130-database-fundamentals.md)
 - [131 — Indexing](131-indexing.md)
 - [132 — Transactions](132-transactions.md)
+- [133 — Isolation Levels](133-isolation-levels.md)
 
 ## General Safety Notes
 - Confirm the target database and environment before running commands.

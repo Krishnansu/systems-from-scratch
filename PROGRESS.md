@@ -22,12 +22,13 @@ Module 08 completed through Lesson 129.
 - Lesson 130 — Database Fundamentals
 - Lesson 131 — Indexing
 - Lesson 132 — Transactions
+- Lesson 133 — Isolation Levels
 
 ### Current Position
-Studied database transactions, ACID properties, commit and rollback behavior, failure handling, conditional updates, concurrency risks, and the boundary between a database transaction and a multi-service workflow.
+Studied standard isolation levels, PostgreSQL snapshot behavior, dirty reads, non-repeatable reads, phantom reads, lost updates, write skew, and concurrency-control choices including Serializable isolation, constraints, atomic updates, and locks.
 
 ### Current Lesson
-Lesson 132 — Transactions
+Lesson 133 — Isolation Levels
 
 ### Next Lesson
-Lesson 133 — Isolation Levels
+Lesson 134 — Replication

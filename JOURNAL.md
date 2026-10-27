@@ -410,3 +410,8 @@ Studied how database indexes help locate rows without scanning an entire table. 
 ## 2026-10-27 — Lesson 132: Transactions
 
 Studied transactions as logical units of database work and explored ACID: atomicity, consistency, isolation, and durability. Practiced BEGIN, COMMIT, and ROLLBACK; examined constraint violations, affected-row validation, conditional updates, concurrent withdrawals, and ambiguous outcomes when a connection fails during commit. Connected PostgreSQL MVCC and write-ahead logging to concurrency and recovery, and distinguished a database transaction from a workflow spanning payment providers, inventory services, and message brokers. Next: Lesson 133 — Isolation Levels.
+
+
+## 2026-10-27 — Lesson 133: Isolation Levels
+
+Studied why transaction boundaries alone do not prevent every concurrency anomaly. Compared the standard isolation levels and PostgreSQL's actual behavior, including its per-statement Read Committed snapshots, stable Repeatable Read snapshots, and Serializable anomaly detection. Distinguished dirty reads, non-repeatable reads, phantom reads, lost updates, and write skew. Practiced two-session experiments and discussed choosing between isolation levels, constraints, conditional updates, and explicit locks, including safe retries after serialization failures. Next: Lesson 134 — Replication.
