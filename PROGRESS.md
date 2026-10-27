@@ -21,12 +21,13 @@ Module 08 completed through Lesson 129.
 ### Completed
 - Lesson 130 — Database Fundamentals
 - Lesson 131 — Indexing
+- Lesson 132 — Transactions
 
 ### Current Position
-Covered database fundamentals and how indexes can improve selected queries while adding storage and write-maintenance costs. Practiced reasoning about B-tree indexes, selectivity, composite-index order, and query plans.
+Studied database transactions, ACID properties, commit and rollback behavior, failure handling, conditional updates, concurrency risks, and the boundary between a database transaction and a multi-service workflow.
 
 ### Current Lesson
-Lesson 131 — Indexing
+Lesson 132 — Transactions
 
 ### Next Lesson
-Lesson 132 — Transactions
+Lesson 133 — Isolation Levels

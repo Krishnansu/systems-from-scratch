@@ -405,3 +405,8 @@ Started Module 09 by exploring why applications need a shared database rather th
 ## 2026-10-27 — Lesson 131: Indexing
 
 Studied how database indexes help locate rows without scanning an entire table. Covered sequential scans versus index scans, B-tree navigation, selectivity, composite indexes and leading-column order, and the storage/write-maintenance trade-offs of indexing. Practiced comparing PostgreSQL query plans with `EXPLAIN`, distinguishing it from `EXPLAIN ANALYZE`, and using planner statistics to investigate index choices. Reflection review: 29/30, with strong understanding of optimizer decisions and composite-index ordering; reinforced checking actual execution details and possible bottlenecks before adding indexes. Emphasized that indexes are workload optimizations, not automatic guarantees of faster queries. Next: Lesson 132 — Transactions.
+
+
+## 2026-10-27 — Lesson 132: Transactions
+
+Studied transactions as logical units of database work and explored ACID: atomicity, consistency, isolation, and durability. Practiced BEGIN, COMMIT, and ROLLBACK; examined constraint violations, affected-row validation, conditional updates, concurrent withdrawals, and ambiguous outcomes when a connection fails during commit. Connected PostgreSQL MVCC and write-ahead logging to concurrency and recovery, and distinguished a database transaction from a workflow spanning payment providers, inventory services, and message brokers. Next: Lesson 133 — Isolation Levels.
