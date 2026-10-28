@@ -23,12 +23,13 @@ Module 08 completed through Lesson 129.
 - Lesson 131 — Indexing
 - Lesson 132 — Transactions
 - Lesson 133 — Isolation Levels
+- Lesson 134 — Replication
 
 ### Current Position
-Studied standard isolation levels, PostgreSQL snapshot behavior, dirty reads, non-repeatable reads, phantom reads, lost updates, write skew, and concurrency-control choices including Serializable isolation, constraints, atomic updates, and locks.
+Studied primary/replica architectures, WAL-based replication, synchronous and asynchronous acknowledgement trade-offs, replication lag and stale reads, failover and split-brain risks, RPO/RTO, and the distinction between replication and backups.
 
 ### Current Lesson
-Lesson 133 — Isolation Levels
+Lesson 134 — Replication
 
 ### Next Lesson
-Lesson 134 — Replication
+Lesson 135 — Sharding

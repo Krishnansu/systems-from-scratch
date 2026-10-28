@@ -415,3 +415,8 @@ Studied transactions as logical units of database work and explored ACID: atomic
 ## 2026-10-27 — Lesson 133: Isolation Levels
 
 Studied why transaction boundaries alone do not prevent every concurrency anomaly. Compared the standard isolation levels and PostgreSQL's actual behavior, including its per-statement Read Committed snapshots, stable Repeatable Read snapshots, and Serializable anomaly detection. Distinguished dirty reads, non-repeatable reads, phantom reads, lost updates, and write skew. Practiced two-session experiments and discussed choosing between isolation levels, constraints, conditional updates, and explicit locks, including safe retries after serialization failures. Next: Lesson 134 — Replication.
+
+
+## 2026-10-27 — Lesson 134: Replication
+
+Studied why databases replicate data for redundancy, availability, and read scaling. Compared primary/replica architecture, PostgreSQL WAL streaming, synchronous versus asynchronous replication, and the risk of stale reads from replication lag. Covered failover, replica promotion, split-brain prevention, RPO/RTO, and why replication does not replace backups. Added read-only PostgreSQL commands for inspecting replication state. Next: Lesson 135 — Sharding.
