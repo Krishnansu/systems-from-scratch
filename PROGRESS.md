@@ -24,12 +24,13 @@ Module 08 completed through Lesson 129.
 - Lesson 132 — Transactions
 - Lesson 133 — Isolation Levels
 - Lesson 134 — Replication
+- Lesson 135 — Sharding
 
 ### Current Position
-Studied primary/replica architectures, WAL-based replication, synchronous and asynchronous acknowledgement trade-offs, replication lag and stale reads, failover and split-brain risks, RPO/RTO, and the distinction between replication and backups.
+Studied how sharding partitions data across database servers; shard-key selection; range-, hash-, and directory-based placement; routing; hot shards; cross-shard queries and transactions; and the correctness and operational challenges of resharding. Distinguished sharding from replication and reviewed PostgreSQL table partitioning as a related but different concept.
 
 ### Current Lesson
-Lesson 134 — Replication
+Lesson 135 — Sharding
 
 ### Next Lesson
-Lesson 135 — Sharding
+Lesson 136 — Connection Pooling

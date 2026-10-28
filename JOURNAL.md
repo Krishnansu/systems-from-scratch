@@ -420,3 +420,8 @@ Studied why transaction boundaries alone do not prevent every concurrency anomal
 ## 2026-10-27 — Lesson 134: Replication
 
 Studied why databases replicate data for redundancy, availability, and read scaling. Compared primary/replica architecture, PostgreSQL WAL streaming, synchronous versus asynchronous replication, and the risk of stale reads from replication lag. Covered failover, replica promotion, split-brain prevention, RPO/RTO, and why replication does not replace backups. Added read-only PostgreSQL commands for inspecting replication state. Next: Lesson 135 — Sharding.
+
+
+## 2026-10-28 — Lesson 135: Sharding
+
+Studied sharding as horizontal data distribution and contrasted it with replication. Compared range-, hash-, and directory-based strategies; examined shard-key selection, request routing, data and traffic skew, hot shards, cross-shard queries and transactions, and safe resharding. Used a multi-tenant SaaS scenario to reason about locality and global reporting, and distinguished PostgreSQL table partitioning from distributing data across independent database servers. Next: Lesson 136 — Connection Pooling.
