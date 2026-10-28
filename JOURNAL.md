@@ -425,3 +425,8 @@ Studied why databases replicate data for redundancy, availability, and read scal
 ## 2026-10-28 — Lesson 135: Sharding
 
 Studied sharding as horizontal data distribution and contrasted it with replication. Compared range-, hash-, and directory-based strategies; examined shard-key selection, request routing, data and traffic skew, hot shards, cross-shard queries and transactions, and safe resharding. Used a multi-tenant SaaS scenario to reason about locality and global reporting, and distinguished PostgreSQL table partitioning from distributing data across independent database servers. Next: Lesson 136 — Connection Pooling.
+
+
+## 2026-10-28 — Lesson 136: Connection Pooling
+
+Studied database connection lifecycle and the overhead of establishing connections per request. Covered pool checkout/release, limits and timeouts, exhaustion, connection leaks, slow queries, long-held transactions, and sizing pools against maximum application replica counts and database capacity. Applied Little's Law to estimate average concurrency, examined pool multiplication across shards, compared PgBouncer session and transaction pooling, and practiced read-only PostgreSQL session diagnostics. Next: Lesson 137 — Redis.

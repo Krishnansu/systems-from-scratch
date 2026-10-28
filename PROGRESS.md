@@ -25,12 +25,13 @@ Module 08 completed through Lesson 129.
 - Lesson 133 — Isolation Levels
 - Lesson 134 — Replication
 - Lesson 135 — Sharding
+- Lesson 136 — Connection Pooling
 
 ### Current Position
-Studied how sharding partitions data across database servers; shard-key selection; range-, hash-, and directory-based placement; routing; hot shards; cross-shard queries and transactions; and the correctness and operational challenges of resharding. Distinguished sharding from replication and reviewed PostgreSQL table partitioning as a related but different concept.
+Studied reusable database connections, pool checkout and release, pool sizing, exhaustion, leaks, long-held transactions, and the impact of application scaling on aggregate connection counts. Reviewed per-shard pools, PgBouncer session versus transaction pooling, and PostgreSQL activity diagnostics.
 
 ### Current Lesson
-Lesson 135 — Sharding
+Lesson 136 — Connection Pooling
 
 ### Next Lesson
-Lesson 136 — Connection Pooling
+Lesson 137 — Redis

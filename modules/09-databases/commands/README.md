@@ -9,6 +9,7 @@ This directory contains practical command and SQL references for Module 09. Use 
 - [133 — Isolation Levels](133-isolation-levels.md)
 - [134 — Replication](134-replication.md)
 - [135 — Sharding](135-sharding.md)
+- [136 — Connection Pooling](136-connection-pooling.md)
 
 ## General Safety Notes
 - Confirm the target database and environment before running commands.
