@@ -199,14 +199,14 @@
 
 ## Module 09 — Databases
 
-- [ ] Database Fundamentals
-- [ ] Indexing
-- [ ] Transactions
-- [ ] Isolation Levels
-- [ ] Replication
-- [ ] Sharding
-- [ ] Connection Pooling
-- [ ] Redis
+- [x] Database Fundamentals
+- [x] Indexing
+- [x] Transactions
+- [x] Isolation Levels
+- [x] Replication
+- [x] Sharding
+- [x] Connection Pooling
+- [x] Redis
 
 ---
 

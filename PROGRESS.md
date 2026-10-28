@@ -26,12 +26,13 @@ Module 08 completed through Lesson 129.
 - Lesson 134 — Replication
 - Lesson 135 — Sharding
 - Lesson 136 — Connection Pooling
+- Lesson 137 — Redis
 
 ### Current Position
-Studied reusable database connections, pool checkout and release, pool sizing, exhaustion, leaks, long-held transactions, and the impact of application scaling on aggregate connection counts. Reviewed per-shard pools, PgBouncer session versus transaction pooling, and PostgreSQL activity diagnostics.
+Studied Redis as an in-memory data store, including strings, hashes, lists, sets, sorted sets, and streams. Covered cache-aside, TTL, invalidation races, cache stampedes, hot keys, memory eviction, RDB/AOF persistence, and the difference between atomic commands and multi-command workflows.
 
 ### Current Lesson
-Lesson 136 — Connection Pooling
+Lesson 137 — Redis
 
 ### Next Lesson
-Lesson 137 — Redis
+Lesson 138 — Why Messaging

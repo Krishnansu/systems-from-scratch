@@ -430,3 +430,8 @@ Studied sharding as horizontal data distribution and contrasted it with replicat
 ## 2026-10-28 — Lesson 136: Connection Pooling
 
 Studied database connection lifecycle and the overhead of establishing connections per request. Covered pool checkout/release, limits and timeouts, exhaustion, connection leaks, slow queries, long-held transactions, and sizing pools against maximum application replica counts and database capacity. Applied Little's Law to estimate average concurrency, examined pool multiplication across shards, compared PgBouncer session and transaction pooling, and practiced read-only PostgreSQL session diagnostics. Next: Lesson 137 — Redis.
+
+
+## 2026-10-28 — Lesson 137: Redis
+
+Studied Redis as an in-memory data store and explored its role in caching and shared application state. Covered strings, hashes, lists, sets, sorted sets, and streams; traced cache-aside behavior; and examined TTL, invalidation races, cache stampedes, hot keys, memory eviction, persistence, and atomicity boundaries. Emphasized that caching introduces freshness and failure-handling concerns, and that atomic individual commands do not make multi-step business workflows atomic. Next: Lesson 138 — Why Messaging.

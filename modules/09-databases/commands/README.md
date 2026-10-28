@@ -10,11 +10,11 @@ This directory contains practical command and SQL references for Module 09. Use 
 - [134 — Replication](134-replication.md)
 - [135 — Sharding](135-sharding.md)
 - [136 — Connection Pooling](136-connection-pooling.md)
+- [137 — Redis](137-redis.md)
 
 ## General Safety Notes
 - Confirm the target database and environment before running commands.
-- Treat SQL that creates, modifies, or deletes data as state-changing.
+- Treat SQL or Redis commands that create, modify, or delete data as state-changing.
 - Use parameterized queries rather than concatenating untrusted SQL input.
 - Do not run exploratory or destructive commands against production.
 - Keep credentials and sensitive query results out of source control and shared logs.
-- Do not experiment with production failover, replication reconfiguration, or shard migration.
