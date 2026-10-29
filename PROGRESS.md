@@ -28,11 +28,19 @@ Module 08 completed through Lesson 129.
 - Lesson 136 — Connection Pooling
 - Lesson 137 — Redis
 
+### Status
+Module 09 completed through Lesson 137.
+
+## Module 10 — Messaging
+
+### Completed
+- Lesson 138 — Why Messaging?
+
 ### Current Position
-Studied Redis as an in-memory data store, including strings, hashes, lists, sets, sorted sets, and streams. Covered cache-aside, TTL, invalidation races, cache stampedes, hot keys, memory eviction, RDB/AOF persistence, and the difference between atomic commands and multi-command workflows.
+Studied synchronous versus asynchronous communication, producers and consumers, brokers and queues/topics, temporal decoupling, load leveling, failure isolation, delivery semantics, acknowledgments, idempotency, retries, backpressure, poison messages, and the transactional outbox pattern.
 
 ### Current Lesson
-Lesson 137 — Redis
+Lesson 138 — Why Messaging?
 
 ### Next Lesson
-Lesson 138 — Why Messaging
+Lesson 139 — RabbitMQ

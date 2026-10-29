@@ -435,3 +435,8 @@ Studied database connection lifecycle and the overhead of establishing connectio
 ## 2026-10-28 — Lesson 137: Redis
 
 Studied Redis as an in-memory data store and explored its role in caching and shared application state. Covered strings, hashes, lists, sets, sorted sets, and streams; traced cache-aside behavior; and examined TTL, invalidation races, cache stampedes, hot keys, memory eviction, persistence, and atomicity boundaries. Emphasized that caching introduces freshness and failure-handling concerns, and that atomic individual commands do not make multi-step business workflows atomic. Next: Lesson 138 — Why Messaging.
+
+
+## 2026-10-28 — Lesson 138: Why Messaging?
+
+Studied why asynchronous messaging separates work submission from work execution. Compared synchronous request-response with asynchronous workflows and examined temporal decoupling, buffering, load leveling, failure isolation, and independent consumer scaling. Defined producers, brokers, queues/topics, consumers, and acknowledgments. Covered at-most-once and at-least-once delivery, duplicate-safe processing, acknowledgment failure windows, retries, poison messages, ordering, backpressure, and the limits of exactly-once claims. Introduced the transactional outbox as a way to close the database-commit/message-publication gap. Emphasized that messaging adds operational complexity and does not automatically solve distributed transactions. Next: Lesson 139 — RabbitMQ.
