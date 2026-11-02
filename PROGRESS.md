@@ -35,12 +35,13 @@ Module 09 completed through Lesson 137.
 
 ### Completed
 - Lesson 138 — Why Messaging?
+- Lesson 139 — RabbitMQ
 
 ### Current Position
-Studied synchronous versus asynchronous communication, producers and consumers, brokers and queues/topics, temporal decoupling, load leveling, failure isolation, delivery semantics, acknowledgments, idempotency, retries, backpressure, poison messages, and the transactional outbox pattern.
+Studied RabbitMQ exchanges, queues, bindings, routing keys, exchange types, publisher confirms, consumer acknowledgments, durability, redelivery, prefetch, competing consumers, idempotency, and basic operations.
 
 ### Current Lesson
-Lesson 138 — Why Messaging?
+Lesson 139 — RabbitMQ
 
 ### Next Lesson
-Lesson 139 — RabbitMQ
+Lesson 140 — Kafka

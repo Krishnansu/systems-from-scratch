@@ -440,3 +440,8 @@ Studied Redis as an in-memory data store and explored its role in caching and sh
 ## 2026-10-28 — Lesson 138: Why Messaging?
 
 Studied why asynchronous messaging separates work submission from work execution. Compared synchronous request-response with asynchronous workflows and examined temporal decoupling, buffering, load leveling, failure isolation, and independent consumer scaling. Defined producers, brokers, queues/topics, consumers, and acknowledgments. Covered at-most-once and at-least-once delivery, duplicate-safe processing, acknowledgment failure windows, retries, poison messages, ordering, backpressure, and the limits of exactly-once claims. Introduced the transactional outbox as a way to close the database-commit/message-publication gap. Emphasized that messaging adds operational complexity and does not automatically solve distributed transactions. Next: Lesson 139 — RabbitMQ.
+
+
+## 2026-10-29 — Lesson 139: RabbitMQ
+
+Studied RabbitMQ's producer-to-exchange-to-queue-to-consumer flow. Compared direct, fanout, topic, and headers exchanges; practiced routing-key patterns; and distinguished publisher confirms from consumer acknowledgments. Examined durable queues, persistent messages, redelivery after consumer crashes, manual acknowledgment, duplicate-safe processing, prefetch, and competing consumers. Compared RabbitMQ's flexible routing and work-queue model with Kafka's retained log model. Added a disposable local Docker lab for exploring exchanges and bindings. Next: Lesson 140 — Kafka.
