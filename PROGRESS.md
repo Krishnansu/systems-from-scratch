@@ -36,12 +36,13 @@ Module 09 completed through Lesson 137.
 ### Completed
 - Lesson 138 — Why Messaging?
 - Lesson 139 — RabbitMQ
+- Lesson 140 — Kafka
 
 ### Current Position
-Studied RabbitMQ exchanges, queues, bindings, routing keys, exchange types, publisher confirms, consumer acknowledgments, durability, redelivery, prefetch, competing consumers, idempotency, and basic operations.
+Studied Kafka topics, partitions, records, keys, offsets, brokers, replication, ISR, consumer groups, rebalancing, retention, replay, compaction, delivery semantics, throughput, and consumer lag.
 
 ### Current Lesson
-Lesson 139 — RabbitMQ
+Lesson 140 — Kafka
 
 ### Next Lesson
-Lesson 140 — Kafka
+Lesson 141 — Event-Driven Architecture

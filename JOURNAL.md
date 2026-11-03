@@ -445,3 +445,8 @@ Studied why asynchronous messaging separates work submission from work execution
 ## 2026-10-29 — Lesson 139: RabbitMQ
 
 Studied RabbitMQ's producer-to-exchange-to-queue-to-consumer flow. Compared direct, fanout, topic, and headers exchanges; practiced routing-key patterns; and distinguished publisher confirms from consumer acknowledgments. Examined durable queues, persistent messages, redelivery after consumer crashes, manual acknowledgment, duplicate-safe processing, prefetch, and competing consumers. Compared RabbitMQ's flexible routing and work-queue model with Kafka's retained log model. Added a disposable local Docker lab for exploring exchanges and bindings. Next: Lesson 140 — Kafka.
+
+
+## 2026-11-03 — Lesson 140: Kafka
+
+Studied Kafka's distributed event-log model, including topics, partitions, records, keys, offsets, brokers, leader/follower replication, and ISR. Explored consumer groups, partition assignment, rebalancing, offset commit failure windows, retention, replay, and log compaction. Compared at-most-once, at-least-once, and Kafka's scoped exactly-once capabilities, and examined partitioning, throughput, hot keys, and consumer lag. Added a disposable local Kafka lab for topic creation and consumer-group exploration. Next: Lesson 141 — Event-Driven Architecture.
