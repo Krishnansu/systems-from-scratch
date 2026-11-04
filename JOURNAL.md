@@ -450,3 +450,8 @@ Studied RabbitMQ's producer-to-exchange-to-queue-to-consumer flow. Compared dire
 ## 2026-11-03 — Lesson 140: Kafka
 
 Studied Kafka's distributed event-log model, including topics, partitions, records, keys, offsets, brokers, leader/follower replication, and ISR. Explored consumer groups, partition assignment, rebalancing, offset commit failure windows, retention, replay, and log compaction. Compared at-most-once, at-least-once, and Kafka's scoped exactly-once capabilities, and examined partitioning, throughput, hot keys, and consumer lag. Added a disposable local Kafka lab for topic creation and consumer-group exploration. Next: Lesson 141 — Event-Driven Architecture.
+
+
+## 2026-11-03 — Lesson 141: Event-Driven Architecture
+
+Studied Event-Driven Architecture as a communication model built around publishing business facts and independently reacting to them. Distinguished commands from events and compared event notification with event-carried state transfer. Examined eventual consistency, choreography versus orchestration, event contracts and schema evolution, and the transactional outbox pattern. Connected production concerns such as duplicate delivery, ordering, correlation IDs, and observability to the design of asynchronous workflows. Next: Lesson 142 — Dead Letter Queues.

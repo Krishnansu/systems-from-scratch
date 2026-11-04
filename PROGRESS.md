@@ -37,12 +37,13 @@ Module 09 completed through Lesson 137.
 - Lesson 138 — Why Messaging?
 - Lesson 139 — RabbitMQ
 - Lesson 140 — Kafka
+- Lesson 141 — Event-Driven Architecture
 
 ### Current Position
-Studied Kafka topics, partitions, records, keys, offsets, brokers, replication, ISR, consumer groups, rebalancing, retention, replay, compaction, delivery semantics, throughput, and consumer lag.
+Studied event-driven communication, commands versus events, event notification and event-carried state transfer, eventual consistency, choreography and orchestration, event contracts, schema evolution, and the transactional outbox.
 
 ### Current Lesson
-Lesson 140 — Kafka
+Lesson 141 — Event-Driven Architecture
 
 ### Next Lesson
-Lesson 141 — Event-Driven Architecture
+Lesson 142 — Dead Letter Queues
