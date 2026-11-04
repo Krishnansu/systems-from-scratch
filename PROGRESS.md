@@ -38,12 +38,13 @@ Module 09 completed through Lesson 137.
 - Lesson 139 — RabbitMQ
 - Lesson 140 — Kafka
 - Lesson 141 — Event-Driven Architecture
+- Lesson 142 — Dead Letter Queues
 
 ### Current Position
-Studied event-driven communication, commands versus events, event notification and event-carried state transfer, eventual consistency, choreography and orchestration, event contracts, schema evolution, and the transactional outbox.
+Studied messaging failure handling, poison messages, bounded retries, exponential backoff and jitter, RabbitMQ dead-letter exchanges and retry queues, Kafka retry topics and dead letter topics, ordering implications, and safe reprocessing.
 
 ### Current Lesson
-Lesson 141 — Event-Driven Architecture
+Lesson 142 — Dead Letter Queues
 
 ### Next Lesson
-Lesson 142 — Dead Letter Queues
+Lesson 143 — Saga Pattern

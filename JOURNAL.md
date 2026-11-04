@@ -455,3 +455,8 @@ Studied Kafka's distributed event-log model, including topics, partitions, recor
 ## 2026-11-03 — Lesson 141: Event-Driven Architecture
 
 Studied Event-Driven Architecture as a communication model built around publishing business facts and independently reacting to them. Distinguished commands from events and compared event notification with event-carried state transfer. Examined eventual consistency, choreography versus orchestration, event contracts and schema evolution, and the transactional outbox pattern. Connected production concerns such as duplicate delivery, ordering, correlation IDs, and observability to the design of asynchronous workflows. Next: Lesson 142 — Dead Letter Queues.
+
+
+## 2026-11-04 — Lesson 142: Dead Letter Queues
+
+Studied poison messages and controlled failure handling in asynchronous messaging systems. Compared transient, permanent, and business-level failures; designed bounded retries using exponential backoff and jitter; and examined RabbitMQ DLX/DLQ routing, TTL-based retry queues, Kafka retry topics and DLTs, offset-commit failure windows, and ordering implications. Emphasized failure metadata, idempotency, controlled replay, monitoring, and the operational ownership required to make dead-letter handling reliable. Next: Lesson 143 — Saga Pattern.
