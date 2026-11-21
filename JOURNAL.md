@@ -465,3 +465,8 @@ Studied poison messages and controlled failure handling in asynchronous messagin
 ## 2026-11-04 — Lesson 143: Saga Pattern
 
 Studied the Saga Pattern for coordinating business workflows across independently owned services. Distinguished local transactions from distributed transactions and explored forward operations, compensating transactions, and why compensation is not a database rollback. Compared choreography-based and orchestration-based Sagas, designed a durable Saga state machine, and examined idempotent commands, transactional outbox/inbox, ambiguous outcomes, orchestrator crashes, and compensation failures. Compared Saga with Two-Phase Commit and emphasized durable recovery, reconciliation, and manual intervention for effects that cannot be perfectly reversed. Completed Module 10 — Messaging. Next: Lesson 144 — Logging.
+
+
+## 2026-11-21 — Lesson 144: Logging
+
+Started Module 11 — Observability by studying logging as production evidence of application behavior. Covered log levels, structured versus unstructured logging, contextual fields, correlation IDs across distributed services, stdout/stderr and centralized collection pipelines, common logging stacks, Kubernetes node-level collection via DaemonSets, safe logging practices, noise/cost/retention trade-offs, and the complementary roles of logs, metrics, and traces. Next: Lesson 145 — Metrics.

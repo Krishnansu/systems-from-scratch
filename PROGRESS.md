@@ -46,11 +46,14 @@ Module 10 completed through Lesson 143. Studied distributed workflow coordinatio
 
 ## Module 11 — Observability
 
-### Current Position
-Module 11 begins with the foundations of production observability.
+### Completed
+- Lesson 144 — Logging
+
+### Status
+Started Module 11. Studied log levels, structured logging, contextual fields, correlation IDs, centralized log collection, Kubernetes logging, and safe production logging practices.
 
 ### Current Lesson
-Lesson 143 — Saga Pattern
+Lesson 144 — Logging
 
 ### Next Lesson
-Lesson 144 — Logging
+Lesson 145 — Metrics
