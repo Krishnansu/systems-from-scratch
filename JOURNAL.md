@@ -485,3 +485,8 @@ Studied distributed tracing as a way to follow requests across service boundarie
 ## 2026-11-21 — Lesson 147: Health Checks
 
 Studied liveness, readiness, and startup checks; how Kubernetes HTTP/TCP/exec/gRPC probes work and their failure behavior; dependency-aware health checks; risks of cascading failures; and health checks during graceful shutdown and traffic draining. Distinguished process health, instance readiness, dependency health, and system health. Next: Lesson 148 — Prometheus.
+
+
+## 2026-11-21 — Lesson 148: Prometheus
+
+Studied Prometheus as a pull-based monitoring and alerting system. Covered its architecture, instrumented applications, exporters, scrape intervals, jobs and targets, service discovery and relabeling, the `up` metric, time-series identity and TSDB storage, PromQL instant/range vectors, rate calculations, aggregation, histogram quantiles, alerting rules, and Alertmanager. Connected Prometheus to Kubernetes monitoring and production concerns such as cardinality, retention, scrape failures, and monitoring the monitoring system. Next: Lesson 149 — Grafana.

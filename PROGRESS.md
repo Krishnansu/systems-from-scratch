@@ -51,14 +51,13 @@ Module 10 completed through Lesson 143. Studied distributed workflow coordinatio
 - Lesson 145 — Metrics
 - Lesson 146 — Tracing
 - Lesson 147 — Health Checks
+- Lesson 148 — Prometheus
 
 ### Status
-Studied structured logging, metrics and time series, percentiles, golden signals, labels/cardinality, distributed tracing, context propagation, trace timelines and sampling, trace-log correlation, and health checks (liveness, readiness, startup), Kubernetes probes, dependency health, cascading failures, and graceful traffic draining.
-
+Studied structured logging, metrics and time series, percentiles, golden signals, labels/cardinality, distributed tracing, context propagation, trace timelines and sampling, trace-log correlation, health checks (liveness, readiness, startup), Kubernetes probes, dependency health, cascading failures, graceful traffic draining, Prometheus architecture, pull-based scraping, exporters, jobs and targets, service discovery, TSDB storage, PromQL, alerting rules, and Alertmanager.
 
 ### Current Lesson
-Lesson 147 — Health Checks
-
+Lesson 148 — Prometheus
 
 ### Next Lesson
-Lesson 148 — Prometheus
+Lesson 149 — Grafana
