@@ -223,9 +223,9 @@
 
 ## Module 11 — Observability
 
-- [ ] Logging
-- [ ] Metrics
-- [ ] Tracing
+- [x] Logging
+- [x] Metrics
+- [x] Tracing
 - [ ] Health Checks
 - [ ] Prometheus
 - [ ] Grafana

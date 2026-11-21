@@ -475,3 +475,8 @@ Started Module 11 — Observability by studying logging as production evidence o
 ## 2026-11-21 — Lesson 145: Metrics
 
 Studied metrics as numerical measurements collected over time and the time-series model. Compared counters, gauges, histograms, and summaries; covered percentiles and tail latency, traffic/latency/errors/saturation (golden signals), metric labels, and high-cardinality risks. Designed metrics for service monitoring and connected metrics to logs and traces for production troubleshooting. Reflection review: 44/50 (88%). Reinforced histogram bucket distributions, saturation as proximity to capacity, and using traces to localize latency before investigating with logs. Next: Lesson 146 — Tracing.
+
+
+## 2026-11-21 — Lesson 146: Tracing
+
+Studied distributed tracing as a way to follow requests across service boundaries. Covered traces and spans, Trace/Span/Parent Span IDs, parent-child relationships, context propagation, waterfall timelines, parallel operations, sampling (head and tail), and trace-log correlation. Practiced interpreting slow spans without prematurely assigning root cause and using metrics → traces → logs to investigate latency. Reflection review: 46/50. Next: Lesson 147 — Health Checks.
