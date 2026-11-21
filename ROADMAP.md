@@ -226,9 +226,9 @@
 - [x] Logging
 - [x] Metrics
 - [x] Tracing
-- [ ] Health Checks
-- [ ] Prometheus
-- [ ] Grafana
+- [x] Health Checks
+- [x] Prometheus
+- [x] Grafana
 - [ ] OpenTelemetry
 - [ ] Jaeger
 

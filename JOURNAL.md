@@ -490,3 +490,8 @@ Studied liveness, readiness, and startup checks; how Kubernetes HTTP/TCP/exec/gR
 ## 2026-11-21 — Lesson 148: Prometheus
 
 Studied Prometheus as a pull-based monitoring and alerting system. Covered its architecture, instrumented applications, exporters, scrape intervals, jobs and targets, service discovery and relabeling, the `up` metric, time-series identity and TSDB storage, PromQL instant/range vectors, rate calculations, aggregation, histogram quantiles, alerting rules, and Alertmanager. Connected Prometheus to Kubernetes monitoring and production concerns such as cardinality, retention, scrape failures, and monitoring the monitoring system. Next: Lesson 149 — Grafana.
+
+
+## 2026-11-21 — Lesson 149: Grafana
+
+Studied Grafana as the visualization and exploration layer of an observability stack. Covered its architecture and integration with Prometheus and other data sources, dashboards and panels, time ranges, variables and templating, transformations, visualization choices, and Grafana-managed versus Prometheus-managed alerting. Examined production dashboard design, provisioning, version control, and the separation between Grafana availability and Prometheus metric collection. Next: Lesson 150 — OpenTelemetry.
