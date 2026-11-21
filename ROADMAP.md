@@ -231,6 +231,7 @@
 - [x] Grafana
 - [ ] OpenTelemetry
 - [ ] Jaeger
+- [ ] OpenSearch
 
 ---
 

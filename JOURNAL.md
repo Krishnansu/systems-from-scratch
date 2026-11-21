@@ -495,3 +495,8 @@ Studied Prometheus as a pull-based monitoring and alerting system. Covered its a
 ## 2026-11-21 — Lesson 149: Grafana
 
 Studied Grafana as the visualization and exploration layer of an observability stack. Covered its architecture and integration with Prometheus and other data sources, dashboards and panels, time ranges, variables and templating, transformations, visualization choices, and Grafana-managed versus Prometheus-managed alerting. Examined production dashboard design, provisioning, version control, and the separation between Grafana availability and Prometheus metric collection. Next: Lesson 150 — OpenTelemetry.
+
+
+## 2026-11-21 — Lesson 150: OpenTelemetry
+
+Studied OpenTelemetry as a vendor-neutral observability framework for instrumentation, telemetry generation, collection, processing, and export. Covered automatic versus manual instrumentation, API, SDK, OTLP, Collector pipelines (Receiver → Processor → Exporter), context propagation, Agent and Gateway deployments, integration with metrics/traces/logs backends, and production concerns such as sampling, batching, queues, retries, backpressure, overhead, cardinality, sensitive data, and dropped telemetry. Next: Lesson 151 — Jaeger.
