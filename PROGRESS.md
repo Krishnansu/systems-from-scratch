@@ -48,12 +48,13 @@ Module 10 completed through Lesson 143. Studied distributed workflow coordinatio
 
 ### Completed
 - Lesson 144 — Logging
+- Lesson 145 — Metrics
 
 ### Status
-Started Module 11. Studied log levels, structured logging, contextual fields, correlation IDs, centralized log collection, Kubernetes logging, and safe production logging practices.
+Studied log levels, structured logging, contextual fields, correlation IDs, centralized log collection, Kubernetes logging, safe production logging, metric types, time series, percentiles, golden signals, labels, and cardinality.
 
 ### Current Lesson
-Lesson 144 — Logging
+Lesson 145 — Metrics
 
 ### Next Lesson
-Lesson 145 — Metrics
+Lesson 146 — Tracing

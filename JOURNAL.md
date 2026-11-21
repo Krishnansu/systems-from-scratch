@@ -470,3 +470,8 @@ Studied the Saga Pattern for coordinating business workflows across independentl
 ## 2026-11-21 — Lesson 144: Logging
 
 Started Module 11 — Observability by studying logging as production evidence of application behavior. Covered log levels, structured versus unstructured logging, contextual fields, correlation IDs across distributed services, stdout/stderr and centralized collection pipelines, common logging stacks, Kubernetes node-level collection via DaemonSets, safe logging practices, noise/cost/retention trade-offs, and the complementary roles of logs, metrics, and traces. Next: Lesson 145 — Metrics.
+
+
+## 2026-11-21 — Lesson 145: Metrics
+
+Studied metrics as numerical measurements collected over time and the time-series model. Compared counters, gauges, histograms, and summaries; covered percentiles and tail latency, traffic/latency/errors/saturation (golden signals), metric labels, and high-cardinality risks. Designed metrics for service monitoring and connected metrics to logs and traces for production troubleshooting. Reflection review: 44/50 (88%). Reinforced histogram bucket distributions, saturation as proximity to capacity, and using traces to localize latency before investigating with logs. Next: Lesson 146 — Tracing.
