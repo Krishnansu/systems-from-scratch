@@ -50,14 +50,15 @@ Module 10 completed through Lesson 143. Studied distributed workflow coordinatio
 - Lesson 144 — Logging
 - Lesson 145 — Metrics
 - Lesson 146 — Tracing
+- Lesson 147 — Health Checks
 
 ### Status
-Studied log levels, structured logging, contextual fields, correlation IDs, centralized log collection, Kubernetes logging, safe production logging, metric types, time series, percentiles, golden signals, labels, cardinality, distributed tracing, spans, context propagation, timelines, sampling, and trace-log correlation.
+Studied structured logging, metrics and time series, percentiles, golden signals, labels/cardinality, distributed tracing, context propagation, trace timelines and sampling, trace-log correlation, and health checks (liveness, readiness, startup), Kubernetes probes, dependency health, cascading failures, and graceful traffic draining.
 
 
 ### Current Lesson
-Lesson 146 — Tracing
+Lesson 147 — Health Checks
 
 
 ### Next Lesson
-Lesson 147 — Health Checks
+Lesson 148 — Prometheus

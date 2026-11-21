@@ -480,3 +480,8 @@ Studied metrics as numerical measurements collected over time and the time-serie
 ## 2026-11-21 — Lesson 146: Tracing
 
 Studied distributed tracing as a way to follow requests across service boundaries. Covered traces and spans, Trace/Span/Parent Span IDs, parent-child relationships, context propagation, waterfall timelines, parallel operations, sampling (head and tail), and trace-log correlation. Practiced interpreting slow spans without prematurely assigning root cause and using metrics → traces → logs to investigate latency. Reflection review: 46/50. Next: Lesson 147 — Health Checks.
+
+
+## 2026-11-21 — Lesson 147: Health Checks
+
+Studied liveness, readiness, and startup checks; how Kubernetes HTTP/TCP/exec/gRPC probes work and their failure behavior; dependency-aware health checks; risks of cascading failures; and health checks during graceful shutdown and traffic draining. Distinguished process health, instance readiness, dependency health, and system health. Next: Lesson 148 — Prometheus.
