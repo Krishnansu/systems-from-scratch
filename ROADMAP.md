@@ -212,12 +212,12 @@
 
 ## Module 10 — Messaging
 
-- [ ] Why Messaging?
-- [ ] RabbitMQ
-- [ ] Kafka
-- [ ] Event-Driven Architecture
-- [ ] Dead Letter Queues
-- [ ] Saga Pattern
+- [x] Why Messaging?
+- [x] RabbitMQ
+- [x] Kafka
+- [x] Event-Driven Architecture
+- [x] Dead Letter Queues
+- [x] Saga Pattern
 
 ---
 

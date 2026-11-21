@@ -460,3 +460,8 @@ Studied Event-Driven Architecture as a communication model built around publishi
 ## 2026-11-04 — Lesson 142: Dead Letter Queues
 
 Studied poison messages and controlled failure handling in asynchronous messaging systems. Compared transient, permanent, and business-level failures; designed bounded retries using exponential backoff and jitter; and examined RabbitMQ DLX/DLQ routing, TTL-based retry queues, Kafka retry topics and DLTs, offset-commit failure windows, and ordering implications. Emphasized failure metadata, idempotency, controlled replay, monitoring, and the operational ownership required to make dead-letter handling reliable. Next: Lesson 143 — Saga Pattern.
+
+
+## 2026-11-04 — Lesson 143: Saga Pattern
+
+Studied the Saga Pattern for coordinating business workflows across independently owned services. Distinguished local transactions from distributed transactions and explored forward operations, compensating transactions, and why compensation is not a database rollback. Compared choreography-based and orchestration-based Sagas, designed a durable Saga state machine, and examined idempotent commands, transactional outbox/inbox, ambiguous outcomes, orchestrator crashes, and compensation failures. Compared Saga with Two-Phase Commit and emphasized durable recovery, reconciliation, and manual intervention for effects that cannot be perfectly reversed. Completed Module 10 — Messaging. Next: Lesson 144 — Logging.

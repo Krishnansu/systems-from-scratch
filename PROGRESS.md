@@ -39,12 +39,18 @@ Module 09 completed through Lesson 137.
 - Lesson 140 — Kafka
 - Lesson 141 — Event-Driven Architecture
 - Lesson 142 — Dead Letter Queues
+- Lesson 143 — Saga Pattern
+
+### Status
+Module 10 completed through Lesson 143. Studied distributed workflow coordination using local transactions and compensating actions, choreography versus orchestration, durable Saga state, idempotency, transactional outbox/inbox, ambiguous outcomes, and compensation recovery.
+
+## Module 11 — Observability
 
 ### Current Position
-Studied messaging failure handling, poison messages, bounded retries, exponential backoff and jitter, RabbitMQ dead-letter exchanges and retry queues, Kafka retry topics and dead letter topics, ordering implications, and safe reprocessing.
+Module 11 begins with the foundations of production observability.
 
 ### Current Lesson
-Lesson 142 — Dead Letter Queues
+Lesson 143 — Saga Pattern
 
 ### Next Lesson
-Lesson 143 — Saga Pattern
+Lesson 144 — Logging
