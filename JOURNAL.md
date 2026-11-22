@@ -500,3 +500,6 @@ Studied Grafana as the visualization and exploration layer of an observability s
 ## 2026-11-21 — Lesson 150: OpenTelemetry
 
 Studied OpenTelemetry as a vendor-neutral observability framework for instrumentation, telemetry generation, collection, processing, and export. Covered automatic versus manual instrumentation, API, SDK, OTLP, Collector pipelines (Receiver → Processor → Exporter), context propagation, Agent and Gateway deployments, integration with metrics/traces/logs backends, and production concerns such as sampling, batching, queues, retries, backpressure, overhead, cardinality, sensitive data, and dropped telemetry. Next: Lesson 151 — Jaeger.
+
+### 2026-11-22 — L151: Jaeger
+Completed Jaeger and reviewed reflections (46.5/50, 93%). Covered trace querying/visualization, OTel-Jaeger responsibilities, interpreting span durations, repeated calls/retries, and a metrics-to-traces-to-logs latency troubleshooting workflow.
