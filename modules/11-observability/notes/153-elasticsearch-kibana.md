@@ -1,28 +1,24 @@
 # Lesson 153 — Elasticsearch & Kibana
 
 ## Objectives
-Understand the Elasticsearch ecosystem, its architecture, Kibana's query/visualization capabilities, and how Elastic Stack compares with OpenSearch.
+Understand the Elasticsearch ecosystem, its architecture, Kibana's query/visualization capabilities, and how it compares with OpenSearch.
 
-## Prerequisites
-- L152 — OpenSearch: indexing, inverted indexes, mappings, shards, replicas.
-- L150 — OpenTelemetry.
+## Elasticsearch and OpenSearch
+Elasticsearch is a distributed search and analytics engine built on Apache Lucene. OpenSearch originated as a fork of Elasticsearch 7.10.2 and Kibana 7.10.2. Both ecosystems support similar search, indexing, analytics, and observability use cases but have evolved independently. APIs, plugins, features, integrations, and compatibility should not be assumed interchangeable.
 
-## Theory
-Elasticsearch is a distributed search and analytics engine built on Apache Lucene. It supports centralized log search, full-text search, aggregations, and observability analytics.
-
-OpenSearch originated as a fork of Elasticsearch 7.10.2 and Kibana 7.10.2. The ecosystems have since evolved independently. Elasticsearch pairs with Kibana; OpenSearch pairs with OpenSearch Dashboards. They share historical foundations but APIs, plugins, features, and compatibility are not guaranteed to match.
+- Elasticsearch pairs with Kibana.
+- OpenSearch pairs with OpenSearch Dashboards.
 
 ## Elasticsearch architecture
 - Cluster: group of Elasticsearch nodes.
-- Node: server/process participating in the cluster.
-- Master-eligible node: participates in cluster coordination and management.
-- Data node: stores shards and performs indexing/search work.
+- Master-eligible node: participates in cluster coordination; an election selects the active master.
+- Data node: stores shards and performs indexing/search.
 - Ingest node: runs ingestion pipelines.
-- Coordinating node: routes requests and combines results.
-Nodes can have multiple roles.
+- Coordinating node: routes requests and combines results. Every node can perform coordinating duties; dedicated coordinating nodes focus on this role.
+- Nodes can have multiple roles.
 
 Write flow: client → coordinating node → primary shard → replica shard(s) → acknowledgement.
-Search flow: coordinating node routes query to relevant shards → shards execute searches → coordinating node merges results and responds.
+Search flow: coordinating node routes query to relevant shards → shards execute searches → coordinating node merges results.
 
 ## Kibana
 Kibana is the UI for exploring and visualizing Elasticsearch data.
@@ -30,41 +26,36 @@ Kibana is the UI for exploring and visualizing Elasticsearch data.
 - Visualizations: build charts, tables, and aggregations.
 - Dashboards: combine visualizations into operational views.
 - KQL: concise filtering language for interactive searches.
-- Elasticsearch Query DSL: JSON-based query language for richer programmatic queries and aggregations.
+- Elasticsearch Query DSL: JSON-based query language for richer programmatic queries, compound filters, sorting, scoring, and aggregations.
 
 ## Elastic Stack
-- Beats: lightweight data collection agents.
-- Elastic Agent: unified agent for logs, metrics, and other telemetry.
+- Beats: lightweight agents such as Filebeat and Metricbeat.
+- Elastic Agent: unified agent for collecting logs, metrics, and other telemetry.
 - Logstash: ingestion, parsing, transformation, and routing pipeline.
 - Elasticsearch: indexing, storage, search, and analytics.
 - Kibana: exploration and visualization.
-Logstash is optional. Agents can send data directly to Elasticsearch; Elasticsearch ingest pipelines can also process documents. OpenTelemetry can instrument applications and export telemetry through supported integrations/collectors without requiring application-level Elastic-specific instrumentation.
+Logstash is optional. Agents can send data directly to Elasticsearch; Elasticsearch ingest pipelines can process documents during ingestion. Logstash provides more extensive processing and routing capabilities. OpenTelemetry can instrument applications and export telemetry through supported integrations/collectors.
 
 ## Production perspective
 - Cluster health: green = all primary and replica shards allocated; yellow = all primaries allocated but some replicas unallocated; red = at least one primary unallocated.
+- Investigate yellow/red status using `GET /_cluster/health`, `GET /_cat/shards?v`, and `POST /_cluster/allocation/explain`.
+- Common unallocated replica causes: insufficient eligible nodes, allocation constraints, disk watermarks, node failures, and resource constraints.
 - High indexing rates compete with search for CPU, memory, and I/O.
 - Newly indexed documents become searchable after refresh; write acknowledgement and search visibility are not necessarily simultaneous.
 - Use rollover and retention/lifecycle policies to control storage growth.
 - Secure clusters with authentication, role-based access control, TLS, and sensitive-data handling.
 
-## Elasticsearch vs OpenSearch
-| Elasticsearch ecosystem | OpenSearch ecosystem |
-|---|---|
-| Elasticsearch | OpenSearch |
-| Kibana | OpenSearch Dashboards |
-| Elastic Agent / Beats / Logstash | OpenSearch integrations and compatible ingestion tools |
+## Reflection review
+- Q1 Elasticsearch vs OpenSearch: 10/10
+- Q2 Node roles: 9.5/10
+- Q3 KQL vs Query DSL: 10/10
+- Q4 Elastic Stack ingestion: 10/10
+- Q5 Cluster health: 8.5/10
+- Total: 48/50 (96%)
 
-Both support distributed search, indexing, aggregations, shards, replicas, and observability use cases. APIs, query features, plugins, clients, and operational controls may differ. Do not assume drop-in compatibility.
-
-## Key Takeaways
-- Elasticsearch is the search/storage engine; Kibana is its exploration and visualization interface.
-- OpenSearch and Elasticsearch share historical roots but are separate evolving ecosystems.
-- Elastic Stack collection and processing components are flexible; Logstash is not mandatory.
-- Cluster health, ingestion pressure, refresh behavior, retention, and security are important operational concerns.
-
-## Reflection Questions
-1. How are Elasticsearch and OpenSearch related? Why shouldn't we assume they are interchangeable?
-2. What are the responsibilities of master, data, ingest, and coordinating nodes in an Elasticsearch cluster?
-3. Explain the difference between KQL and Elasticsearch Query DSL. When would you use each?
-4. What roles do Beats/Elastic Agent and Logstash play in the Elastic Stack? Is Logstash mandatory?
-5. An Elasticsearch cluster reports yellow health. What does that mean, and how would you investigate?
+Key takeaways:
+- Elasticsearch and OpenSearch are separate ecosystems with similar core concepts but different implementations and compatibility.
+- Elasticsearch node roles separate cluster coordination, data storage, ingestion, and request coordination.
+- KQL is convenient for interactive filtering; Query DSL provides richer JSON-based query capabilities.
+- Logstash is optional; Elasticsearch ingest pipelines also support processing.
+- Yellow health means all primary shards are allocated but some replicas are not. Investigate unallocated shards and allocation explanations.
