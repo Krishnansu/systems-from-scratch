@@ -503,3 +503,6 @@ Studied OpenTelemetry as a vendor-neutral observability framework for instrument
 
 ### 2026-11-22 — L151: Jaeger
 Completed Jaeger and reviewed reflections (46.5/50, 93%). Covered trace querying/visualization, OTel-Jaeger responsibilities, interpreting span durations, repeated calls/retries, and a metrics-to-traces-to-logs latency troubleshooting workflow.
+
+### 2026-11-22 — L152: OpenSearch
+Completed Module 11 — Observability. Covered centralized log ingestion, inverted indexing, mappings, indexes/shards/replicas, retention and production trade-offs, and correlation of logs with traces for troubleshooting.

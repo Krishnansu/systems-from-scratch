@@ -8,6 +8,6 @@
 - [x] L149 — Grafana
 - [x] L150 — OpenTelemetry
 - [x] L151 — Jaeger
-- [ ] L152 — OpenSearch
+- [x] L152 — OpenSearch
 
-Current lesson: L151 completed. Next: L152 — OpenSearch.
+Module 11 completed.
