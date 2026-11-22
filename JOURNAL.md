@@ -509,3 +509,6 @@ Completed Module 11 — Observability. Covered centralized log ingestion, invert
 
 ### 2026-11-22 — L152: OpenSearch (Reflections reviewed)
 Completed Module 11 — Observability. Reflection score: 45.5/50 (91%). Clarified inverted indexing (term → document IDs), mapping types, index/shard/replica trade-offs, shard overhead, retention, and the metrics → traces → logs troubleshooting workflow.
+
+### 2026-11-22 — L153: Elasticsearch & Kibana
+Covered Elasticsearch architecture and node roles, distributed write/search flows, Kibana Discover and dashboards, KQL vs Query DSL, Elastic Stack ingestion components, OpenTelemetry integration, and operational concerns including cluster health, refresh, ingestion pressure, retention, and security. Compared the Elastic and OpenSearch ecosystems.

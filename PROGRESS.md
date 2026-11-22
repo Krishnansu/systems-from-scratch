@@ -9,5 +9,6 @@
 - [x] L150 — OpenTelemetry
 - [x] L151 — Jaeger
 - [x] L152 — OpenSearch
+- [x] L153 — Elasticsearch & Kibana
 
 Module 11 completed.

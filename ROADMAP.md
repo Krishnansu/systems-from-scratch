@@ -232,7 +232,7 @@
 - [x] OpenTelemetry
 - [x] Jaeger
 - [x] OpenSearch
-- [ ] Elasticsearch & Kibana
+- [x] Elasticsearch & Kibana
 
 ---
 
