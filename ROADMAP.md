@@ -229,9 +229,10 @@
 - [x] Health Checks
 - [x] Prometheus
 - [x] Grafana
-- [ ] OpenTelemetry
-- [ ] Jaeger
-- [ ] OpenSearch
+- [x] OpenTelemetry
+- [x] Jaeger
+- [x] OpenSearch
+- [ ] Elasticsearch & Kibana
 
 ---
 

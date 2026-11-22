@@ -506,3 +506,6 @@ Completed Jaeger and reviewed reflections (46.5/50, 93%). Covered trace querying
 
 ### 2026-11-22 — L152: OpenSearch
 Completed Module 11 — Observability. Covered centralized log ingestion, inverted indexing, mappings, indexes/shards/replicas, retention and production trade-offs, and correlation of logs with traces for troubleshooting.
+
+### 2026-11-22 — L152: OpenSearch (Reflections reviewed)
+Completed Module 11 — Observability. Reflection score: 45.5/50 (91%). Clarified inverted indexing (term → document IDs), mapping types, index/shard/replica trade-offs, shard overhead, retention, and the metrics → traces → logs troubleshooting workflow.
