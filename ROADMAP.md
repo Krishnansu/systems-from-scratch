@@ -238,7 +238,7 @@
 
 ## Module 12 — Production Systems
 
-- [ ] CI/CD
+- [x] CI/CD
 - [ ] Blue-Green Deployment
 - [ ] Canary Deployment
 - [ ] Feature Flags

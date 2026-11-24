@@ -1,3 +1,5 @@
+# Progress
+
 ## Module 11 — Observability
 
 - [x] L144 — Logging
@@ -12,3 +14,13 @@
 - [x] L153 — Elasticsearch & Kibana
 
 Module 11 completed.
+
+## Module 12 — Production Systems
+
+- [x] L154 — CI/CD
+
+### Current Lesson
+L154 — CI/CD
+
+### Next Lesson
+L155 — Blue-Green Deployment

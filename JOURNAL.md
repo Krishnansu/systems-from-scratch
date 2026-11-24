@@ -515,3 +515,8 @@ Covered Elasticsearch architecture and node roles, distributed write/search flow
 
 ### 2026-11-22 — L153: Elasticsearch & Kibana (Reflections reviewed)
 Completed Elasticsearch and Kibana. Reflection score: 48/50 (96%). Reviewed Elasticsearch/OpenSearch ecosystem differences, node roles, KQL vs Query DSL, Elastic Stack ingestion, and cluster health diagnosis including unallocated shard investigation. Module 11 — Observability is complete.
+
+
+## 2026-11-24 — Lesson 154: CI/CD
+
+Started Module 12 — Production Systems by studying Continuous Integration, Continuous Delivery, and Continuous Deployment. Traced a production CI/CD pipeline through source checkout, dependency installation, build, testing, security checks, artifact creation, registry publishing, deployment, and post-deployment verification. Distinguished the orchestrator, runners, and artifact registry; explored GitHub Actions workflow configuration, immutable artifact promotion across environments, pipeline security, database migration compatibility, and rollback limitations. Connected CI/CD responsibilities with Docker, Kubernetes, and observability. Next: Lesson 155 — Blue-Green Deployment.
